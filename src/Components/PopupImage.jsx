@@ -23,6 +23,7 @@ function PopupImage() {
       <div className="popup-image">
         <FunctionButton
           icon={assetsData.icons[0].arrowLeft}
+          functionButtonClassName=""
           clickEvent={() => {
             dispatch(setMasterplanPopupFalse());
           }}

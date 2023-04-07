@@ -14,8 +14,8 @@ function Intro() {
   return (
     <div className="intro-page">
       <div className="intro-container">
-        <Link to="/video" className="br-logo">
-          <img src={`.${process.env.PUBLIC_URL + assets.icons[0].logo}`} alt="logo" />
+        <Link to={`${process.env.PUBLIC_URL}/video`} className="br-logo">
+          <img src={`${process.env.PUBLIC_URL + assets.icons[0].logo}`} alt="logo" />
         </Link>
         <p className="br-title body-large">
           B|R GROUP
@@ -32,7 +32,7 @@ function Intro() {
             type="submit"
             onClick={handleSubmit}
           >
-            <Link to="/">
+            <Link to={process.env.PUBLIC_URL}>
               Enter
             </Link>
           </button>

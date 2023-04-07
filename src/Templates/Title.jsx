@@ -1,7 +1,5 @@
-/* eslint-disable max-len */
 import React, { useState, useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';
-// import PropTypes from 'prop-types';
 
 function Title() {
   const titleRef = useRef();
@@ -69,11 +67,4 @@ function Title() {
     </div>
   );
 }
-
-/*
-Title.propTypes = {
-
-  // currentScrollValue: PropTypes.number.isRequired,
-};
-*/
 export default Title;

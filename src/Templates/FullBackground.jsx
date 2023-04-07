@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React, { useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import PropTypes from 'prop-types';
@@ -32,10 +31,12 @@ function FullBackground({
         <FunctionButton
           clickEvent={slideLeft}
           icon={assetsData.icons[0].arrowLeft}
+          functionButtonClassName=""
         />
         <FunctionButton
           clickEvent={slideRight}
           icon={assetsData.icons[0].arrowRight}
+          functionButtonClassName=""
         />
       </div>
       <div className="container">
@@ -84,7 +85,10 @@ function FullBackground({
             timeout={700}
             classNames="fade-scale"
           >
-            <img src={`${process.env.PUBLIC_URL + currentPage.background}`} alt={currentPage.caption} />
+            <img
+              src={`${process.env.PUBLIC_URL + currentPage.background}`}
+              alt={currentPage.caption}
+            />
           </CSSTransition>
         </TransitionGroup>
       </div>
@@ -93,7 +97,7 @@ function FullBackground({
 }
 
 FullBackground.propTypes = {
-  brandStoryData: PropTypes.objectOf.isRequired,
+  brandStoryData: PropTypes.arrayOf.isRequired,
 };
 
 export default FullBackground;

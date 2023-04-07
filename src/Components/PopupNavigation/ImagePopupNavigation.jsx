@@ -10,9 +10,10 @@ function ImagePopupNavigation() {
       {
         imagePopupData.data.map((data, i) => (
           <ImagePopupButton
-            title={data.title}
-            icon={data.icon}
+            title={data.title || ''}
+            icon={data.icon || ''}
             currentValue={i}
+            key={data.title || ''}
           />
         ))
       }

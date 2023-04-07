@@ -2,20 +2,24 @@ import React from 'react';
 import { useLocation, Routes, Route } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
-import hotelAndSpaceData from './DB/hotelAndSpace.json';
-
+// PAGES
 import Intro from './Pages/Intro';
 import Video from './Pages/Video';
 import WonsandoBrandStory from './Pages/WonsandoBrandStory';
 import Masterplan from './Pages/Masterplan';
+import HotelDetailPage from './Pages/HotelDetailPage';
 
+// COMPONENTS
+import Confidential from './Components/Confidential';
+
+// ROUTES
 import PrivateRoutes from './Router/PrivateRoutes';
 import PublicRoutes from './Router/PublicRoutes';
 
-import HotelDetailPage from './Pages/HotelDetailPage';
+// DB
+import hotelAndSpaceData from './DB/hotelAndSpace.json';
 
-import Confidential from './Components/Confidential';
-
+// SCSS
 import './_style.scss';
 
 function App() {
@@ -30,17 +34,21 @@ function App() {
         >
           <Routes location={location}>
             <Route element={<PublicRoutes />}>
-              <Route exact path="/" element={<Intro />} />
+              <Route exact path={`${process.env.PUBLIC_URL}/`} element={<Intro />} />
             </Route>
             <Route element={<PrivateRoutes />}>
-              <Route path="/video" element={<Video />} />
-              <Route path="/brand-story" element={<WonsandoBrandStory />} />
-              <Route path="/masterplan/" element={<Masterplan />} />
+              <Route path={`${process.env.PUBLIC_URL}/video`} element={<Video />} />
+              <Route path={`${process.env.PUBLIC_URL}/brand-story`} element={<WonsandoBrandStory />} />
+              <Route path={`${process.env.PUBLIC_URL}/masterplan`} element={<Masterplan />} />
               {
-              hotelAndSpaceData.data.map((data) => (
-                <Route path={`/masterplan${data.anchor}`} element={<HotelDetailPage />} />
-              ))
-            }
+                hotelAndSpaceData.data.map((data) => (
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/masterplan${data.anchor}`}
+                    element={<HotelDetailPage />}
+                    key={data.anchor}
+                  />
+                ))
+              }
             </Route>
           </Routes>
         </CSSTransition>

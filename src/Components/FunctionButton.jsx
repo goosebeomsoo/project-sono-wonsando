@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Slider({
+function FunctionButton({
   clickEvent,
   icon,
   functionButtonClassName,
@@ -12,15 +12,19 @@ function Slider({
       onClick={clickEvent}
       role="presentation"
     >
-      <img className="button-icon" src={icon} alt="button-icon" />
+      <img
+        className="button-icon"
+        src={process.env.PUBLIC_URL + icon}
+        alt="button-icon"
+      />
     </div>
   );
 }
 
-Slider.propTypes = {
+FunctionButton.propTypes = {
   clickEvent: PropTypes.func.isRequired,
   icon: PropTypes.string.isRequired,
   functionButtonClassName: PropTypes.string.isRequired,
 };
 
-export default Slider;
+export default FunctionButton;

@@ -15,7 +15,7 @@ function Pin({
         <img src={process.env.PUBLIC_URL + icon} alt="area-icon" />
       </div>
       <p className="pin-title">
-        <Link to={anchor} className="body-small">
+        <Link to={process.env.PUBLIC_URL + anchor} className="body-small">
           {title}
         </Link>
       </p>

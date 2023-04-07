@@ -18,6 +18,7 @@ function Table() {
             area={data.area}
             buildingArea={data.buildingArea}
             capacity={data.capacity}
+            key={data.title}
           />
         ))
       }

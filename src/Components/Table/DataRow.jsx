@@ -10,7 +10,7 @@ function DataRow({
   return (
     <div className="row data-row">
       <p className="element element-data-01 micro">
-        {title}
+        {title || null}
       </p>
       <p className="element element-data-02 micro">
         {area}
@@ -26,10 +26,10 @@ function DataRow({
 }
 
 DataRow.propTypes = {
-  title: PropTypes.arrayOf.isRequired,
-  area: PropTypes.arrayOf.isRequired,
-  buildingArea: PropTypes.arrayOf.isRequired,
-  capacity: PropTypes.arrayOf.isRequired,
+  title: PropTypes.string.isRequired,
+  area: PropTypes.string.isRequired,
+  buildingArea: PropTypes.string.isRequired,
+  capacity: PropTypes.string.isRequired,
 };
 
 export default DataRow;

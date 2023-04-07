@@ -29,6 +29,7 @@ function Masterplan() {
                 title={hotelAndSpaceData.data[i].title}
                 icon={hotelAndSpaceData.data[i].icon}
                 anchor={`/masterplan${hotelAndSpaceData.data[i].anchor}`}
+                key={hotelAndSpaceData.data[i].title}
               />
             ))
           }

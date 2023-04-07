@@ -9,10 +9,16 @@ function RouterButton({
   buttonName,
 }) {
   return (
-    <Link to={link}>
+    <Link to={process.env.PUBLIC_URL + link}>
       <div className={`router-button ${buttonClassName}`}>
-        <img className="router-button-icon" src={icon} alt="router-button" />
-        <span className="router-name body-small">{buttonName}</span>
+        <img
+          className="router-button-icon"
+          src={process.env.PUBLIC_URL + icon}
+          alt="router-button"
+        />
+        <span className="router-name body-small">
+          {buttonName}
+        </span>
       </div>
     </Link>
   );
