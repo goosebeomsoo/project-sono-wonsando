@@ -1,0 +1,64 @@
+.router-button {
+    display: flex;
+    position: absolute;
+    top: 1.6667vw;
+    z-index: 999;
+    cursor: pointer;
+
+    .router-button-icon {
+        position: absolute;
+        width: 1.25vw;
+        height: auto;
+        transition: 0.3s ease;
+    }
+
+    .router-name {
+        color: $cl-gray04;
+        transition: 0.3s ease;
+    }
+
+    &:hover {
+        .router-name {
+            opacity: 0.8;
+        }
+    }
+}
+
+.left-router-button {
+    left: $side-distance;
+
+    .router-button-icon {
+        top: -0.2604vw;
+        left: 0;
+    }
+
+    .router-name {
+        padding-left: 1.4583vw;
+    }
+
+    &:hover {
+        .router-button-icon {
+            left: -0.2083vw;
+        }
+    }
+}
+
+.right-router-button {
+    flex-direction: row-reverse;
+    right: $side-distance;
+
+    .router-button-icon {
+        top: -0.2604vw;
+        right: 0;
+    }
+
+    .router-name {
+        padding-right: 1.4583vw;
+    }
+
+    &:hover {
+        .router-button-icon {
+            right: -0.2083vw;
+        }
+    }
+}

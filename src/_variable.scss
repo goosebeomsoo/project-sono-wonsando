@@ -1,0 +1,102 @@
+$cl-black : #000;
+$cl-gray05 : #333;
+$cl-gray04 : #626262;
+$cl-gray03 : #8F8F8F;
+$cl-gray02 : #C8C8C8;
+$cl-gray01 : #E4E4E4;
+$cl-white : #FFF;
+$cl-main : #F7EEDF;
+
+$side-distance : 5vw;
+
+$logo-width : 23.8889vw;
+
+$col-2 : 17.2222vw;
+$col-3 : 27.5vw;
+$col-4 : 37.7778vw;
+
+
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url("./Assets/Fonts/HelveticaNeueLTPro-Bd.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Helvetica-Regular;
+    src: url("./Assets/Fonts/HelveticaNeueLTPro-Md.otf") format("opentype");
+}
+
+
+@mixin heading-font {
+    font-family: Helvetica-Bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@mixin body-font {
+    font-family: Helvetica-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@mixin title {
+    font-size: 3.75vw;
+    line-height: 4.3750vw;
+
+    @include heading-font;
+}
+
+@mixin heading-large {
+    font-size: 3.3333vw;
+    line-height: 3.8889vw;
+
+    @include heading-font;
+}
+
+@mixin heading-medium {
+    font-size: 2.5vw;
+    line-height: 2.9167vw;
+
+    @include heading-font;
+}
+
+@mixin heading-small {
+    font-size: 1.6667vw;
+    line-height: 1.9444vw;
+
+    @include heading-font;
+}
+
+@mixin sub-heading {
+    font-size: 1.25vw;
+    line-height: 1.5278vw;
+
+    @include heading-font;
+}
+
+
+
+@mixin body-large {
+    font-size: 1.1111vw;
+    line-height: 1.5278vw;
+
+    @include body-font;
+}
+
+@mixin body-medium {
+    font-size: 0.9722vw;
+    line-height: 1.1111vw;
+
+    @include body-font;
+}
+
+@mixin body-small {
+    font-size: 0.8333vw;
+    line-height: 0.9722vw;
+
+    @include body-font;
+}
+
+@mixin micro {
+    font-size: 0.5556vw;
+    line-height: 0.6944vw;
+
+    @include body-font;
+}

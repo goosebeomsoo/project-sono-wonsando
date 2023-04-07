@@ -1,0 +1,50 @@
+.the-bunkers-page {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+
+    .container {
+        .scroll-hook {
+            scroll-snap-align: start;
+        }
+    }
+
+    .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        background: $cl-gray01;
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.4);
+            transition: 0.3s ease;
+            transition-delay: 0.5s;
+        }
+        
+        .show-overlay {
+            opacity: 1;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    
+    .fixed-button {
+        position: fixed;
+        bottom: 1.6667vw;
+        right: $side-distance;
+        z-index: 10;
+    }
+}

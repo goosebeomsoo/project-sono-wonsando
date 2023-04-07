@@ -1,0 +1,81 @@
+.full-background {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: $cl-black;
+
+    .button-navigation {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        bottom: 5vw;
+        left: $side-distance;
+        z-index: 1;
+        width: 7vw;
+    }
+
+    .container {
+        display: flex;
+        position: relative;
+        width: $col-4;
+        height: 100vh;
+
+        .caption {
+            position: absolute;
+            top: 6.6667vw;
+            z-index: 10;
+            font-weight: bold;
+            color: $cl-gray03;
+        }
+
+        .header-area {
+            position: absolute;
+            top: 10vw;
+            width: 100%;
+            z-index: 10;
+            h2 {
+                position: absolute;
+                top: 0;
+                color: $cl-gray02;
+            }
+        }
+
+        .content-area {
+            display: flex;
+            flex-direction: column;
+            gap: 1.27vw;
+            position: absolute;
+            top: 45vh;
+            z-index: 10;
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                gap: 0.4167vw;
+
+                h3 {
+                    color: $cl-gray02;
+                }
+
+                p {
+                    color: $cl-gray03;
+                }
+            }
+        }
+    }
+
+    .background-image {
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

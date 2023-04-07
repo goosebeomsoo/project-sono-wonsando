@@ -1,0 +1,80 @@
+.intro-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: $cl-main;
+
+    .intro-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+        width: max-content;
+
+        .br-logo {
+            width: $col-2;
+            height: auto;
+            transition: 0.3s ease;
+            img {
+                width: 100%;
+            }
+            &:hover {
+                transform: scale(0.99);
+                opacity: 0.7;
+            }
+        }
+
+        .br-title {
+            color: $cl-black;
+            opacity: 0.7;
+            letter-spacing: 12px;
+            padding-left: 14px;
+        }
+
+        .br-admin {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            input, button {
+                text-align: center;
+                background: none;
+                outline: none;
+                border: none;
+                color: $cl-black;
+            }
+    
+            input {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+                margin-bottom: 12px;
+            }
+    
+            .warning {
+                font-size: 12px;
+                padding: 12px;
+                color: red;
+                opacity: 0.4;
+                display: none;
+            }
+    
+            .error {
+                display: block;
+            }
+    
+            button {
+                transition: 0.3s ease;
+                font-size: 12px;
+                cursor: pointer;
+                a {
+                    color: $cl-black;
+                    cursor: pointer;
+                }
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}

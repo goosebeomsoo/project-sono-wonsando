@@ -1,0 +1,60 @@
+{
+    "data" : [
+        {
+            "title" : "THE BUNKERS",
+            "icon" : "/Assets/svg/placeholder.svg",
+            "area" : "0000.00m2",
+            "buildingArea" : "0000.00m2",
+            "capacity" : "0000",
+            "anchor" : "/the-bunkers"
+        },
+        {
+            "title" : "BREAKER HILLS",
+            "icon" : "/Assets/svg/placeholder.svg",
+            "area" : "0000.00m2",
+            "buildingArea" : "0000.00m2",
+            "capacity" : "0000",
+            "anchor" : "/breaker-hills"
+        },
+        {
+            "title" : "SONO FELICE & CALM",
+            "icon" : "/Assets/svg/placeholder.svg",
+            "area" : "0000.00m2",
+            "buildingArea" : "0000.00m2",
+            "capacity" : "0000",
+            "anchor" : "/sono-felice-and-calm"
+        },
+        {
+            "title" : "SONO FIN CABIN VILLAGE",
+            "icon" : "/Assets/svg/placeholder.svg",
+            "area" : "0000.00m2",
+            "buildingArea" : "0000.00m2",
+            "capacity" : "0000",
+            "anchor" : "/sono-fin-village"
+        },
+        {
+            "title" : "SONO FIN CABIN AREA",
+            "icon" : "/Assets/svg/placeholder.svg",
+            "area" : "0000.00m2",
+            "buildingArea" : "0000.00m2",
+            "capacity" : "0000",
+            "anchor" : "/sono-fin-cabin-area"
+        },
+        {
+            "title" : "FOREST OF GALAXY",
+            "icon" : "/Assets/svg/placeholder.svg",
+            "area" : "0000.00m2",
+            "buildingArea" : "0000.00m2",
+            "capacity" : "0000",
+            "anchor" : "/forest-of-galaxy"
+        },
+        {
+            "title" : "LATVUS STADIUM",
+            "icon" : "/Assets/svg/placeholder.svg",
+            "area" : "0000.00m2",
+            "buildingArea" : "0000.00m2",
+            "capacity" : "0000",
+            "anchor" : "/latvus-stadium"
+        }
+    ]
+}

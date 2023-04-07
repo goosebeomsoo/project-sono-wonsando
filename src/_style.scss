@@ -1,0 +1,47 @@
+@import './_reset.scss';
+@import './_variable.scss';
+@import './_transition.scss';
+
+@import './Components/Table/_table.scss';
+@import './Components/PopupNavigation/_image-popup-navigation.scss';
+
+@import './Components/_confidential.scss';
+@import './Components/_function-button.scss';
+@import './Components/_router-button.scss';
+@import './Components/_popup-button.scss';
+@import './Components/_pin.scss';
+@import './Components/_popup-image.scss';
+
+@import './Pages/scss/intro.scss';
+@import './Pages/scss/video.scss';
+@import './Pages/scss/wonsando-brand-story.scss';
+@import './Pages/scss/masterplan.scss';
+
+@import './Pages/scss/_hotel-detail-page.scss';
+
+@import './Templates/_full-background.scss';
+@import './Templates/_collage.scss';
+@import './Templates/_title.scss';
+@import './Templates/_overview.scss';
+@import './Templates/_detail-page-navigation.scss';
+
+body {
+    background: $cl-black;
+}
+
+.template {
+    width: 100%;
+    height: 100vh;
+    padding: 0 $side-distance;
+}
+
+.title { @include title; }
+.heading-large { @include heading-large; }
+.heading-medium { @include heading-medium; }
+.heading-small { @include heading-small; }
+.sub-heading { @include sub-heading; }
+
+.body-large { @include body-large; }
+.body-medium { @include body-medium; }
+.body-small { @include body-small; }
+.micro { @include micro; }

@@ -1,0 +1,134 @@
+.pin {
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    .pin-title {
+        padding: 0 0 0 8px;
+        width: max-content;
+
+        a {
+            cursor: pointer;
+            color: $cl-gray05;
+
+            &:hover {
+                color: $cl-black;
+                transition: 0.3s ease;
+            }
+        }
+
+        &:hover {
+            >.pin-head {
+                width: 0.8vw;
+                height: 0.8vw;
+            }
+        }
+    }
+
+    .pin-head {
+        width: 0.5vw;
+        height: 0.5vw;
+        border-radius: 50%;
+        background: $cl-black;
+        transition: 0.3s ease;
+    }
+
+    .pin-line {
+        height: 1px;
+        background: $cl-black;
+    }
+
+    .pin-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2.6vw;
+        height: 2.6vw;
+        border-radius: 50%;
+        border: 1px solid $cl-black;
+
+        img {
+            width: 1.4583vw;
+            height: 1.4583vw;
+        }
+    }
+            
+
+    &:nth-child(1) { // The Bunkers
+        flex-direction: row-reverse;
+        top: 36vw;
+        left: 3vw;
+
+        .pin-line {
+            width: 6vw;
+        }
+
+        .pin-title {
+            padding: 0 8px 0 0;
+        }
+    }
+
+    &:nth-child(2) { // Breaker Hills
+        top: 40vw;
+        left: 37vw;
+
+        .pin-line {
+            width: 22vw;
+        }
+    }
+
+    &:nth-child(3) { // Sono Felice & Calm
+        top: 36vw;
+        left: 28vw;
+
+        .pin-line {
+            width: 38vw;
+        }
+    }
+
+    &:nth-child(4) { // Sono Fin Village
+        top: 20vw;
+        left: 63vw;
+
+        .pin-line {
+            width: 9vw;
+        }
+    }
+
+    &:nth-child(5) { // Sono Fin Cabin Area
+        top: 30vw;
+        left: 51vw;
+
+        .pin-line {
+            width: 15vw;
+        }
+    }
+
+    &:nth-child(6) { // Forest of Galaxy
+        flex-direction: row-reverse;
+        top: 16vw;
+        left: 14vw;
+
+        .pin-line {
+            width: 16vw;
+        }
+
+        .pin-title {
+            padding: 0 8px 0 0;
+        }
+    }
+
+    &:nth-child(7) { // Latvus stadium
+        flex-direction: row-reverse;
+        top: 6vw;
+        left: 24vw;
+
+        .pin-line {
+            width: 40vw;
+        }
+
+        .pin-title {
+            padding: 0 8px 0 0;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "brandStory" : [
+        {
+            "page" : "01",
+            "caption" : "Lorem Ipsum",
+            "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "background" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png",
+            "contentArea" : [
+                {
+                    "subHeading" : "Lorem Ipsum",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                },
+                {
+                    "subHeading" : "Lorem Ipsum dolor",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                }
+            ]
+        },
+        {
+            "page" : "02",
+            "caption" : "Lorem Ipsum",
+            "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "background" : "/Assets/img/out-of-sono-brand-story/placeholder-02.png",
+            "contentArea" : [
+                {
+                    "subHeading" : "Lorem Ipsum",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                },
+                {
+                    "subHeading" : "Lorem Ipsum dolor",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                }
+            ]
+        },
+        {
+            "page" : "03",
+            "caption" : "Lorem Ipsum",
+            "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "background" : "/Assets/img/out-of-sono-brand-story/placeholder-03.png",
+            "contentArea" : [
+                {
+                    "subHeading" : "Lorem Ipsum",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                }
+            ]
+        },
+        {
+            "page" : "04",
+            "caption" : "Lorem Ipsum",
+            "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "background" : "/Assets/img/out-of-sono-brand-story/placeholder-04.png",
+            "contentArea" : [
+                {
+                    "subHeading" : "Lorem Ipsum",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                },
+                {
+                    "subHeading" : "Lorem Ipsum dolor",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                }
+            ]
+        }
+    ]
+}

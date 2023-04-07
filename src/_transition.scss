@@ -1,0 +1,99 @@
+.slide-right-enter {
+    transform: translateX(-24%);
+    opacity: 0;
+}
+
+.slide-right-enter-active {
+    transform: translateX(0%);
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+
+.slide-right-exit {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.slide-right-exit-active {
+    transform: translateX(-24%);
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+
+.fade-scale-enter {
+    transform: scale(1.02);
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+
+.fade-scale-enter-active {
+    transform: scale(1);
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+
+.fade-scale-exit {
+    transform: scale(1);
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+
+.fade-scale-exit-active {
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+
+.fade-enter {
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+
+.fade-exit {
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+
+.fade-exit-active {
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+
+.page-fade-enter {
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+
+.page-fade-enter-active {
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+
+.page-fade-exit {
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+
+.page-fade-exit-active {
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+
+.my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }

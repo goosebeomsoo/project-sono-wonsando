@@ -1,0 +1,50 @@
+.image-popup-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+    position: absolute;
+    left: 5vw;
+    top: 5vw;
+
+    .image-popup-button {
+        display: flex;
+        align-items: center;
+        gap: 0.625vw;
+        position: relative;
+
+        .popup-button-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 2.5vw;
+            height: 2.5vw;
+            border-radius: 50%;
+            border: 1px solid $cl-black;
+            cursor: pointer;
+            
+            img {
+                width: 1.4583vw;
+                height: 1.4583vw;
+            }
+
+            &:hover ~ .popup-button-title {
+                opacity: 1;
+                left: 3.2vw;
+            }
+        }
+
+        .popup-button-title {
+            position: absolute;
+            top: calc(50% - 0.3vw);
+            left: 2.5vw;
+            z-index: -0;
+            width: max-content;
+            opacity: 0;
+            transition: 0.3s ease;
+        }
+
+        &:nth-child(1) {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.function-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+    cursor: pointer;
+
+    img {
+        width: 1.875vw;
+        height: 1.875vw;
+    }
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.7);
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "img" : [
+      {
+        "masterplan" : "/Assets/img/masterplan.png",
+        "titlePlaceholder" : "/Assets/img/title-placeholder.png"
+      }
+    ],
+    "icons" : [
+      {
+        "logo" : "/Assets/svg/logo.svg",
+        "arrowDown" : "/Assets/svg/arrow-down.svg",
+        "arrowLeft" : "/Assets/svg/arrow-left.svg",
+        "arrowRight" : "/Assets/svg/arrow-right.svg",
+        "arrowUp" : "/Assets/svg/arrow-up.svg",
+        "placeholder" : "/Assets/svg/placeholder.svg"
+      }
+    ],
+    "video" : [
+      {
+        "wonsando" : "/Assets/video/wonsando-video.mp4"
+      }
+    ]
+}

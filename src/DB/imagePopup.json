@@ -1,0 +1,27 @@
+{
+    "data" : [
+        {
+            "title" : "cancel"
+        },
+        {
+            "title" : "Shadow study",
+            "icon" : "/Assets/svg/shadow.svg",
+            "image" : "/Assets/img/shadow.png"
+        },
+        {
+            "title" : "Wind & Rain water",
+            "icon" : "/Assets/svg/wind.svg",
+            "image" : "/Assets/img/wind.png"
+        },
+        {
+            "title" : "Topography",
+            "icon" : "/Assets/svg/topography.svg",
+            "image" : "/Assets/img/topography.png"
+        },
+        {
+            "title" : "Microclimate",
+            "icon" : "/Assets/svg/microclimate.svg",
+            "image" : "/Assets/img/shadow.png"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+.overview-template {
+    width: 100%;
+    position: relative;
+
+        .description {
+            display: flex;
+            position: absolute;
+            top: 6.25vw;
+            justify-content: center;
+
+            p {
+                color: $cl-gray02;
+            }
+        }
+
+        .body-section {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 15vw;
+            width: 20.625vw;
+            height: 100vh;
+            opacity: 0;
+            transition: 0.7s ease-in-out;
+            transition-delay: 0.5s;
+
+            .header-content {
+                position: absolute;
+                left: -2.5vw;
+                width: 100%;
+                margin-bottom: 1.875vw;
+                transition: 0.7s ease-in-out;
+                transition-delay: 0.5s;
+
+                h2 {
+                    color: $cl-gray02;
+                }
+            }
+
+            .body-content {
+                width: 100%;
+                margin-top: 15vw;
+                margin-bottom: 2.5vw;
+
+                p {
+                    color: $cl-gray03;
+                }
+            }
+        }
+
+}
+
+.current-page {
+    .body-section {
+        opacity: 1;
+        transition: 0.7s ease-in-out;
+        transition-delay: 0.5s;
+
+        .header-content {
+            left: 0;
+            opacity: 1;
+            transition: 0.7s ease-in-out;
+            transition-delay: 0.5s;
+        }
+    }
+}
