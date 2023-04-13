@@ -4,6 +4,8 @@ import React, {
   useState, useRef, useEffect,
 } from 'react';
 
+import { useLocation } from 'react-router-dom';
+
 // REDUX
 import { useDispatch, useSelector } from 'react-redux';
 import { detailPageNavigationShow } from '../Store/detailPageNavigationState';
@@ -21,10 +23,13 @@ import Overview from '../Templates/Overview';
 import DetailPageNavigation from '../Templates/DetailPageNavigation';
 
 // DATA
-import theBunkersData from '../DB/HotelAndSpace/theBunkersData.json';
 import assetsData from '../DB/assets.json';
 
 function TheBunkers() {
+  const location = useLocation();
+  const { hotelData } = location.state;
+  console.log(hotelData);
+
   // REDUX
   const dispatch = useDispatch();
   const currentScroll = useSelector((state) => state.detailPageScroll.currentScroll);
@@ -46,7 +51,6 @@ function TheBunkers() {
   };
 
   // Scroll to location when click button
-
   useEffect(() => {
     // dispatch(detailPageScrollAction(0));
     pageRef.current.scrollTo({
@@ -87,8 +91,8 @@ function TheBunkers() {
 
   // Overview section interaction
   useEffect(() => {
-    for (let i = 0; i < theBunkersData.information.length; i += 1) {
-      if ((i + theBunkersData.information.length) * currentHeight <= currentScroll * currentHeight) {
+    for (let i = 0; i < hotelData.information.length; i += 1) {
+      if ((i + hotelData.information.length) * currentHeight <= currentScroll * currentHeight) {
         overviewRef.current[i].classList.add('current-page');
       } else {
         overviewRef.current[i].classList.remove('current-page');
@@ -116,16 +120,17 @@ function TheBunkers() {
         targetScrollValue={targetScrollValue}
         currentScroll={currentScroll}
         currentHeight={currentHeight}
-        data={theBunkersData.information}
+        data={hotelData.information}
         setEventScrollValue={setEventScrollValue}
         eventScrollValue={eventScrollValue}
       />
 
       <div className="container" ref={containerRef}>
         {
-        theBunkersData.information.map((data) => (
+        hotelData.information.map((data) => (
           JSON.stringify(Object.keys(data)) === '["title"]' ? (
             <Title
+              data={data}
               eventScrollValue={eventScrollValue}
             />
           )
@@ -155,7 +160,7 @@ function TheBunkers() {
         }
 
         {
-        theBunkersData.information[theBunkersData.information.length - 1]?.overview.map((data, i) => (
+        hotelData.information[hotelData.information.length - 1]?.overview.map((data, i) => (
           <Overview
             caption={data.caption}
             heading={data.heading}
@@ -169,14 +174,14 @@ function TheBunkers() {
 
       <div className="background-image">
         <div className={`overlay ${
-          currentScroll > theBunkersData.information.length ? 'show-overlay' : ''
+          currentScroll > hotelData.information.length ? 'show-overlay' : ''
         }`}
         />
         <img
           src={
-            currentScroll < theBunkersData.information.length - 1
-              ? process.env.PUBLIC_URL + theBunkersData.information[0].title[0].background
-              : process.env.PUBLIC_URL + theBunkersData.information[0].title[0].overviewBackground
+            currentScroll < hotelData.information.length - 1
+              ? process.env.PUBLIC_URL + hotelData.information[0].title[0].background
+              : process.env.PUBLIC_URL + hotelData.information[0].title[0].overviewBackground
               }
           alt=""
         />

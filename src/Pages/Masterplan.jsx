@@ -28,7 +28,7 @@ function Masterplan() {
               <Pin
                 title={hotelAndSpaceData.data[i].title}
                 icon={hotelAndSpaceData.data[i].icon}
-                anchor={`/masterplan${hotelAndSpaceData.data[i].anchor}`}
+                id={hotelAndSpaceData.data[i].id}
                 key={hotelAndSpaceData.data[i].title}
               />
             ))

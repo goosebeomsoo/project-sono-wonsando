@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 
-function Title() {
+function Title({
+  data,
+}) {
   const titleRef = useRef();
 
   const [titleStyle, setTitleStyle] = useState({
@@ -55,7 +58,7 @@ function Title() {
               letterSpacing: `${titleStyle.spacingValue}px`,
             }}
           >
-            THE BUNKERS
+            {data.title[0].title}
           </h2>
         </div>
         <div
@@ -67,4 +70,8 @@ function Title() {
     </div>
   );
 }
+
+Title.propTypes = {
+  data: PropTypes.objectOf.isRequired,
+};
 export default Title;

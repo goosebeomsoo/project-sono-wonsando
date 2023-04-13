@@ -17,7 +17,7 @@ import PrivateRoutes from './Router/PrivateRoutes';
 import PublicRoutes from './Router/PublicRoutes';
 
 // DB
-import hotelAndSpaceData from './DB/hotelAndSpace.json';
+// import hotelAndSpaceData from './DB/hotelAndSpace.json';
 
 // SCSS
 import './_style.scss';
@@ -40,15 +40,7 @@ function App() {
               <Route path={`${process.env.PUBLIC_URL}/video`} element={<Video />} />
               <Route path={`${process.env.PUBLIC_URL}/brand-story`} element={<WonsandoBrandStory />} />
               <Route path={`${process.env.PUBLIC_URL}/masterplan`} element={<Masterplan />} />
-              {
-                hotelAndSpaceData.data.map((data) => (
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/masterplan${data.anchor}`}
-                    element={<HotelDetailPage />}
-                    key={data.anchor}
-                  />
-                ))
-              }
+              <Route path={`${process.env.PUBLIC_URL}/masterplan/:id`} element={<HotelDetailPage />} />
             </Route>
           </Routes>
         </CSSTransition>

@@ -6,7 +6,7 @@
             "area" : "0000.00m2",
             "buildingArea" : "0000.00m2",
             "capacity" : "0000",
-            "anchor" : "/the-bunkers"
+            "id" : "the-bunkers"
         },
         {
             "title" : "BREAKER HILLS",
@@ -14,7 +14,7 @@
             "area" : "0000.00m2",
             "buildingArea" : "0000.00m2",
             "capacity" : "0000",
-            "anchor" : "/breaker-hills"
+            "id" : "breaker-hills"
         },
         {
             "title" : "SONO FELICE & CALM",
@@ -22,7 +22,7 @@
             "area" : "0000.00m2",
             "buildingArea" : "0000.00m2",
             "capacity" : "0000",
-            "anchor" : "/sono-felice-and-calm"
+            "id" : "sono-felice-and-calm"
         },
         {
             "title" : "SONO FIN CABIN VILLAGE",
@@ -30,7 +30,7 @@
             "area" : "0000.00m2",
             "buildingArea" : "0000.00m2",
             "capacity" : "0000",
-            "anchor" : "/sono-fin-village"
+            "id" : "sono-fin-village"
         },
         {
             "title" : "SONO FIN CABIN AREA",
@@ -38,7 +38,7 @@
             "area" : "0000.00m2",
             "buildingArea" : "0000.00m2",
             "capacity" : "0000",
-            "anchor" : "/sono-fin-cabin-area"
+            "id" : "sono-fin-cabin-area"
         },
         {
             "title" : "FOREST OF GALAXY",
@@ -46,7 +46,7 @@
             "area" : "0000.00m2",
             "buildingArea" : "0000.00m2",
             "capacity" : "0000",
-            "anchor" : "/forest-of-galaxy"
+            "id" : "forest-of-galaxy"
         },
         {
             "title" : "LATVUS STADIUM",
@@ -54,7 +54,7 @@
             "area" : "0000.00m2",
             "buildingArea" : "0000.00m2",
             "capacity" : "0000",
-            "anchor" : "/latvus-stadium"
+            "id" : "latvus-stadium"
         }
     ]
 }
