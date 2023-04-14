@@ -1,7 +1,12 @@
 {
     "data" : [
         {
-            "title" : "cancel"
+            "title" : "none"
+        },
+        {
+            "title" : "Master Plan",
+            "icon" : "/Assets/svg/shadow.svg",
+            "image" : "/Assets/img/shadow.png"
         },
         {
             "title" : "Shadow study",

@@ -29,6 +29,9 @@ function Masterplan() {
                 title={hotelAndSpaceData.data[i].title}
                 icon={hotelAndSpaceData.data[i].icon}
                 id={hotelAndSpaceData.data[i].id}
+                backgroundColor={hotelAndSpaceData.data[i].backgroundColor}
+                headingFontColor={hotelAndSpaceData.data[i].headingFontColor}
+                bodyFontColor={hotelAndSpaceData.data[i].bodyFontColor}
                 key={hotelAndSpaceData.data[i].title}
               />
             ))

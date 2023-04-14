@@ -7,21 +7,12 @@
         padding: 0 0 0 8px;
         width: max-content;
 
-        a {
-            cursor: pointer;
-            color: $cl-gray05;
-
-            &:hover {
-                color: $cl-black;
-                transition: 0.3s ease;
-            }
-        }
+        cursor: pointer;
+        color: $cl-gray05;
 
         &:hover {
-            >.pin-head {
-                width: 0.8vw;
-                height: 0.8vw;
-            }
+            color: $cl-black;
+            transition: 0.3s ease;
         }
     }
 
@@ -48,8 +39,8 @@
         border: 1px solid $cl-black;
 
         img {
-            width: 1.4583vw;
-            height: 1.4583vw;
+            width: 1.8vw;
+            height: 1.8vw;
         }
     }
             
@@ -86,17 +77,8 @@
         }
     }
 
-    &:nth-child(4) { // Sono Fin Village
-        top: 20vw;
-        left: 63vw;
-
-        .pin-line {
-            width: 9vw;
-        }
-    }
-
-    &:nth-child(5) { // Sono Fin Cabin Area
-        top: 30vw;
+    &:nth-child(4) { // Sono Fin Cabin & Village
+        top: 27vw;
         left: 51vw;
 
         .pin-line {
@@ -104,7 +86,7 @@
         }
     }
 
-    &:nth-child(6) { // Forest of Galaxy
+    &:nth-child(5) { // Forest of Galaxy
         flex-direction: row-reverse;
         top: 16vw;
         left: 14vw;
@@ -118,7 +100,7 @@
         }
     }
 
-    &:nth-child(7) { // Latvus stadium
+    &:nth-child(6) { // Latvus stadium
         flex-direction: row-reverse;
         top: 6vw;
         left: 24vw;

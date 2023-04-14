@@ -7,13 +7,16 @@ function TitleRow() {
         SPACE NAME
       </p>
       <p className="element element-title-02 micro">
-        AREA
+        SITE AREA
       </p>
       <p className="element element-title-03 micro">
         BUILDING AREA
       </p>
       <p className="element element-title-04 micro">
-        CAPACITY
+        GROSS AREA
+      </p>
+      <p className="element element-title-05 micro">
+        ROOM KEYS
       </p>
     </div>
   );

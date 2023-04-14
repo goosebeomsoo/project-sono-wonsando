@@ -14,6 +14,9 @@ import latvusStadium from '../DB/HotelAndSpace/latvusStadium.json';
 function Pin({
   title,
   icon,
+  backgroundColor,
+  headingFontColor,
+  bodyFontColor,
   id,
 }) {
   const navigate = useNavigate();
@@ -38,6 +41,10 @@ function Pin({
                           : id === 'forest-of-galaxy' ? forestOfGalaxyData
                             : id === 'latvus-stadium' ? latvusStadium
                               : null,
+              backgroundColor,
+              headingFontColor,
+              bodyFontColor,
+              resetValue: 0,
             },
           });
         }}
@@ -52,6 +59,9 @@ function Pin({
 Pin.propTypes = {
   title: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
+  backgroundColor: PropTypes.string.isRequired,
+  headingFontColor: PropTypes.string.isRequired,
+  bodyFontColor: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
 };
 

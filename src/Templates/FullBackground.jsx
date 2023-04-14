@@ -41,7 +41,10 @@ function FullBackground({
       </div>
       <div className="container">
         <p className="body-medium caption">
-          {`${currentPage.page} ${currentPage.caption}`}
+          {`
+            ${currentPage.page === undefined ? '' : currentPage.page}
+            ${currentPage.caption === undefined ? '' : currentPage.caption}
+          `}
         </p>
         <div className="header-area" key="react-transition-group">
           <TransitionGroup className="transition-group">

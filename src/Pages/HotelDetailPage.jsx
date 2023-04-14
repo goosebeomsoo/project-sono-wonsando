@@ -14,6 +14,7 @@ import { detailPageScrollInc, detailPageScrollDec, detailPageScrollAction } from
 // COMPONENTS
 import FunctionButton from '../Components/FunctionButton';
 import RouterButton from '../Components/RouterButton';
+import PopupDetail from '../Components/PopupDetail';
 
 // TEMPLATES
 import FullBackground from '../Templates/FullBackground';
@@ -28,7 +29,12 @@ import assetsData from '../DB/assets.json';
 function TheBunkers() {
   const location = useLocation();
   const { hotelData } = location.state;
-  console.log(hotelData);
+  const { backgroundColor } = location.state;
+  const { headingFontColor } = location.state;
+  const { bodyFontColor } = location.state;
+  const { resetValue } = location.state;
+
+  // const wholePage = hotelData.information.length + hotelData.information[hotelData.information.length - 1].overview.length - 1;
 
   // REDUX
   const dispatch = useDispatch();
@@ -41,7 +47,8 @@ function TheBunkers() {
 
   // useState
   const [currentHeight, setCurrentHeight] = useState(window.innerHeight);
-  const [eventScrollValue, setEventScrollValue] = useState();
+  const [eventScrollValue, setEventScrollValue] = useState(resetValue);
+  const [changeBackground, setChangeBackground] = useState();
 
   const targetScrollValue = currentScroll * currentHeight;
 
@@ -91,7 +98,7 @@ function TheBunkers() {
 
   // Overview section interaction
   useEffect(() => {
-    for (let i = 0; i < hotelData.information.length; i += 1) {
+    for (let i = 0; i < hotelData.information[hotelData.information.length - 1].overview.length; i += 1) {
       if ((i + hotelData.information.length) * currentHeight <= currentScroll * currentHeight) {
         overviewRef.current[i].classList.add('current-page');
       } else {
@@ -100,11 +107,24 @@ function TheBunkers() {
     }
   });
 
+  useEffect(() => {
+    if (currentScroll < hotelData.information.length - 1) {
+      setChangeBackground(process.env.PUBLIC_URL + hotelData.information[0].title[0].background);
+    } else if (currentScroll > hotelData.information.length - 1) {
+      // setTimeout(() => {
+      setChangeBackground(process.env.PUBLIC_URL + hotelData.information[0].title[0].overviewBackground);
+      // }, 80);
+    }
+  }, [setChangeBackground, currentScroll, hotelData]);
+
   return (
     <div
-      className="the-bunkers-page"
+      className="hotel-detail-page"
       ref={pageRef}
     >
+      <PopupDetail
+        hotelData={hotelData.information[currentScroll]}
+      />
       <RouterButton
         link="/masterplan"
         icon={assetsData.icons[0].arrowLeft}
@@ -141,18 +161,27 @@ function TheBunkers() {
                 <Collage
                   currentHeight={currentHeight}
                   data={data.concepts}
+                  backgroundColor={backgroundColor}
+                  headingFontColor={headingFontColor}
+                  bodyFontColor={bodyFontColor}
                 />
               )
                 : JSON.stringify(Object.keys(data)) === '["theme"]' ? (
                   <Collage
                     currentHeight={currentHeight}
                     data={data.theme}
+                    backgroundColor={backgroundColor}
+                    headingFontColor={headingFontColor}
+                    bodyFontColor={bodyFontColor}
                   />
                 )
                   : JSON.stringify(Object.keys(data)) === '["branding"]' ? (
                     <Collage
                       currentHeight={currentHeight}
                       data={data.branding}
+                      backgroundColor={backgroundColor}
+                      headingFontColor={headingFontColor}
+                      bodyFontColor={bodyFontColor}
                     />
                   )
                     : null
@@ -170,6 +199,40 @@ function TheBunkers() {
           />
         ))
         }
+
+        <div className={`overview-list ${
+          currentScroll > hotelData.information.length - 1 ? 'show-overview-list' : ''
+        }`}
+        >
+          <ul>
+            {
+              hotelData.information[hotelData.information.length - 1]?.overview.map((data, i) => (
+                <li
+                  className="overview-list-item"
+                >
+                  <i className={`mark ${currentScroll === i + hotelData.information.length ? 'show-mark' : ''}`} />
+
+                  <p
+                    className={`
+                      micro
+                      list-item-title
+                      ${currentScroll === i + hotelData.information.length ? 'highlight-list-item-title' : ''}
+                      ${currentScroll}
+                      ${i + currentScroll}
+                      `}
+                    onClick={() => {
+                      dispatch(detailPageScrollAction(i + hotelData.information.length));
+                      setEventScrollValue((i + hotelData.information.length) * currentHeight);
+                    }}
+                    role="presentation"
+                  >
+                    {data.heading}
+                  </p>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
       </div>
 
       <div className="background-image">
@@ -178,11 +241,7 @@ function TheBunkers() {
         }`}
         />
         <img
-          src={
-            currentScroll < hotelData.information.length - 1
-              ? process.env.PUBLIC_URL + hotelData.information[0].title[0].background
-              : process.env.PUBLIC_URL + hotelData.information[0].title[0].overviewBackground
-              }
+          src={changeBackground}
           alt=""
         />
       </div>
@@ -190,8 +249,8 @@ function TheBunkers() {
       <FunctionButton
         clickEvent={() => {
           dispatch(detailPageNavigationShow());
-          dispatch(detailPageScrollAction(0));
-          setEventScrollValue(0);
+          dispatch(detailPageScrollAction(resetValue));
+          setEventScrollValue(resetValue);
         }}
         icon={assetsData.icons[0].arrowUp}
         functionButtonClassName="fixed-button"

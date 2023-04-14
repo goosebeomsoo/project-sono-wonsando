@@ -3,8 +3,8 @@
         {"title" : [
             {
                 "title": "LATVUS STADIUM",
-                "background": "/Assets/img/title-placeholder.png",
-                "overviewBackground": "/Assets/img/the-bunkers/the-bunkers.svg"
+                "background": "/Assets/img/tennis-court/sketch.png",
+                "overviewBackground": "/Assets/img/tennis-court/main-render.png"
             }
         ]},
         {"brandStory" : [

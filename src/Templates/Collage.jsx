@@ -6,6 +6,9 @@ import { useSelector } from 'react-redux';
 function Collage({
   data,
   currentHeight,
+  backgroundColor,
+  headingFontColor,
+  bodyFontColor,
 }) {
   const collageRef = useRef();
 
@@ -35,9 +38,15 @@ function Collage({
   return (
     <div
       className={`collage-template collage-template-0${data[0]?.gallery?.length} template scroll-hook`}
+      style={{ background: `#${backgroundColor}` }}
       ref={collageRef}
     >
-      <div className="caption body-small">
+      <div
+        className="caption body-small"
+        style={{
+          color: `#${bodyFontColor}`,
+        }}
+      >
         {data[0]?.caption}
       </div>
       <div className="body-section">
@@ -48,7 +57,10 @@ function Collage({
             opacity: `${collageStyle.opacityValue}`,
           }}
         >
-          <h2 className="heading-small">
+          <h2
+            className="heading-small"
+            style={{ color: `#${headingFontColor}` }}
+          >
             {data[0]?.heading}
           </h2>
         </div>
@@ -58,7 +70,12 @@ function Collage({
             opacity: `${collageStyle.opacityValue}`,
           }}
         >
-          <p className="body-small">
+          <p
+            className="body-small"
+            style={{
+              color: `#${bodyFontColor}`,
+            }}
+          >
             {data[0]?.content}
           </p>
         </div>
@@ -78,6 +95,9 @@ function Collage({
 Collage.propTypes = {
   data: PropTypes.arrayOf.isRequired,
   currentHeight: PropTypes.number.isRequired,
+  backgroundColor: PropTypes.string.isRequired,
+  headingFontColor: PropTypes.string.isRequired,
+  bodyFontColor: PropTypes.string.isRequired,
 };
 
 export default Collage;

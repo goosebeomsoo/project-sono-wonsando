@@ -3,8 +3,8 @@
         {"title" : [
             {
                 "title": "SONO FIN VILLAGE",
-                "background": "/Assets/img/title-placeholder.png",
-                "overviewBackground": "/Assets/img/the-bunkers/the-bunkers.svg"
+                "background": "/Assets/img/sono-fin-cabin-village/sketch.png",
+                "overviewBackground": "/Assets/img/sono-fin-cabin-village/main-render.png"
             }
         ]},
         {"brandStory" : [

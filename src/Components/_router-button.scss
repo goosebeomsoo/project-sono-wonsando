@@ -29,16 +29,12 @@
 
     .router-button-icon {
         top: -0.2604vw;
-        left: 0;
-    }
-
-    .router-name {
-        padding-left: 1.4583vw;
+        left: -1.4583vw;
     }
 
     &:hover {
         .router-button-icon {
-            left: -0.2083vw;
+            left: -1.6vw;
         }
     }
 }
@@ -49,16 +45,12 @@
 
     .router-button-icon {
         top: -0.2604vw;
-        right: 0;
-    }
-
-    .router-name {
-        padding-right: 1.4583vw;
+        right: -1.4583vw;
     }
 
     &:hover {
         .router-button-icon {
-            right: -0.2083vw;
+            right: -1.6vw;
         }
     }
 }

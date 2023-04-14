@@ -15,9 +15,10 @@ function Table() {
         hotelAndSpaceData.data.map((data) => (
           <DataRow
             title={data.title}
-            area={data.area}
+            siteArea={data.siteArea}
             buildingArea={data.buildingArea}
-            capacity={data.capacity}
+            grossArea={data.grossArea}
+            roomKeys={data.roomKeys}
             key={data.title}
           />
         ))

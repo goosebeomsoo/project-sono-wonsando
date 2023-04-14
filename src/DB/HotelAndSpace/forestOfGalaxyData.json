@@ -3,8 +3,8 @@
         {"title" : [
             {
                 "title": "FOREST OF GALAXY",
-                "background": "/Assets/img/title-placeholder.png",
-                "overviewBackground": "/Assets/img/the-bunkers/the-bunkers.svg"
+                "background": "/Assets/img/forest-of-galaxy/sketch.png",
+                "overviewBackground": "/Assets/img/forest-of-galaxy/main-render.png"
             }
         ]},
         {"brandStory" : [
@@ -69,88 +69,44 @@
                 ]
             }
         ]},
-        {"concepts" : [
-            {
-                "caption" : "Concepts",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "subHeading" : "Lorem Ipsum",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "gallery" : [
-                    {
-                        "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
-                    }
-                ]
-            }
-        ]},
-        {"theme" : [
-            {
-                "caption" : "Branding theme",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "subHeading" : "Lorem Ipsum",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "gallery" : [
-                    {
-                        "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
-                    },
-                    {
-                        "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
-                    }
-                ]
-            }
-        ]},
-        {"branding" : [
-            {
-                "caption" : "Background",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "subHeading" : "Lorem Ipsum",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "gallery" : [
-                    {
-                        "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
-                    },
-                    {
-                        "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
-                    },
-                    {
-                        "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
-                    }
-                ]
-            }
-        ]},
         {"overview" : [
             {
-                "caption" : "Description",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "caption" : "Render",
+                "heading" : "Forest of Galaxy"
+            },
+            {
+                "caption" : "Main Centre",
+                "heading" : "First impression",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Description",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "caption" : "Cabin Types",
+                "heading" : "Luxury View",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Description",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "caption" : "Cabin Types",
+                "heading" : "Premium Solidarity",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Description",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "caption" : "Cabin Types",
+                "heading" : "Communal Hut",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Description",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "caption" : "Cabin Types",
+                "heading" : "Adventure Trail",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Description",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "caption" : "Cabin Types",
+                "heading" : "Sightseeing Tower",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             }
