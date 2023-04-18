@@ -1,14 +1,17 @@
 /* eslint-disable no-nested-ternary */
 import React from 'react';
 
+import Popup from './Popup';
+
+import PopupButton from '../Components/PopupButton';
 import RouterButton from '../Components/RouterButton';
 import Pin from '../Components/Pin';
 import Table from '../Components/Table/Table';
-import PopupImage from '../Components/PopupImage';
-import ImagePopupNavigation from '../Components/PopupNavigation/ImagePopupNavigation';
 
 import assetsData from '../DB/assets.json';
 import hotelAndSpaceData from '../DB/hotelAndSpace.json';
+import mepPlanData from '../DB/mepPlan.json';
+import renders from '../DB/renders.json';
 
 // const [currentValue, setCurrentValue] = useState();
 
@@ -43,9 +46,18 @@ function Masterplan() {
           alt="masterplan"
         />
       </div>
-      <ImagePopupNavigation />
+      <div className="image-popup-navigation">
+        <PopupButton
+          data={renders.gallery}
+          icon={assetsData.icons[0].galleryIcon}
+        />
+        <PopupButton
+          data={mepPlanData.gallery}
+          icon={assetsData.icons[0].mepIcon}
+        />
+      </div>
       <Table />
-      <PopupImage />
+      <Popup />
     </div>
   );
 }

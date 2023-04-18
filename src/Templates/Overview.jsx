@@ -1,16 +1,21 @@
+/* eslint-disable max-len */
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 import PopupButton from '../Components/PopupButton';
 
+import assetsData from '../DB/assets.json';
+
 function Overview({
   caption,
   heading,
   content,
+  highlight,
+  data,
 }, ref) {
   return (
     <div
-      className="overview-template template scroll-hook"
+      className="overview-template scroll-hook"
       ref={ref}
     >
       <div className="container">
@@ -30,8 +35,23 @@ function Overview({
               {content}
             </p>
           </div>
-          { content ? <PopupButton /> : null }
+          {
+            content
+              ? (
+                <PopupButton
+                  icon={assetsData.icons[0].galleryIconWhite}
+                  data={data}
+                />
+              )
+              : null
+}
         </div>
+      </div>
+      <div className="highlight">
+        {
+          highlight === undefined ? null
+            : <img src={process.env.PUBLIC_URL + highlight} alt="highlight" />
+        }
       </div>
     </div>
   );
@@ -40,6 +60,8 @@ Overview.propTypes = {
   caption: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
+  highlight: PropTypes.string.isRequired,
+  data: PropTypes.arrayOf.isRequired,
 };
 
 export default forwardRef(Overview);

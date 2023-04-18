@@ -10,14 +10,13 @@
 @import './Components/_function-button.scss';
 @import './Components/_router-button.scss';
 @import './Components/_popup-button.scss';
-@import './Components/_popup-image.scss';
 @import './Components/_popup-detail.scss';
 
+@import './Pages/_popup.scss';
 @import './Pages/scss/intro.scss';
 @import './Pages/scss/video.scss';
 @import './Pages/scss/wonsando-brand-story.scss';
 @import './Pages/scss/masterplan.scss';
-
 @import './Pages/scss/_hotel-detail-page.scss';
 
 @import './Templates/_full-background.scss';
@@ -25,6 +24,8 @@
 @import './Templates/_title.scss';
 @import './Templates/_overview.scss';
 @import './Templates/_detail-page-navigation.scss';
+@import './Templates/_video-background.scss';
+@import './Templates/_list-gallery.scss';
 
 body {
     background: $cl-black;
@@ -50,3 +51,11 @@ body {
 .body-medium { @include body-medium; }
 .body-small { @include body-small; }
 .micro { @include micro; }
+
+.body-large-bold { @include body-large-bold; }
+.body-medium-bold { @include body-medium-bold; }
+.body-small-bold { @include body-small-bold; }
+
+.body-large-light { @include body-large-thin; }
+.body-medium-light { @include body-medium-thin; }
+.body-small-light { @include body-small-thin; }

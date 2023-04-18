@@ -4,7 +4,8 @@
                 {
                     "title": "THE BUNKERS",
                     "background": "/Assets/img/the-bunkers/sketch.png",
-                    "overviewBackground": "/Assets/img/the-bunkers/main-render.png"
+                    "overviewBackground": "/Assets/img/the-bunkers/main-render.png",
+                    "accommodationBackground": "/Assets/img/the-bunkers/sub-render.png"
                 }
             ]},
             {"brandStory" : [
@@ -75,117 +76,471 @@
                     "heading" : "The Bunkers"
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Arrival + Spa Level",
                     "heading" : "Arrival Tunnel",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg",
-                    "detailInfo" : [
+                    "highlight" : "/Assets/img/the-bunkers/arrival-tunnel.svg",
+                    "gallery" : [
                         {
-                            "number" : "01",
-                            "Catetory" : "Lorem Ipsum",
-                            "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
+                            "title" : "concept image",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
                         },
                         {
-                            "number" : "02",
-                            "Catetory" : "Lorem Ip",
-                            "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
                         },
                         {
-                            "number" : "03",
-                            "Catetory" : "Lorem",
-                            "image" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png"
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
                         }
                     ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Arrival + Spa Level",
                     "heading" : "Arrival Skylight Dome",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "highlight" : "/Assets/img/the-bunkers/arrival-dome.svg",
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Arrival + Spa Level",
                     "heading" : "Landscape Restaurant",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "highlight" : "/Assets/img/the-bunkers/landscape-restaurant.svg",
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Arrival + Spa Level",
                     "heading" : "Art Tunnel",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "highlight" : "/Assets/img/the-bunkers/art-tunnel.svg",
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Arrival + Spa Level",
                     "heading" : "Citadel Spa",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Garden Suite Level",
                     "heading" : "Upper Lobby",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg",
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Garden Suite Level",
                     "heading" : "Cocktail Bar",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Restaurant Level",
                     "heading" : "Drop Zone",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Restaurant Level",
                     "heading" : "Landscape Restaurant",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Restaurant Level",
                     "heading" : "Sunset Terrace",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Restaurant Level",
                     "heading" : "Storm Peak Cabinet",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Park Level",
                     "heading" : "Citadel Park",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "facility",
                     "caption" : "Park Level",
                     "heading" : "Hilltop Restaurant",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "accommodation",
                     "caption" : "Suites",
                     "heading" : "Bastion Suite",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "highlight" : "/Assets/img/the-bunkers/bastion-suite.svg",
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "accommodation",
                     "caption" : "Suites",
                     "heading" : "Garden Suite",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
                 },
                 {
+                    "type" : "accommodation",
                     "caption" : "Suites",
                     "heading" : "Lantern Villas",
                     "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                    "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                    "gallery" : [
+                        {
+                            "title" : "Heating and Cooling",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "title" : "Water and Sewer 04",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        }
+                    ]
+                },
+                {
+                    "type" : "userPath",
+                    "caption" : "User path",
+                    "heading" : "User Path",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui"
+                },
+                {
+                    "type" : "floorPlan",
+                    "caption" : "Floor Plan",
+                    "heading" : "Floor Plan",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/floor-plan.svg"
                 }
             ]}
         ]

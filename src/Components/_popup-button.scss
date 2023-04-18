@@ -1,18 +1,13 @@
-.button {
+.popup-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20.625vw;
-    padding: 12px 0;
-    background: $cl-gray02;
-    border-radius: 12px;
+    width: fit-content;
+    opacity: 0.5;
     transition: 0.3s ease;
     cursor: pointer;
 
-    .content {
-    }
-
     &:hover {
-        background: $cl-white;
+        opacity: 1;
     }
 }

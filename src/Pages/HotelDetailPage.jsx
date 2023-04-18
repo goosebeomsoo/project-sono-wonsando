@@ -3,18 +3,16 @@
 import React, {
   useState, useRef, useEffect,
 } from 'react';
-
 import { useLocation } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 // REDUX
 import { useDispatch, useSelector } from 'react-redux';
 import { detailPageNavigationShow } from '../Store/detailPageNavigationState';
 import { detailPageScrollInc, detailPageScrollDec, detailPageScrollAction } from '../Store/detailPageScroll';
 
-// COMPONENTS
-import FunctionButton from '../Components/FunctionButton';
-import RouterButton from '../Components/RouterButton';
-import PopupDetail from '../Components/PopupDetail';
+// PAGES
+import Popup from './Popup';
 
 // TEMPLATES
 import FullBackground from '../Templates/FullBackground';
@@ -22,6 +20,11 @@ import Title from '../Templates/Title';
 import Collage from '../Templates/Collage';
 import Overview from '../Templates/Overview';
 import DetailPageNavigation from '../Templates/DetailPageNavigation';
+
+// COMPONENTS
+import FunctionButton from '../Components/FunctionButton';
+import RouterButton from '../Components/RouterButton';
+import PopupDetail from '../Components/PopupDetail';
 
 // DATA
 import assetsData from '../DB/assets.json';
@@ -51,6 +54,9 @@ function TheBunkers() {
   const [changeBackground, setChangeBackground] = useState();
 
   const targetScrollValue = currentScroll * currentHeight;
+  const hotelDataLength = hotelData.information.length;
+
+  const [currentOverviewValue, setCurrentOverviewValue] = useState(0);
 
   // Set current page height when browser resizing
   const setPageSize = () => {
@@ -65,6 +71,14 @@ function TheBunkers() {
       behavior: 'smooth',
     });
   });
+
+  useEffect(() => {
+    for (let i = 0; i < hotelData.information[hotelDataLength - 1].overview.length; i += 1) {
+      if (currentScroll - hotelDataLength === i) {
+        setCurrentOverviewValue(i);
+      }
+    }
+  }, [currentOverviewValue, setCurrentOverviewValue, currentScroll, hotelDataLength, hotelData.information]);
 
   // currentPage count when wheel down
   useEffect(() => {
@@ -98,8 +112,8 @@ function TheBunkers() {
 
   // Overview section interaction
   useEffect(() => {
-    for (let i = 0; i < hotelData.information[hotelData.information.length - 1].overview.length; i += 1) {
-      if ((i + hotelData.information.length) * currentHeight <= currentScroll * currentHeight) {
+    for (let i = 0; i < hotelData.information[hotelDataLength - 1].overview.length; i += 1) {
+      if ((i + hotelDataLength) * currentHeight === currentScroll * currentHeight) {
         overviewRef.current[i].classList.add('current-page');
       } else {
         overviewRef.current[i].classList.remove('current-page');
@@ -107,15 +121,20 @@ function TheBunkers() {
     }
   });
 
+  // Change background Image
   useEffect(() => {
-    if (currentScroll < hotelData.information.length - 1) {
+    if (currentScroll < hotelDataLength - 1) {
       setChangeBackground(process.env.PUBLIC_URL + hotelData.information[0].title[0].background);
-    } else if (currentScroll > hotelData.information.length - 1) {
+    } else if (currentScroll > hotelDataLength - 1) {
       // setTimeout(() => {
       setChangeBackground(process.env.PUBLIC_URL + hotelData.information[0].title[0].overviewBackground);
       // }, 80);
     }
-  }, [setChangeBackground, currentScroll, hotelData]);
+
+    if (hotelData.information[hotelDataLength - 1]?.overview[currentOverviewValue].type === 'accommodation') {
+      setChangeBackground(process.env.PUBLIC_URL + hotelData.information[0].title[0].accommodationBackground);
+    }
+  }, [setChangeBackground, currentScroll, hotelData.information, hotelDataLength, currentOverviewValue]);
 
   return (
     <div
@@ -189,40 +208,40 @@ function TheBunkers() {
         }
 
         {
-        hotelData.information[hotelData.information.length - 1]?.overview.map((data, i) => (
+        hotelData.information[hotelDataLength - 1]?.overview.map((data, i) => (
           <Overview
             caption={data.caption}
             heading={data.heading}
             content={data.content}
-            currentHeight={currentHeight}
+            highlight={data.highlight}
+            data={data.gallery}
             ref={(el) => { overviewRef.current[i] = el; }}
           />
         ))
         }
 
         <div className={`overview-list ${
-          currentScroll > hotelData.information.length - 1 ? 'show-overview-list' : ''
+          currentScroll > hotelDataLength - 1 ? 'show-overview-list' : ''
         }`}
         >
           <ul>
             {
-              hotelData.information[hotelData.information.length - 1]?.overview.map((data, i) => (
+              hotelData.information[hotelDataLength - 1]?.overview.map((data, i) => (
                 <li
                   className="overview-list-item"
                 >
-                  <i className={`mark ${currentScroll === i + hotelData.information.length ? 'show-mark' : ''}`} />
+                  <i className={`mark ${currentScroll === i + hotelDataLength ? 'show-mark' : ''}`} />
 
                   <p
                     className={`
                       micro
                       list-item-title
-                      ${currentScroll === i + hotelData.information.length ? 'highlight-list-item-title' : ''}
-                      ${currentScroll}
-                      ${i + currentScroll}
+                      ${currentScroll === i + hotelDataLength ? 'highlight-list-item-title' : ''}
                       `}
                     onClick={() => {
-                      dispatch(detailPageScrollAction(i + hotelData.information.length));
-                      setEventScrollValue((i + hotelData.information.length) * currentHeight);
+                      setCurrentOverviewValue(i);
+                      dispatch(detailPageScrollAction(i + hotelDataLength));
+                      setEventScrollValue((i + hotelDataLength) * currentHeight);
                     }}
                     role="presentation"
                   >
@@ -237,13 +256,18 @@ function TheBunkers() {
 
       <div className="background-image">
         <div className={`overlay ${
-          currentScroll > hotelData.information.length ? 'show-overlay' : ''
+          currentScroll > hotelDataLength ? 'show-overlay' : ''
         }`}
         />
-        <img
-          src={changeBackground}
-          alt=""
-        />
+        <TransitionGroup>
+          <CSSTransition
+            key={changeBackground}
+            timeout={700}
+            classNames="fade"
+          >
+            <img src={changeBackground} alt="" />
+          </CSSTransition>
+        </TransitionGroup>
       </div>
 
       <FunctionButton
@@ -255,6 +279,7 @@ function TheBunkers() {
         icon={assetsData.icons[0].arrowUp}
         functionButtonClassName="fixed-button"
       />
+      <Popup />
     </div>
   );
 }

@@ -11,92 +11,182 @@ $side-distance : 5vw;
 
 $logo-width : 23.8889vw;
 
-$col-2 : 17.2222vw;
-$col-3 : 27.5vw;
-$col-4 : 37.7778vw;
+$col-2 : 12.9167vw; // 248px
+$col-3 : 20.625vw; // 396px
+$col-4 : 28.3333vw; // 544px
+$col-5 : 36.0417vw; // 544px
+
+// 1920px
+$px-2 : 0.1042vw;
+$px-4 : 0.2083vw;
+$px-6 : 0.3125vw;
+$px-8 : 0.4167vw;
+$px-10 : 0.5208vw;
+$px-12 : 0.625vw;
+$px-14 : 0.7292vw;
+$px-16 : 0.8333vw;
+$px-18 : 0.9375vw;
+$px-22 : 1.1458vw;
+$px-24 : 1.25vw;
+$px-28 : 1.4583vw;
+$px-32 : 1.6667vw;
+$px-36 : 1.875vw;
+$px-42 : 2.1875vw;
+$px-48 : 2.5vw;
+$px-52 : 2.7083vw;
+$px-56 : 2.9167vw;
+$px-58 : 3.0208vw;
+$px-60 : 3.125vw;
+$px-64 : 3.3333vw;
+$px-72 : 3.75vw;
+$px-84 : 4.375vw;
+
 
 
 @font-face {
     font-family: Helvetica-Bold;
-    src: url("./Assets/Fonts/HelveticaNeueLTPro-Bd.otf") format("opentype");
+    src: url("./Assets/Fonts/Helvetica-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: Helvetica-Regular;
-    src: url("./Assets/Fonts/HelveticaNeueLTPro-Md.otf") format("opentype");
+    src: url("./Assets/Fonts/Helvetica.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Helvetica-Thin;
+    src: url("./Assets/Fonts/Helvetica-Light.ttf") format("truetype");
 }
 
 
-@mixin heading-font {
+@mixin font-bold {
     font-family: Helvetica-Bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@mixin body-font {
+@mixin font-regular {
     font-family: Helvetica-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@mixin font-light {
+    font-family: Helvetica-Thin, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 @mixin title {
-    font-size: 3.75vw;
-    line-height: 4.3750vw;
+    font-size: $px-72;
+    line-height: $px-84;
 
-    @include heading-font;
+    @include font-bold;
 }
 
 @mixin heading-large {
-    font-size: 3.3333vw;
-    line-height: 3.8889vw;
+    font-size: $px-48;
+    line-height: $px-56;
 
-    @include heading-font;
+    @include font-bold;
 }
 
 @mixin heading-medium {
-    font-size: 2.5vw;
-    line-height: 2.9167vw;
+    font-size: $px-36;
+    line-height: $px-42;
 
-    @include heading-font;
+    @include font-bold;
 }
 
 @mixin heading-small {
-    font-size: 1.6667vw;
-    line-height: 1.9444vw;
+    font-size: $px-24;
+    line-height: $px-28;
 
-    @include heading-font;
+    @include font-bold;
 }
 
 @mixin sub-heading {
-    font-size: 1.25vw;
-    line-height: 1.5278vw;
+    font-size: $px-18;
+    line-height: $px-22;
 
-    @include heading-font;
+    @include font-bold;
+}
+
+
+
+@mixin body-large-bold {
+    font-size: $px-16;
+    line-height: $px-22;
+
+    @include font-bold;
+}
+
+@mixin body-medium-bold {
+    font-size: $px-14;
+    line-height: $px-16;
+
+    @include font-bold;
+}
+
+@mixin body-small-bold {
+    font-size: $px-12;
+    line-height: $px-14;
+
+    @include font-bold;
+}
+
+@mixin micro-bold {
+    font-size: $px-8;
+    line-height: $px-10;
+
+    @include font-bold;
 }
 
 
 
 @mixin body-large {
-    font-size: 1.1111vw;
-    line-height: 1.5278vw;
+    font-size: $px-16;
+    line-height: $px-22;
 
-    @include body-font;
+    @include font-regular;
 }
 
 @mixin body-medium {
-    font-size: 0.9722vw;
-    line-height: 1.1111vw;
+    font-size: $px-14;
+    line-height: $px-16;
 
-    @include body-font;
+    @include font-regular;
 }
 
 @mixin body-small {
-    font-size: 0.8333vw;
-    line-height: 0.9722vw;
+    font-size: $px-12;
+    line-height: $px-14;
 
-    @include body-font;
+    @include font-regular;
 }
 
 @mixin micro {
-    font-size: 0.5556vw;
-    line-height: 0.6944vw;
+    font-size: $px-8;
+    line-height: $px-12;
 
-    @include body-font;
+    @include font-regular;
+}
+
+
+
+
+@mixin body-large-thin {
+    font-size: $px-16;
+    line-height: $px-22;
+
+    @include font-light;
+}
+
+@mixin body-medium-thin {
+    font-size: $px-14;
+    line-height: $px-16;
+
+    @include font-light;
+}
+
+@mixin body-small-thin {
+    font-size: $px-12;
+    line-height: $px-14;
+
+    @include font-light;
 }

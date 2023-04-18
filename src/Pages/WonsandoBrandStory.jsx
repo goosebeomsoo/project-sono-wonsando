@@ -1,8 +1,6 @@
 import React from 'react';
 
-import FullBackground from '../Templates/FullBackground';
-
-import outOfSonoBrandStoryData from '../DB/outOfSonoBrandStory.json';
+import VideoBackground from '../Templates/VideoBackground';
 
 import RouterButton from '../Components/RouterButton';
 
@@ -23,10 +21,7 @@ function WonsandoBrandStory() {
         buttonClassName="right-router-button"
         icon={assetsData.icons[0].arrowRight}
       />
-
-      <FullBackground
-        brandStoryData={outOfSonoBrandStoryData}
-      />
+      <VideoBackground />
     </div>
   );
 }

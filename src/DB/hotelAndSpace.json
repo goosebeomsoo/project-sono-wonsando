@@ -10,7 +10,26 @@
             "backgroundColor" : "2B2B2B",
             "headingFontColor" : "F5F5F5",
             "bodyFontColor" : "ECECEC",
-            "id" : "the-bunkers"
+            "id" : "the-bunkers",
+            "gallery" : [
+                {
+                    "title" : "THE BUNKERS",
+                    "images" : [
+                        {
+                            "name" : "render 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "name" : "render 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-02.png"
+                        },
+                        {
+                            "name" : "render 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-03.png"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "title" : "BREAKER HILLS",
@@ -22,7 +41,26 @@
             "backgroundColor" : "D2D7D9",
             "headingFontColor" : "10171A",
             "bodyFontColor" : "10171A",
-            "id" : "breaker-hills"
+            "id" : "breaker-hills",
+            "renders" : [
+                {
+                    "title" : "BREAKER HILLS",
+                    "images" : [
+                        {
+                            "name" : "render 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "name" : "render 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-02.png"
+                        },
+                        {
+                            "name" : "render 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-03.png"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "title" : "SONO FELICE & CALM",
@@ -34,7 +72,26 @@
             "backgroundColor" : "2D2828",
             "headingFontColor" : "E0D2C6",
             "bodyFontColor" : "E0D2C6",
-            "id" : "sono-felice-and-calm"
+            "id" : "sono-felice-and-calm",
+            "renders" : [
+                {
+                    "title" : "SONO FELICE & CALM",
+                    "images" : [
+                        {
+                            "name" : "render 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "name" : "render 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-02.png"
+                        },
+                        {
+                            "name" : "render 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-03.png"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "title" : "SONO FIN CABIN & VILLAGE",
@@ -46,7 +103,26 @@
             "backgroundColor" : "1D1D1D",
             "headingFontColor" : "E4E4E4",
             "bodyFontColor" : "E4E4E4",
-            "id" : "sono-fin-cabin-area"
+            "id" : "sono-fin-cabin-area",
+            "renders" : [
+                {
+                    "title" : "SONO FIN CABIN & VILLAGE",
+                    "images" : [
+                        {
+                            "name" : "render 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "name" : "render 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-02.png"
+                        },
+                        {
+                            "name" : "render 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-03.png"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "title" : "FOREST OF GALAXY",
@@ -58,7 +134,26 @@
             "backgroundColor" : "272C2A",
             "headingFontColor" : "BCC5C3",
             "bodyFontColor" : "BCC5C3",
-            "id" : "forest-of-galaxy"
+            "id" : "forest-of-galaxy",
+            "renders" : [
+                {
+                    "title" : "FOREST OF GALAXY",
+                    "images" : [
+                        {
+                            "name" : "render 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "name" : "render 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-02.png"
+                        },
+                        {
+                            "name" : "render 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-03.png"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "title" : "SPORTS CENTER",
@@ -70,7 +165,26 @@
             "backgroundColor" : "2B2B2B",
             "headingFontColor" : "F5F5F5",
             "bodyFontColor" : "ECECEC",
-            "id" : "latvus-stadium"
+            "id" : "latvus-stadium",
+            "renders" : [
+                {
+                    "title" : "SPORTS CENTER",
+                    "images" : [
+                        {
+                            "name" : "render 01",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+                        },
+                        {
+                            "name" : "render 02",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-02.png"
+                        },
+                        {
+                            "name" : "render 03",
+                            "image" : "/Assets/img/sono-fin-cabin-village/render-03.png"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

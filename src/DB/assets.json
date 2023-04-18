@@ -2,7 +2,8 @@
     "img" : [
       {
         "masterplan" : "/Assets/img/wholeRender.png",
-        "titlePlaceholder" : "/Assets/img/title-placeholder.png"
+        "outOfSonoLogoWhite" : "/Assets/svg/out-of-sono-logo-white.svg",
+        "outOfSonoLogoColor" : "/Assets/svg/out-of-sono-logo-color.svg"
       }
     ],
     "icons" : [
@@ -12,12 +13,16 @@
         "arrowLeft" : "/Assets/svg/arrow-left.svg",
         "arrowRight" : "/Assets/svg/arrow-right.svg",
         "arrowUp" : "/Assets/svg/arrow-up.svg",
-        "placeholder" : "/Assets/svg/placeholder.svg"
+        "placeholder" : "/Assets/svg/placeholder.svg",
+        "mepIcon" : "/Assets/svg/mep-icon.svg",
+        "galleryIcon" : "/Assets/svg/gallery-icon.svg",
+        "galleryIconWhite" : "/Assets/svg/gallery-icon-white.svg"
       }
     ],
     "video" : [
       {
-        "wonsando" : "/Assets/video/wonsando-video.mp4"
+        "wonsando" : "/Assets/video/wonsando-video.mp4",
+        "outOfSonoBackground" : "/Assets/video/gradient-web.mp4"
       }
     ]
 }
