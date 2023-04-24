@@ -24,7 +24,6 @@ function PopupButton({
           dispatch(setPopupValueCurrentList(0));
           dispatch(setPopupValueCurrentNumber(0));
         }
-        console.log(data[0].images);
         dispatch(setPopupDataStateByState(data)); // Data update
         dispatch(setPopupStateTrue()); // Show Popup
       }}

@@ -29,7 +29,7 @@ function ListGallery() {
                 currentList === undefined ? null
                   : popupData?.map((item, i) => (
                     <li
-                      className={`body-small-bold ${currentList === i ? 'highlight' : ''}`}
+                      className={`micro ${currentList === i ? 'highlight' : ''}`}
                       onClick={() => {
                         dispatch(setPopupValueCurrentList(i));
 
@@ -48,27 +48,32 @@ function ListGallery() {
         </div>
 
         <div className="gallery-body">
-          <div className="list-item-container">
-            <ul className="item-numbers">
-              {currentNumber === undefined ? undefined
-                : popupData[currentList]?.images.map((el, n) => (
-                  <li
-                    className={`body-large-bold item-number ${currentNumber === n ? 'highlight' : ''}`}
-                    onClick={() => {
-                      dispatch(setPopupValueCurrentNumber(n));
-                    }}
-                    role="presentation"
-                  >
-                    {`0${n + 1}`}
-                    <i className="mark" />
-                  </li>
-                ))}
-            </ul>
-            <h3 className="item-name sub-heading">
-              {currentNumber === undefined ? undefined
-                : popupData[currentList]?.images[currentNumber]?.name}
-            </h3>
-          </div>
+          {
+            currentNumber === undefined ? null
+              : (
+                <div className="list-item-container">
+                  <ul className="item-numbers">
+                    {currentNumber === undefined ? undefined
+                      : popupData[currentList]?.images.map((el, n) => (
+                        <li
+                          className={`body-large-bold item-number ${currentNumber === n ? 'highlight' : ''}`}
+                          onClick={() => {
+                            dispatch(setPopupValueCurrentNumber(n));
+                          }}
+                          role="presentation"
+                        >
+                          {`0${n + 1}`}
+                          <i className="mark" />
+                        </li>
+                      ))}
+                  </ul>
+                  <h3 className="item-name sub-heading">
+                    {currentNumber === undefined ? undefined
+                      : popupData[currentList]?.images[currentNumber]?.name}
+                  </h3>
+                </div>
+              )
+          }
 
           <div className="gallery-image">
             {currentNumber !== undefined

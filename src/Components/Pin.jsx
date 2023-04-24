@@ -2,14 +2,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 
-import theBunkersData from '../DB/HotelAndSpace/theBunkers.json';
+import { detailPageScrollAction } from '../Store/detailPageScroll';
+
+import theBunkersData from '../DB/HotelAndSpace/theBunkersData.json';
 import breakerHillsData from '../DB/HotelAndSpace/breakerHillsData.json';
 import sonoFeliceAndCalmData from '../DB/HotelAndSpace/sonoFeliceAndCalmData.json';
-import sonoFinCabinAreaData from '../DB/HotelAndSpace/sonoFinCabinAreaData.json';
-import sonoFinVillageData from '../DB/HotelAndSpace/sonoFinVillageData.json';
+import sonoFinCabinAndVillageData from '../DB/HotelAndSpace/sonoFinCabinAndVillageData.json';
 import forestOfGalaxyData from '../DB/HotelAndSpace/forestOfGalaxyData.json';
-import latvusStadium from '../DB/HotelAndSpace/latvusStadium.json';
+import tennisCourtData from '../DB/HotelAndSpace/tennisCourtData.json';
+import jkmmBreakerHillsData from '../DB/HotelAndSpace/jkmmBreakerHillsData.json';
+import jkmmTennisCourtData from '../DB/HotelAndSpace/jkmmTennisCourtData.json';
 
 function Pin({
   title,
@@ -20,27 +24,27 @@ function Pin({
   id,
 }) {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   return (
     <div className="pin">
       <div className="pin-head" />
       <div className="pin-line" />
-      <div className="pin-icon">
-        <img src={process.env.PUBLIC_URL + icon} alt="area-icon" />
-      </div>
-      <p
-        className="pin-title body-small"
+      <div
+        className="pin-icon"
         onClick={() => {
+          dispatch(detailPageScrollAction(0));
           navigate(`${process.env.PUBLIC_URL}/masterplan/${id}`, {
             state: {
               hotelData: id === 'the-bunkers' ? theBunkersData
-                : id === 'breaker-hills' ? breakerHillsData
-                  : id === 'sono-felice-and-calm' ? sonoFeliceAndCalmData
+                : id === 'breaker-hills-opt1' ? breakerHillsData
+                  : id === 'breaker-hills-opt2' ? jkmmBreakerHillsData
                     : id === 'sono-felice-and-calm' ? sonoFeliceAndCalmData
-                      : id === 'sono-fin-cabin-area' ? sonoFinCabinAreaData
-                        : id === 'sono-fin-village' ? sonoFinVillageData
+                      : id === 'sono-felice-and-calm' ? sonoFeliceAndCalmData
+                        : id === 'sono-fin-cabin-and-village' ? sonoFinCabinAndVillageData
                           : id === 'forest-of-galaxy' ? forestOfGalaxyData
-                            : id === 'latvus-stadium' ? latvusStadium
-                              : null,
+                            : id === 'tennis-court-opt1' ? tennisCourtData
+                              : id === 'tennis-court-opt2' ? jkmmTennisCourtData
+                                : null,
               backgroundColor,
               headingFontColor,
               bodyFontColor,
@@ -50,6 +54,9 @@ function Pin({
         }}
         role="presentation"
       >
+        <img src={process.env.PUBLIC_URL + icon} alt="area-icon" />
+      </div>
+      <p className="pin-title body-medium-bold">
         {title}
       </p>
     </div>

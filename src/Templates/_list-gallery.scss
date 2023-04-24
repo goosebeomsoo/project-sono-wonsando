@@ -2,29 +2,33 @@
     height: 100vh;
     .container {
         display: flex;
-        padding: $px-24 0 0 $px-48;
         height: 100%;
         .gallery-header {
             display: flex;
             flex-direction: column;
             gap: $px-18;
-            width: $col-2;
+            width: 10.2083vw;
+            padding: 0 $px-24 0 $px-48;
 
             h2 {
+                display: flex;
+                align-items: center;
                 color: $cl-gray02;
+                height: 5.7292vw;
             }
 
             .gallery-navigation {
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                gap: $px-4;
+                gap: $px-8;
 
                 li {
                     position: relative;
                     cursor: pointer;
                     transition: 0.3s ease;
                     color: $cl-gray03;
+                    text-transform: capitalize;
 
                     .mark {
                         position: absolute;
@@ -57,7 +61,6 @@
         .gallery-body {
             display: flex;
             flex-direction: column;
-            gap: $px-18;
             width: 100%;
             height: 100%;
 
@@ -66,12 +69,13 @@
                 justify-content: space-between;
                 align-items: center;
                 width: 100%;
-                padding-right: 2vw;
+                height: 5.7292vw;
+                padding-right: $px-48;
 
                 .item-numbers {
                     display: flex;
                     align-items: center;
-                    gap: 12px;
+                    gap: $px-12;
                     
                     .item-number {
                         position: relative;
@@ -101,12 +105,14 @@
 
                 .item-name {
                     color: $cl-gray01;
+                    text-transform: capitalize;
                 }
             }
 
             .gallery-image {
                 width: 100%;
                 height: 100%;
+                overflow: hidden;
 
                 img {
                     width: 100%;
@@ -117,4 +123,8 @@
         }
 
     }
+}
+
+.list-gallery::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
 }

@@ -10,7 +10,10 @@ import Table from '../Components/Table/Table';
 
 import assetsData from '../DB/assets.json';
 import hotelAndSpaceData from '../DB/hotelAndSpace.json';
+
 import mepPlanData from '../DB/mepPlan.json';
+import roadPlanData from '../DB/roadPlan.json';
+import landscapePlanData from '../DB/landscapePlan.json';
 import renders from '../DB/renders.json';
 
 // const [currentValue, setCurrentValue] = useState();
@@ -54,6 +57,22 @@ function Masterplan() {
         <PopupButton
           data={mepPlanData.gallery}
           icon={assetsData.icons[0].mepIcon}
+        />
+        <PopupButton
+          data={mepPlanData.gallery}
+          icon={assetsData.icons[0].lightIcon}
+        />
+        <PopupButton
+          data={mepPlanData.gallery}
+          icon={assetsData.icons[0].parkingIcon}
+        />
+        <PopupButton
+          data={roadPlanData.gallery}
+          icon={assetsData.icons[0].roadIcon}
+        />
+        <PopupButton
+          data={landscapePlanData.gallery}
+          icon={assetsData.icons[0].landscapeIcon}
         />
       </div>
       <Table />

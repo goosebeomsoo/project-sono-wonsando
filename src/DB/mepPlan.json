@@ -2,23 +2,39 @@
     "gallery" : [
         {
             "title" : "Heating and Cooling",
-            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+            "image" : "/Assets/img/_mep-plan/mep-02.png"
         },
         {
             "title" : "Water and Sewer 01",
-            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+            "image" : "/Assets/img/_mep-plan/mep-03.png"
         },
         {
             "title" : "Water and Sewer 02",
-            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+            "image" : "/Assets/img/_mep-plan/mep-04.png"
         },
         {
             "title" : "Water and Sewer 03",
-            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+            "image" : "/Assets/img/_mep-plan/mep-05.png"
         },
         {
             "title" : "Water and Sewer 04",
-            "image" : "/Assets/img/sono-fin-cabin-village/render-01.png"
+            "image" : "/Assets/img/_mep-plan/mep-06.png"
+        },
+        {
+            "title" : "Sprinkler",
+            "image" : "/Assets/img/_mep-plan/mep-07.png"
+        },
+        {
+            "title" : "Electricity",
+            "image" : "/Assets/img/_mep-plan/mep-08.png"
+        },
+        {
+            "title" : "Energy",
+            "image" : "/Assets/img/_mep-plan/mep-09.png"
+        },
+        {
+            "title" : "Water and Sewer",
+            "image" : "/Assets/img/_mep-plan/mep-10.png"
         }
     ]
 }

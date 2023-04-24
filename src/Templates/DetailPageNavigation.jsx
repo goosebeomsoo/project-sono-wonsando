@@ -8,7 +8,11 @@ import {
   detailPageNavigationShow,
 } from '../Store/detailPageNavigationState';
 
+import RouterButton from '../Components/RouterButton';
+
 import { detailPageScrollAction } from '../Store/detailPageScroll';
+
+import assetsData from '../DB/assets.json';
 
 function DetailPageNavigation({
   currentHeight,
@@ -67,6 +71,15 @@ function DetailPageNavigation({
           ))
         }
 
+        <RouterButton
+          link="/masterplan"
+          icon={assetsData.icons[0].arrowLeft}
+          buttonClassName="left-router-button"
+          buttonName="MASTERPLAN"
+          onClick={() => {
+            dispatch((detailPageScrollAction(0)));
+          }}
+        />
       </div>
     </div>
   );

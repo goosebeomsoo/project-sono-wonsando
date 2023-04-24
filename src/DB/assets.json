@@ -14,9 +14,13 @@
         "arrowRight" : "/Assets/svg/arrow-right.svg",
         "arrowUp" : "/Assets/svg/arrow-up.svg",
         "placeholder" : "/Assets/svg/placeholder.svg",
-        "mepIcon" : "/Assets/svg/mep-icon.svg",
+        "galleryIconWhite" : "/Assets/svg/gallery-icon-white.svg",
         "galleryIcon" : "/Assets/svg/gallery-icon.svg",
-        "galleryIconWhite" : "/Assets/svg/gallery-icon-white.svg"
+        "mepIcon" : "/Assets/svg/mep-icon.svg",
+        "lightIcon" : "/Assets/svg/lighting-icon.svg",
+        "parkingIcon" : "/Assets/svg/parking-icon.svg",
+        "landscapeIcon" : "/Assets/svg/landscape-icon.svg",
+        "roadIcon" : "/Assets/svg/road-icon.svg"
       }
     ],
     "video" : [

@@ -20,7 +20,7 @@ export const PopupState = createSlice({
 });
 
 export const {
-  setPopupByState,
+  setPopupStateByState,
   setPopupStateTrue,
   setPopupStateFalse,
 } = PopupState.actions;

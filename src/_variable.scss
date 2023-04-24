@@ -7,8 +7,6 @@ $cl-gray01 : #E4E4E4;
 $cl-white : #FFF;
 $cl-main : #F7EEDF;
 
-$side-distance : 5vw;
-
 $logo-width : 23.8889vw;
 
 $col-2 : 12.9167vw; // 248px
@@ -40,7 +38,9 @@ $px-60 : 3.125vw;
 $px-64 : 3.3333vw;
 $px-72 : 3.75vw;
 $px-84 : 4.375vw;
+$px-96 : 5vw;
 
+$side-distance : $px-72;
 
 
 @font-face {
@@ -118,21 +118,21 @@ $px-84 : 4.375vw;
 
 @mixin body-medium-bold {
     font-size: $px-14;
-    line-height: $px-16;
+    line-height: $px-18;
 
     @include font-bold;
 }
 
 @mixin body-small-bold {
     font-size: $px-12;
-    line-height: $px-14;
+    line-height: $px-16;
 
     @include font-bold;
 }
 
 @mixin micro-bold {
     font-size: $px-8;
-    line-height: $px-10;
+    line-height: $px-12;
 
     @include font-bold;
 }
@@ -148,21 +148,21 @@ $px-84 : 4.375vw;
 
 @mixin body-medium {
     font-size: $px-14;
-    line-height: $px-16;
+    line-height: $px-18;
 
     @include font-regular;
 }
 
 @mixin body-small {
     font-size: $px-12;
-    line-height: $px-14;
+    line-height: $px-16;
 
     @include font-regular;
 }
 
 @mixin micro {
     font-size: $px-8;
-    line-height: $px-12;
+    line-height: $px-14;
 
     @include font-regular;
 }
@@ -172,21 +172,21 @@ $px-84 : 4.375vw;
 
 @mixin body-large-thin {
     font-size: $px-16;
-    line-height: $px-22;
+    line-height: $px-24;
 
     @include font-light;
 }
 
 @mixin body-medium-thin {
     font-size: $px-14;
-    line-height: $px-16;
+    line-height: $px-22;
 
     @include font-light;
 }
 
 @mixin body-small-thin {
     font-size: $px-12;
-    line-height: $px-14;
+    line-height: $px-18;
 
     @include font-light;
 }

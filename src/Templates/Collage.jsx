@@ -37,12 +37,12 @@ function Collage({
   }, [setCollageStyle, currentScroll, currentHeight]);
   return (
     <div
-      className={`collage-template collage-template-0${data[0]?.gallery?.length} template scroll-hook`}
+      className={`collage-template collage-template-0${data[0]?.gallery?.length} scroll-hook`}
       style={{ background: `#${backgroundColor}` }}
       ref={collageRef}
     >
       <div
-        className="caption body-small"
+        className="caption body-medium"
         style={{
           color: `#${bodyFontColor}`,
         }}
@@ -58,10 +58,10 @@ function Collage({
           }}
         >
           <h2
-            className="heading-small"
+            className="heading-large"
             style={{ color: `#${headingFontColor}` }}
           >
-            {data[0]?.heading}
+            {data[0]?.heading ? data[0]?.heading : null}
           </h2>
         </div>
         <div
@@ -76,7 +76,7 @@ function Collage({
               color: `#${bodyFontColor}`,
             }}
           >
-            {data[0]?.content}
+            {data[0]?.content ? data[0]?.content : null}
           </p>
         </div>
       </div>

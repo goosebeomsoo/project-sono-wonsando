@@ -10,12 +10,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1.25vw;
+        gap: $px-48;
 
         .logo {
             position: relative;
-            width: 8.3333vw;
-            height: 5.2083vw;
+            width: 17.9167vw;
+            height: 11.1979vw;
             
             img {
                 position: absolute;
@@ -34,15 +34,17 @@
         }
 
         .contents {
-            width: 12.9167vw;
+            width: 17.9167vw;
             p {
                 color: $cl-white;
                 text-align: center;
                 transition: 3s ease;
+                opacity: 0;
             }
 
             .after-video-disappear {
                 color: #88A4B5;
+                opacity: 1;
             }
         }
     }

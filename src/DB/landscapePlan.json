@@ -1,0 +1,43 @@
+{
+    "gallery" : [
+        {
+            "title" : "LANDSCAPE",
+            "images" : [
+                {
+                    "name" : "landscape",
+                    "image" : "/Assets/img/_landscape-plan/landscape-01.png"
+                },
+                {
+                    "name" : "landscape",
+                    "image" : "/Assets/img/_landscape-plan/landscape-02.png"
+                }
+            ]
+        },
+        {
+            "title" : "EXPERIENCE LOOP",
+            "images" : [
+                {
+                    "name" : "Experience Loop",
+                    "image" : "/Assets/img/_landscape-plan/experience-loop-01.png"
+                },
+                {
+                    "name" : "Experience Loop",
+                    "image" : "/Assets/img/_landscape-plan/experience-loop-02.png"
+                }
+            ]
+        },
+        {
+            "title" : "WELCOMING DRIVEWAY",
+            "images" : [
+                {
+                    "name" : "Welcoming Driveway",
+                    "image" : "/Assets/img/_landscape-plan/welcoming-driveway-01.png"
+                },
+                {
+                    "name" : "Welcoming Driveway",
+                    "image" : "/Assets/img/_landscape-plan/welcoming-driveway-02.png"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,778 @@
+{
+        "information" : [
+            {"title" : [
+                {
+                    "title": "THE BUNKERS",
+                    "background": "/Assets/img/the-bunkers/sketch.png",
+                    "bgOverview": "/Assets/img/the-bunkers/background/overview.png",
+                    "bgAccommodation": "/Assets/img/the-bunkers/background/accommodation.png"
+                }
+            ]},
+            {"brandStory" : [
+                {
+                    "page" : "01",
+                    "caption" : "Lorem Ipsum",
+                    "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-01.png",
+                    "contentArea" : [
+                        {
+                            "subHeading" : "Lorem Ipsum",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        },
+                        {
+                            "subHeading" : "Lorem Ipsum dolor",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        }
+                    ]
+                },
+                {
+                    "page" : "02",
+                    "caption" : "Lorem Ipsum",
+                    "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-02.jpg",
+                    "contentArea" : [
+                        {
+                            "subHeading" : "Lorem Ipsum",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        },
+                        {
+                            "subHeading" : "Lorem Ipsum dolor",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        }
+                    ]
+                },
+                {
+                    "page" : "03",
+                    "caption" : "Lorem Ipsum",
+                    "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-03.jpg",
+                    "contentArea" : [
+                        {
+                            "subHeading" : "Lorem Ipsum",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        }
+                    ]
+                },
+                {
+                    "page" : "04",
+                    "caption" : "Lorem Ipsum",
+                    "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-04.jpg",
+                    "contentArea" : [
+                        {
+                            "subHeading" : "Lorem Ipsum",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        },
+                        {
+                            "subHeading" : "Lorem Ipsum dolor",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        }
+                    ]
+                },
+                {
+                    "page" : "04",
+                    "caption" : "Lorem Ipsum",
+                    "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-05.jpg",
+                    "contentArea" : [
+                        {
+                            "subHeading" : "Lorem Ipsum",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        },
+                        {
+                            "subHeading" : "Lorem Ipsum dolor",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        }
+                    ]
+                },
+                {
+                    "page" : "04",
+                    "caption" : "Lorem Ipsum",
+                    "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-06.jpg",
+                    "contentArea" : [
+                        {
+                            "subHeading" : "Lorem Ipsum",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        },
+                        {
+                            "subHeading" : "Lorem Ipsum dolor",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        }
+                    ]
+                },
+                {
+                    "page" : "04",
+                    "caption" : "Lorem Ipsum",
+                    "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-07.jpg",
+                    "contentArea" : [
+                        {
+                            "subHeading" : "Lorem Ipsum",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        },
+                        {
+                            "subHeading" : "Lorem Ipsum dolor",
+                            "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        }
+                    ]
+                }
+            ]},
+            {"brand" : [
+                {
+                    "logo": "/Assets/img/the-bunkers/brand-logo.svg",
+                    "background": "/Assets/img/the-bunkers/brand-background.png",
+                    "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et ju"
+                }
+            ]},
+            {"concepts" : [
+                {
+                    "caption" : "Concepts",
+                    "heading" : "Luxurious sanctuary at the edge of the world",
+                    "subHeading" : "Lorem Ipsum",
+                    "gallery" : [
+                        {
+                            "image" : "/Assets/img/the-bunkers/concept-01.png"
+                        },
+                        {
+                            "image" : "/Assets/img/the-bunkers/concept-02.png"
+                        }
+                    ]
+                }
+            ]},
+            {"concepts" : [
+                {
+                    "caption" : "Concepts",
+                    "heading" : "The Bunkers",
+                    "subHeading" : "Lorem Ipsum",
+                    "content" : "A fortress on the shore, nestled within the terrain, offers protection from the outside. Its walls, made of solid stone, keep out the wind and waves. It serves as a sanctuary, a safe haven from the rest of world, where one can find peace and rest in the embrace of nature. \n\nThe entrance to the fortress is hidden, disguised as a part of the island’s peaceful landscape, making it difficult for outsiders to discover. Exploring the fortress feels like delving into a secret world, one that holds many secrets and surprises. Its tunnels are carefully crafted to lead those who gain entry deep into the heart of the fortress, providing a sense of intrigue and adventure. \n\nThe living quarters are secluded, with a sense of isolation and secrecy. The chambers are enfolded with twists and turns as if it had been carved into the rock to withstand the stresses of time.",
+                    "gallery" : [
+                        {
+                            "image" : "/Assets/img/the-bunkers/concept-03.png"
+                        }
+                    ]
+                }
+            ]},
+            {"concepts" : [
+                {
+                    "caption" : "Concepts",
+                    "heading" : "Suomenlinna - Fortress of Finland ",
+                    "subHeading" : "Lorem Ipsum",
+                    "gallery" : [
+                        {
+                            "image" : "/Assets/img/the-bunkers/concept-04.png"
+                        }
+                    ]
+                }
+            ]},
+            {"overview" : [
+                {
+                    "caption" : "Render",
+                    "heading" : "The Bunkers"
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Commercial & Public",
+                    "heading" : "Arrival Experience",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/arrival-experience.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Commercial & Public",
+                    "heading" : "Restaurant & Cocktail Bar",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/restaurant-and-cocktail-bar.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Commercial & Public",
+                    "heading" : "Spa & Wellness",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/spa-and-wellness.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Commercial & Public",
+                    "heading" : "View Experience",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/view-experience.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Commercial & Public",
+                    "heading" : "Citadel Park",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/citadel-park.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Commercial & Public",
+                    "heading" : "Hilltop Restaurant",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/hilltop-restaurant.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Commercial & Public",
+                    "heading" : "Parking",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/parking.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "accommodation",
+                    "caption" : "Accommodation",
+                    "heading" : "Suite overview",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/rooms-overview.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "accommodation",
+                    "caption" : "accommodation",
+                    "heading" : "bastion suite",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/bastion-suite.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "accommodation",
+                    "caption" : "Accommodation",
+                    "heading" : "Garden Suite",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/garden-suite.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "accommodation",
+                    "caption" : "Accommodation",
+                    "heading" : "Lantern Villas",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/lantern-villas.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "userPath",
+                    "caption" : "User Path",
+                    "heading" : "Journey",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/user-path.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Floor Plan",
+                    "heading" : "Floor Plan",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/floor-plan.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "overview",
+                    "caption" : "Section View",
+                    "heading" : "Section View",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/section-view.png",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "accommodation",
+                    "caption" : "structure",
+                    "heading" : "structural design",
+                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                    "highlight" : "/Assets/img/the-bunkers/highlight/structure.svg",
+                    "gallery" : [
+                        {
+                            "title" : "overview of the building",
+                            "images" : [
+                                {
+                                    "name" : "overview of the building",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-01.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival dome",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-02.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-03.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-04.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "landscape restaurant / arrival looby",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-05.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-06.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "citadel spa",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-07.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "bastion suite",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-08.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-09.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-10.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "arrival tunnel",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-11.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-12.png"
+                                },
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-13.png"
+                                },
+                                {
+                                    "name" : "preliminary calculations",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-14.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "parking",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-15.png"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "hilltop restaurant",
+                            "images" : [
+                                {
+                                    "name" : "structural description",
+                                    "image" : "/Assets/img/the-bunkers/structure/structure-16.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]}
+        ]
+}

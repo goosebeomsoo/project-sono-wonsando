@@ -23,11 +23,11 @@ import DetailPageNavigation from '../Templates/DetailPageNavigation';
 
 // COMPONENTS
 import FunctionButton from '../Components/FunctionButton';
-import RouterButton from '../Components/RouterButton';
 import PopupDetail from '../Components/PopupDetail';
 
 // DATA
 import assetsData from '../DB/assets.json';
+import ImageBackground from '../Templates/ImageBackground';
 
 function TheBunkers() {
   const location = useLocation();
@@ -42,6 +42,7 @@ function TheBunkers() {
   // REDUX
   const dispatch = useDispatch();
   const currentScroll = useSelector((state) => state.detailPageScroll.currentScroll);
+  console.log(currentScroll);
 
   // useRef
   const pageRef = useRef();
@@ -123,18 +124,36 @@ function TheBunkers() {
 
   // Change background Image
   useEffect(() => {
-    if (currentScroll < hotelDataLength - 1) {
-      setChangeBackground(process.env.PUBLIC_URL + hotelData.information[0].title[0].background);
-    } else if (currentScroll > hotelDataLength - 1) {
-      // setTimeout(() => {
-      setChangeBackground(process.env.PUBLIC_URL + hotelData.information[0].title[0].overviewBackground);
-      // }, 80);
-    }
+    const backgroundData = hotelData.information[0].title[0];
 
-    if (hotelData.information[hotelDataLength - 1]?.overview[currentOverviewValue].type === 'accommodation') {
-      setChangeBackground(process.env.PUBLIC_URL + hotelData.information[0].title[0].accommodationBackground);
+    if (currentScroll < hotelDataLength - 1) {
+      setChangeBackground(backgroundData.background);
+    } else if (currentScroll > hotelDataLength - 2) {
+      setChangeBackground(backgroundData.bgOverview);
     }
   }, [setChangeBackground, currentScroll, hotelData.information, hotelDataLength, currentOverviewValue]);
+
+  // Change background Image
+  useEffect(() => {
+    const backgroundDataType = hotelData.information[hotelDataLength - 1]?.overview[currentOverviewValue].type;
+    const backgroundData = hotelData.information[0].title[0];
+
+    if (backgroundDataType === 'overview') {
+      setChangeBackground(backgroundData.bgOverview);
+    } else if (backgroundDataType === 'accommodation') {
+      setChangeBackground(backgroundData.bgAccommodation);
+    } else if (backgroundDataType === 'public') {
+      setChangeBackground(backgroundData.bgPublic);
+    } else if (backgroundDataType === 'floor-plan') {
+      setChangeBackground(backgroundData.bgFloorPlan);
+    } else if (backgroundDataType === 'section-view') {
+      setChangeBackground(backgroundData.bgSectionView);
+    } else if (backgroundDataType === 'case01') {
+      setChangeBackground(backgroundData.bgCase01);
+    } else if (backgroundDataType === 'case02') {
+      setChangeBackground(backgroundData.bgCase02);
+    }
+  }, [hotelData, currentOverviewValue, hotelDataLength]);
 
   return (
     <div
@@ -143,16 +162,6 @@ function TheBunkers() {
     >
       <PopupDetail
         hotelData={hotelData.information[currentScroll]}
-      />
-      <RouterButton
-        link="/masterplan"
-        icon={assetsData.icons[0].arrowLeft}
-        buttonClassName="left-router-button"
-        buttonName="MASTERPLAN"
-        onClick={() => {
-          dispatch((detailPageScrollAction(0)));
-          console.log(currentScroll);
-        }}
       />
 
       <DetailPageNavigation
@@ -176,34 +185,37 @@ function TheBunkers() {
             : JSON.stringify(Object.keys(data)) === '["brandStory"]' ? (
               <FullBackground brandStoryData={data} />
             )
-              : JSON.stringify(Object.keys(data)) === '["concepts"]' ? (
-                <Collage
-                  currentHeight={currentHeight}
-                  data={data.concepts}
-                  backgroundColor={backgroundColor}
-                  headingFontColor={headingFontColor}
-                  bodyFontColor={bodyFontColor}
-                />
+              : JSON.stringify(Object.keys(data)) === '["brand"]' ? (
+                <ImageBackground data={data} currentScroll={currentScroll} />
               )
-                : JSON.stringify(Object.keys(data)) === '["theme"]' ? (
+                : JSON.stringify(Object.keys(data)) === '["concepts"]' ? (
                   <Collage
                     currentHeight={currentHeight}
-                    data={data.theme}
+                    data={data.concepts}
                     backgroundColor={backgroundColor}
                     headingFontColor={headingFontColor}
                     bodyFontColor={bodyFontColor}
                   />
                 )
-                  : JSON.stringify(Object.keys(data)) === '["branding"]' ? (
+                  : JSON.stringify(Object.keys(data)) === '["theme"]' ? (
                     <Collage
                       currentHeight={currentHeight}
-                      data={data.branding}
+                      data={data.theme}
                       backgroundColor={backgroundColor}
                       headingFontColor={headingFontColor}
                       bodyFontColor={bodyFontColor}
                     />
                   )
-                    : null
+                    : JSON.stringify(Object.keys(data)) === '["branding"]' ? (
+                      <Collage
+                        currentHeight={currentHeight}
+                        data={data.branding}
+                        backgroundColor={backgroundColor}
+                        headingFontColor={headingFontColor}
+                        bodyFontColor={bodyFontColor}
+                      />
+                    )
+                      : null
         ))
         }
 
@@ -265,16 +277,14 @@ function TheBunkers() {
             timeout={700}
             classNames="fade"
           >
-            <img src={changeBackground} alt="" />
+            <img src={process.env.PUBLIC_URL + changeBackground} alt="" />
           </CSSTransition>
         </TransitionGroup>
       </div>
-
       <FunctionButton
         clickEvent={() => {
           dispatch(detailPageNavigationShow());
           dispatch(detailPageScrollAction(resetValue));
-          setEventScrollValue(resetValue);
         }}
         icon={assetsData.icons[0].arrowUp}
         functionButtonClassName="fixed-button"

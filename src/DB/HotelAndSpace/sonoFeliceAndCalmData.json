@@ -4,7 +4,12 @@
             {
                 "title": "SONO FELICE & CALM",
                 "background": "/Assets/img/sono-felice-and-calm/sketch.png",
-                "overviewBackground": "/Assets/img/sono-felice-and-calm/main-render.png"
+                "bgOverview": "/Assets/img/sono-felice-and-calm/background/overview.png",
+                "bgPublic": "/Assets/img/sono-felice-and-calm/background/public.png",
+                "bgSectionView": "/Assets/img/sono-felice-and-calm/background/section-view.png",
+                "bgFloorPlan": "/Assets/img/sono-felice-and-calm/background/floor-plan.png",
+                "bgCase01": "/Assets/img/sono-felice-and-calm/background/case01.png",
+                "bgCase02": "/Assets/img/sono-felice-and-calm/background/case02.png"
             }
         ]},
         {"brandStory" : [
@@ -75,122 +80,156 @@
                 "heading" : "Sono Felice & Calm"
             },
             {
-                "caption" : "Sono Calm | Commercial & Public -1 ~ -2F",
-                "heading" : "Kids Zone / Courtyard Café",
+                "type" : "case01",
+                "caption" : "Dropzone & Entrance",
+                "heading" : "B1-B2F Dropzone & Entrance",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Drop Zone & Entrance -1F",
-                "heading" : "Group Drop Zone & Lobby",
+                "type" : "case01",
+                "caption" : "Dropzone & Entrance",
+                "heading" : "1F Dropzone & Entrance",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Drop Zone & Entrance 1F",
-                "heading" : "Drop Zone & Lobby",
+                "type" : "public",
+                "caption" : "Spa & Wellness",
+                "heading" : "B2F Nordic Bath",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Calm | Commercial & Public 1F",
-                "heading" : "Lobby / Entertain",
+                "type" : "public",
+                "caption" : "Spa & Wellness",
+                "heading" : "B1F Nordic Bath",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Calm | Commercial & Public 2F",
-                "heading" : "Ball Room / Curinary",
+                "type" : "public",
+                "caption" : "Commercial & Public",
+                "heading" : "Sono Felice B1F",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Calm | Commercial & Public 3 ~ 8F",
-                "heading" : "Cockpit",
+                "type" : "public",
+                "caption" : "Commercial & Public",
+                "heading" : "Sono Felice 1F",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Calm | Commercial & Public 11 ~ 12F",
-                "heading" : "WIP",
+                "type" : "public",
+                "caption" : "Commercial & Public",
+                "heading" : "Sono Felice 2F",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Felice | Commercial & Public -1F",
-                "heading" : "Food Market",
+                "type" : "public",
+                "caption" : "Commercial & Public",
+                "heading" : "Sono Felice 3-8F",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Felice | Commercial & Public 1F",
-                "heading" : "Finland Library / Hei School",
+                "type" : "public",
+                "caption" : "Accommodation",
+                "heading" : "Sono Felice Room",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Felice | Commercial & Public 1 ~ 2F",
-                "heading" : "Reception Lounge / Restaurant / Sunset Meeting Room / Sunset Culture Space",
+                "type" : "public",
+                "caption" : "Accommodation",
+                "heading" : "Sono Felice Penthouse",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Felice | Commercial & Public 11 ~ 12F",
-                "heading" : "Peak Restaurant",
+                "type" : "public",
+                "caption" : "User path",
+                "heading" : "Sono Felice Journey",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Spa & Wellness -1F",
-                "heading" : "Wellness Garden / Family Wellness",
+                "type" : "case02",
+                "caption" : "Commercial & Public",
+                "heading" : "Sono Calm B1F",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Spa & Wellness -2F",
-                "heading" : "Saaristo Spa & Pool / Sauna World / Puro Spa / Grand Lobby",
+                "type" : "case02",
+                "caption" : "Commercial & Public",
+                "heading" : "Sono Calm 1F",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Hill Garden",
-                "heading" : "Landscape",
+                "type" : "case02",
+                "caption" : "Commercial & Public",
+                "heading" : "Sono Calm 1-2F",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Parking",
+                "type" : "case02",
+                "caption" : "Commercial & Public",
+                "heading" : "Sono Calm 11-12F",
+                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+            },
+            {
+                "type" : "case02",
+                "caption" : "Accommodation",
+                "heading" : "Sono Calm Room",
+                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+            },
+            {
+                "type" : "case02",
+                "caption" : "Accommodation",
+                "heading" : "Sono Calm Penthouse",
+                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+            },
+            {
+                "type" : "case02",
+                "caption" : "user path",
+                "heading" : "Sono Calm Journey",
+                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+            },
+            {
+                "type" : "case02",
+                "caption" : "Accommodation",
+                "heading" : "Coastal Suite",
+                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+            },
+            {
+                "type" : "case01",
+                "caption" : "Public",
                 "heading" : "Parking",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Calm",
-                "heading" : "Rooms",
+                "type" : "floor-plan",
+                "caption" : "2 dimension",
+                "heading" : "Floor Plan",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             },
             {
-                "caption" : "Sono Calm",
-                "heading" : "Penthouse",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "caption" : "Sono Felice",
-                "heading" : "Rooms",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "caption" : "Sono Felice",
-                "heading" : "Penthouse",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "caption" : "Sono Felice",
-                "heading" : "Coastal Suite",
+                "type" : "section-view",
+                "caption" : "2 dimension",
+                "heading" : "Section View",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                 "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
             }

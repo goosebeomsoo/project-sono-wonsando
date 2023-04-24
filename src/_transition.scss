@@ -21,19 +21,16 @@
 }
 
 .fade-scale-enter {
-    transform: scale(1.02);
     transition: all 0.7s ease;
     opacity: 0;
 }
 
 .fade-scale-enter-active {
-    transform: scale(1);
     transition: all 0.7s ease;
     opacity: 1;
 }
 
 .fade-scale-exit {
-    transform: scale(1);
     transition: all 0.7s ease;
     opacity: 1;
 }

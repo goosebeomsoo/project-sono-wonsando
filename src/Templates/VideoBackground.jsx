@@ -14,7 +14,7 @@ function VideoBackground() {
     setTimeout(() => {
       setVideoClear('after-video-disappear');
       setShowWhiteLogo(false);
-    }, 5500);
+    }, 6500);
   });
 
   return (

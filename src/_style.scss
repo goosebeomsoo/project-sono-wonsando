@@ -3,7 +3,6 @@
 @import './_transition.scss';
 
 @import './Components/Table/_table.scss';
-@import './Components/PopupNavigation/_image-popup-navigation.scss';
 
 @import './Components/_confidential.scss';
 @import './Components/_pin.scss';
@@ -13,11 +12,12 @@
 @import './Components/_popup-detail.scss';
 
 @import './Pages/_popup.scss';
-@import './Pages/scss/intro.scss';
-@import './Pages/scss/video.scss';
-@import './Pages/scss/wonsando-brand-story.scss';
-@import './Pages/scss/masterplan.scss';
-@import './Pages/scss/_hotel-detail-page.scss';
+@import './Pages/_start.scss';
+@import './Pages/_intro.scss';
+@import './Pages/_video.scss';
+@import './Pages/_wonsando-brand-story.scss';
+@import './Pages/_masterplan.scss';
+@import './Pages/_hotel-detail-page.scss';
 
 @import './Templates/_full-background.scss';
 @import './Templates/_collage.scss';
@@ -25,7 +25,17 @@
 @import './Templates/_overview.scss';
 @import './Templates/_detail-page-navigation.scss';
 @import './Templates/_video-background.scss';
+@import './Templates/_image-background.scss';
 @import './Templates/_list-gallery.scss';
+
+
+.html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
 
 body {
     background: $cl-black;

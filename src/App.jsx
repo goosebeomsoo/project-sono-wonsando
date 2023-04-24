@@ -4,6 +4,7 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 // PAGES
 import Intro from './Pages/Intro';
+import Start from './Pages/Start';
 import Video from './Pages/Video';
 import WonsandoBrandStory from './Pages/WonsandoBrandStory';
 import Masterplan from './Pages/Masterplan';
@@ -37,6 +38,7 @@ function App() {
               <Route exact path={`${process.env.PUBLIC_URL}/`} element={<Intro />} />
             </Route>
             <Route element={<PrivateRoutes />}>
+              <Route path={`${process.env.PUBLIC_URL}/intro`} element={<Start />} />
               <Route path={`${process.env.PUBLIC_URL}/video`} element={<Video />} />
               <Route path={`${process.env.PUBLIC_URL}/brand-story`} element={<WonsandoBrandStory />} />
               <Route path={`${process.env.PUBLIC_URL}/masterplan`} element={<Masterplan />} />

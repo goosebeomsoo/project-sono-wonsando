@@ -13,12 +13,16 @@ export const detailPageScroll = createSlice({
     detailPageScrollDec: (state) => {
       state.currentScroll -= 1;
     },
+    detailPageScrollByState: (state, action) => {
+      state.value = action.payload;
+    },
   },
 });
 
 export const {
   detailPageScrollInc,
   detailPageScrollDec,
+  detailPageScrollByState,
 } = detailPageScroll.actions;
 
 export default detailPageScroll.reducer;

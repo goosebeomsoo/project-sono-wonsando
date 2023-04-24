@@ -19,19 +19,19 @@ function Overview({
       ref={ref}
     >
       <div className="container">
-        <div className="description">
-          <p className="body-small">
-            {caption}
-          </p>
-        </div>
         <div className="body-section">
+          <div className="description">
+            <p className="body-medium-bold">
+              {caption}
+            </p>
+          </div>
           <div className="header-content">
-            <h2 className="heading-medium">
+            <h2 className="heading-large">
               {heading}
             </h2>
           </div>
           <div className="body-content">
-            <p className="body-medium">
+            <p className="body-medium-light">
               {content}
             </p>
           </div>
@@ -44,7 +44,7 @@ function Overview({
                 />
               )
               : null
-}
+          }
         </div>
       </div>
       <div className="highlight">

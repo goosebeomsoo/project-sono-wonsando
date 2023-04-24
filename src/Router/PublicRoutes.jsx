@@ -3,7 +3,7 @@ import { Outlet, Navigate } from 'react-router-dom';
 
 function PublicRoutes() {
   const auth = { password: localStorage.getItem('status') };
-  return !auth.password ? <Outlet /> : <Navigate to={`${process.env.PUBLIC_URL}/video`} />;
+  return !auth.password ? <Outlet /> : <Navigate to={`${process.env.PUBLIC_URL}/intro`} />;
 }
 
 export default PublicRoutes;

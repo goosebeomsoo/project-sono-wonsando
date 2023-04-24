@@ -6,14 +6,8 @@
     .pin-title {
         padding: 0 0 0 8px;
         width: max-content;
-
-        cursor: pointer;
         color: $cl-gray05;
-
-        &:hover {
-            color: $cl-black;
-            transition: 0.3s ease;
-        }
+        text-transform: uppercase;
     }
 
     .pin-head {
@@ -21,11 +15,10 @@
         height: 0.5vw;
         border-radius: 50%;
         background: $cl-black;
-        transition: 0.3s ease;
     }
 
     .pin-line {
-        height: 1px;
+        height: $px-2;
         background: $cl-black;
     }
 
@@ -33,23 +26,33 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 2.6vw;
-        height: 2.6vw;
+        width: $px-52;
+        height: $px-52;
         border-radius: 50%;
-        border: 1px solid $cl-black;
+        border: $px-2 solid $cl-gray05;
+        cursor: pointer;
+        transition: 0.3s ease;
+        backdrop-filter: blur(10px);
 
         img {
             width: 1.8vw;
             height: 1.8vw;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+            border: $px-2 solid $cl-black;
+            transition: 0.3s ease;
         }
     }
             
 
     &:nth-child(1) { // The Bunkers
         flex-direction: row-reverse;
-        top: 36vw;
-        left: 3vw;
+        top: 39vw;
+        left: -1vw;
 
+        
         .pin-line {
             width: 6vw;
         }
@@ -60,36 +63,18 @@
     }
 
     &:nth-child(2) { // Breaker Hills
-        top: 40vw;
+        top: 39vw;
         left: 37vw;
 
         .pin-line {
-            width: 22vw;
+            width: 10vw;
         }
     }
 
     &:nth-child(3) { // Sono Felice & Calm
-        top: 36vw;
-        left: 28vw;
-
-        .pin-line {
-            width: 38vw;
-        }
-    }
-
-    &:nth-child(4) { // Sono Fin Cabin & Village
-        top: 27vw;
-        left: 51vw;
-
-        .pin-line {
-            width: 15vw;
-        }
-    }
-
-    &:nth-child(5) { // Forest of Galaxy
         flex-direction: row-reverse;
-        top: 16vw;
-        left: 14vw;
+        top: 34vw;
+        left: -2vw;
 
         .pin-line {
             width: 16vw;
@@ -100,9 +85,59 @@
         }
     }
 
-    &:nth-child(6) { // Latvus stadium
+    &:nth-child(4) { // Sono Fin Cabin & Village
+        top: 29vw;
+        left: 46vw;
+
+        .pin-line {
+            width: 18vw;
+        }
+    }
+
+    &:nth-child(5) { // Forest of Galaxy
+        flex-direction: row-reverse;
+        top: 18vw;
+        left: 15vw;
+
+        .pin-line {
+            width: 12vw;
+        }
+
+        .pin-title {
+            padding: 0 8px 0 0;
+        }
+    }
+
+    &:nth-child(6) { // Tennis Court 
         flex-direction: row-reverse;
         top: 6vw;
+        left: 24vw;
+
+        .pin-line {
+            width: 40vw;
+        }
+
+        .pin-title {
+            padding: 0 8px 0 0;
+        }
+    }
+
+    &:nth-child(7) { // Breaker Hills | JKMM
+        top: 43vw;
+        left: 32vw;
+
+        .pin-line {
+            width: 8vw;
+        }
+
+        .pin-title {
+            padding: 0 0 0 8px;
+        }
+    }
+
+    &:nth-child(8) { // Tennis Court | JKMM
+        flex-direction: row-reverse;
+        top: 10vw;
         left: 24vw;
 
         .pin-line {

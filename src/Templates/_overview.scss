@@ -3,52 +3,56 @@
     position: relative;
 
     .container {
-        .description {
-            display: flex;
-            position: absolute;
-            top: 6.25vw;
-            justify-content: center;
-            margin-left: $side-distance;
-    
-            p {
-                color: $cl-gray02;
-            }
-        }
-    
+
         .body-section {
             display: flex;
             flex-direction: column;
             position: relative;
-            top: 15vw;
-            width: 20.625vw;
+            width: $col-5;
             z-index: 1;
             height: 100vh;
             margin-left: $side-distance;
+            padding-top: 6vw;
             opacity: 0;
             transition: 0.7s ease-in-out;
             transition-delay: 0.5s;
+
+            .description {
+                margin-bottom: $px-24;
+                p {
+                    text-transform: uppercase;
+                    color: $cl-gray02;
+                }
+            }
     
             .header-content {
-                position: absolute;
-                left: -2.5vw;
+                position: relative;
                 width: 100%;
-                margin-bottom: 1.875vw;
-                transition: 0.7s ease-in-out;
-                transition-delay: 0.5s;
+                height: 6vw;
     
                 h2 {
-                    color: $cl-gray01;
+                    position: absolute;
+                    left: $px-24;
+                    width: 100%;
+                    color: $cl-white;
+                    transition: 0.7s ease-in-out;
+                    transition-delay: 0.5s;
+                    text-transform: capitalize;
                 }
             }
     
             .body-content {
-                width: 100%;
-                margin-top: 9vw;
-                margin-bottom: 2.5vw;
-    
+                width: $col-3;
+                margin-bottom: $px-48;
+
                 p {
                     color: $cl-gray02;
                 }
+            }
+
+            .popup-button {
+                width: $px-48;
+                height: $px-48;
             }
         }
     }
@@ -79,10 +83,12 @@
             transition-delay: 0.5s;
     
             .header-content {
-                left: 0;
-                opacity: 1;
-                transition: 0.7s ease-in-out;
-                transition-delay: 0.5s;
+                h2 {
+                    left: 0;
+                    opacity: 1;
+                    transition: 0.7s ease-in-out;
+                    transition-delay: 0.5s;
+                }
             }
         }
     }

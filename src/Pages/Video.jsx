@@ -7,6 +7,12 @@ function Video() {
   return (
     <div className="video-page">
       <RouterButton
+        link="/intro"
+        buttonName="INTRO"
+        buttonClassName="left-router-button"
+        icon={assetsData.icons[0].arrowLeft}
+      />
+      <RouterButton
         link="/brand-story"
         buttonName="BRAND STORY"
         buttonClassName="right-router-button"

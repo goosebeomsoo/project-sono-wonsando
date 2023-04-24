@@ -14,7 +14,7 @@ function Intro() {
   return (
     <div className="intro-page">
       <div className="intro-container">
-        <Link to={`${process.env.PUBLIC_URL}/video`} className="br-logo">
+        <Link to={`${process.env.PUBLIC_URL}/intro`} className="br-logo">
           <img src={`${process.env.PUBLIC_URL + assets.icons[0].logo}`} alt="logo" />
         </Link>
         <p className="br-title body-large">
