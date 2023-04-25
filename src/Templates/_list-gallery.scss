@@ -1,5 +1,11 @@
 .list-gallery {
     height: 100vh;
+
+    .close-button {
+        position: absolute;
+        top: $px-24;
+    }
+
     .container {
         display: flex;
         height: 100%;

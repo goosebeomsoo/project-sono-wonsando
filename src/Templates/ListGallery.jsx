@@ -24,7 +24,7 @@ function ListGallery() {
     <div className="list-gallery">
       <FunctionButton
         icon={assetsData.icons[0].arrowLeft}
-        functionButtonClassName=""
+        functionButtonClassName="close-button"
         clickEvent={() => {
           dispatch(setListGalleryCurrentList(undefined));
           dispatch(setListGalleryCurrentNumber(undefined));
