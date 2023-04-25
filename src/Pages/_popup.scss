@@ -6,23 +6,4 @@
     width: 100%;
     height: 100vh;
     background: $cl-black;
-
-    .function-button {
-        position: absolute;
-        top: $px-22;
-        left: $px-12;
-        width: $px-24;
-        height: $px-24;
-        transition: 0.3s ease;
-        background: rgba(255, 255, 255, 0.5);
-
-        img {
-            width: $px-18;
-            height: $px-18;
-        }
-
-        &:hover {
-            background: rgba(255, 255, 255, 0.8);
-        }
-    }
 }

@@ -1,24 +1,16 @@
+/* eslint-disable no-nested-ternary */
 import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 import {
-  useDispatch,
   useSelector,
 } from 'react-redux';
-import {
-  setPopupValueCurrentList,
-  setPopupValueCurrentNumber,
-} from '../Store/popupValueState';
-import { setPopupStateFalse } from '../Store/popupState';
-
-import FunctionButton from '../Components/FunctionButton';
 
 import ListGallery from '../Templates/ListGallery';
+import SlideGallery from '../Templates/SlideGallery';
 
-import assetsData from '../DB/assets.json';
-
-function PopupImage() {
-  const dispatch = useDispatch();
+function Popup() {
   const popupStateValue = useSelector((state) => state.popupState.value);
+  const popupType = useSelector((state) => state.popupTypeState.value);
 
   return (
     <CSSTransition
@@ -29,19 +21,13 @@ function PopupImage() {
       classNames="my-node"
     >
       <div className="popup-page">
-        <FunctionButton
-          icon={assetsData.icons[0].arrowLeft}
-          functionButtonClassName=""
-          clickEvent={() => {
-            dispatch(setPopupValueCurrentList(undefined));
-            dispatch(setPopupValueCurrentNumber(undefined));
-            dispatch(setPopupStateFalse());
-          }}
-        />
-        <ListGallery />
+        {
+          popupType === 'list' ? <ListGallery />
+            : popupType === 'slide' ? <SlideGallery /> : null
+        }
       </div>
     </CSSTransition>
   );
 }
 
-export default PopupImage;
+export default Popup;

@@ -15,6 +15,7 @@ import mepPlanData from '../DB/mepPlan.json';
 import roadPlanData from '../DB/roadPlan.json';
 import landscapePlanData from '../DB/landscapePlan.json';
 import renders from '../DB/renders.json';
+import fs from '../DB/fs.json';
 
 // const [currentValue, setCurrentValue] = useState();
 
@@ -51,28 +52,39 @@ function Masterplan() {
       </div>
       <div className="image-popup-navigation">
         <PopupButton
+          data={fs.gallery}
+          icon={assetsData.icons[0].galleryIcon}
+          type="slide"
+        />
+        <PopupButton
           data={renders.gallery}
           icon={assetsData.icons[0].galleryIcon}
+          type="list"
         />
         <PopupButton
           data={mepPlanData.gallery}
           icon={assetsData.icons[0].mepIcon}
+          type="list"
         />
         <PopupButton
           data={mepPlanData.gallery}
           icon={assetsData.icons[0].lightIcon}
+          type="list"
         />
         <PopupButton
           data={mepPlanData.gallery}
           icon={assetsData.icons[0].parkingIcon}
+          type="list"
         />
         <PopupButton
           data={roadPlanData.gallery}
           icon={assetsData.icons[0].roadIcon}
+          type="list"
         />
         <PopupButton
           data={landscapePlanData.gallery}
           icon={assetsData.icons[0].landscapeIcon}
+          type="list"
         />
       </div>
       <Table />

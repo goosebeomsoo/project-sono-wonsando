@@ -1,17 +1,19 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import popupStateReducer from './popupState';
 import detailPageScrollReducer from './detailPageScroll';
 import detailPageNavigationReducer from './detailPageNavigationState';
 import detailPagePopupReducer from './detailPagePopupState';
+import popupStateReducer from './popupState';
 import popupDataStateReducer from './popupDataState';
-import popupValueStateReducer from './popupValueState';
+import popupTypeStateReducer from './popupTypeState';
+import listGalleryValueReducer from './listGalleryValueState';
 
 export default configureStore({
   reducer: {
-    popupValueState: popupValueStateReducer,
+    listGalleryValueState: listGalleryValueReducer,
     popupState: popupStateReducer,
     popupDataState: popupDataStateReducer,
+    popupTypeState: popupTypeStateReducer,
     detailPageNavigation: detailPageNavigationReducer,
     detailPageScroll: detailPageScrollReducer,
     detailPagePopup: detailPagePopupReducer,

@@ -214,56 +214,63 @@
                 "caption" : "Commercial & Public",
                 "heading" : "Main Center & Figga",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/main-center.png"
             },
             {
                 "type" : "case01",
                 "caption" : "Accommodation",
                 "heading" : "AB Type",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/ab-type.png"
             },
             {
                 "type" : "case01",
                 "caption" : "Accommodation",
                 "heading" : "CD Type",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/cd-type-cabin-area.png"
             },
             {
                 "type" : "case01",
                 "caption" : "Accommodation",
                 "heading" : "EF Type",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/ef-type.png"
             },
             {
                 "type" : "case01",
                 "caption" : "Accommodation",
-                "heading" : "Tower Cabin",
+                "heading" : "forest tower",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/forest-tower-cabin-area.png"
             },
             {
                 "type" : "case02",
                 "caption" : "Accommodation",
                 "heading" : "mökki Villas",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/mokki-villa.png"
             },
             {
                 "type" : "case02",
                 "caption" : "Accommodation",
-                "heading" : "Tower Cabin",
+                "heading" : "forest tower",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/forest-tower-village.png"
+            },
+            {
+                "type" : "case02",
+                "caption" : "Accommodation",
+                "heading" : "CD Type Cabin",
+                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/cd-type-village.png"
             },
             {
                 "type" : "floor-plan",
                 "caption" : "user pathqw",
                 "heading" : "Journey",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/.png"
             }
         ]}
     ]

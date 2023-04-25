@@ -5,7 +5,7 @@
                 "title": "FOREST OF GALAXY",
                 "background": "/Assets/img/forest-of-galaxy/sketch.png",
                 "bgOverview": "/Assets/img/forest-of-galaxy/background/overview.png",
-                "bgPublic": "/Assets/img/forest-of-galaxy/background/public.png"
+                "bgPublic": "/Assets/img/forest-of-galaxy/background/overview.png"
             }
         ]},
         {"brandStory" : [
@@ -103,60 +103,60 @@
                 "heading" : "Forest of Galaxy"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Commercial & Public",
                 "heading" : "Main Centre",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/main-center.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Accommodation",
                 "heading" : "Adventiure Trail + Communal Hut",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/adventure-trail-plus-and-communal-hut.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Accommodation",
                 "heading" : "Community Hub",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/community-hut.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Accommodation",
                 "heading" : "Luxury View",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/luxury-view.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
+                "caption" : "Accommodation",
+                "heading" : "premium solidarity",
+                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/premium-solidarity.png"
+            },
+            {
+                "type" : "overview",
                 "caption" : "Commercial & Public",
                 "heading" : "Sightseeting Tower",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/.png"
             },
             {
-                "type" : "public",
-                "caption" : "Cabin Types",
-                "heading" : "Sightseeing Tower",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Accommodation",
                 "heading" : "Treehouse",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/tree-house.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "user path",
                 "heading" : "Journey",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/.png"
             }
         ]}
     ]

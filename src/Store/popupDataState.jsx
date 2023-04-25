@@ -2,7 +2,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 export const PopupDataState = createSlice({
-  name: 'popupState',
+  name: 'popupDataState',
   initialState: {
     value: false,
   },

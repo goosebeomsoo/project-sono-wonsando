@@ -60,6 +60,10 @@
     opacity: 0;
 }
 
+
+
+
+
 .page-fade-enter {
     transition: all 0.7s ease;
     opacity: 0;
@@ -79,6 +83,39 @@
     transition: all 0.7s ease;
     opacity: 0;
 }
+
+
+
+// 들어와 있는 상태
+.up-down-enter {
+    transition: all 0.7s ease;
+    top: 12vw;
+    opacity: 0;
+}
+
+// 들어올때
+.up-down-enter-active {
+    transition: all 0.7s ease;
+    top: 3.5vw;
+    opacity: 1;
+}
+
+// 나가있는 상태
+.up-down-exit {
+    transition: all 0.7s ease;
+    top: 3.5vw;
+    opacity: 1;
+}
+
+// 나갈 때
+.up-down-exit-active {
+    transition: all 0.7s ease;
+    top: -12vw !important;
+    opacity: 0;
+}
+
+
+
 
 .my-node-enter {
     opacity: 0;

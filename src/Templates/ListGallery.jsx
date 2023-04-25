@@ -6,19 +6,31 @@ import {
   useSelector,
 } from 'react-redux';
 import {
-  setPopupValueCurrentList,
-  setPopupValueCurrentNumber,
-} from '../Store/popupValueState';
+  setListGalleryCurrentNumber,
+  setListGalleryCurrentList,
+} from '../Store/listGalleryValueState';
+import { setPopupStateFalse } from '../Store/popupState';
+import FunctionButton from '../Components/FunctionButton';
+import assetsData from '../DB/assets.json';
 
 function ListGallery() {
   const dispatch = useDispatch();
 
   const popupData = useSelector((state) => state.popupDataState.value);
-  const currentList = useSelector((state) => state.popupValueState.currentList); // Navigation list
-  const currentNumber = useSelector((state) => state.popupValueState.currentNumber); // Detail category number
+  const currentList = useSelector((state) => state.listGalleryValueState.currentList); // Navigation list
+  const currentNumber = useSelector((state) => state.listGalleryValueState.currentNumber); // Detail category number
 
   return (
     <div className="list-gallery">
+      <FunctionButton
+        icon={assetsData.icons[0].arrowLeft}
+        functionButtonClassName=""
+        clickEvent={() => {
+          dispatch(setListGalleryCurrentList(undefined));
+          dispatch(setListGalleryCurrentNumber(undefined));
+          dispatch(setPopupStateFalse());
+        }}
+      />
       <div className="container">
         <div className="gallery-header">
           <h2 className="gallery-title sub-heading">
@@ -31,10 +43,10 @@ function ListGallery() {
                     <li
                       className={`micro ${currentList === i ? 'highlight' : ''}`}
                       onClick={() => {
-                        dispatch(setPopupValueCurrentList(i));
+                        dispatch(setListGalleryCurrentList(i));
 
                         if (currentNumber !== undefined) {
-                          dispatch(setPopupValueCurrentNumber(0));
+                          dispatch(setListGalleryCurrentNumber(0));
                         }
                       }}
                       role="presentation"
@@ -58,7 +70,7 @@ function ListGallery() {
                         <li
                           className={`body-large-bold item-number ${currentNumber === n ? 'highlight' : ''}`}
                           onClick={() => {
-                            dispatch(setPopupValueCurrentNumber(n));
+                            dispatch(setListGalleryCurrentNumber(n));
                           }}
                           role="presentation"
                         >

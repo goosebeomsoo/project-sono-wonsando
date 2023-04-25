@@ -3,9 +3,9 @@
         {"title" : [
             {
                 "title": "LATVUS STADIUM",
-                "background": "/Assets/img/tennis-court/sketch.png",
-                "bgOverview": "/Assets/img/tennis-court/background/overview.png",
-                "bgPublic": "/Assets/img/tennis-court/background/public.png"
+                "background": "/Assets/img/tennis-court-puisto/sketch.png",
+                "bgOverview": "/Assets/img/tennis-court-puisto/background/overview.png",
+                "bgPublic": "/Assets/img/tennis-court-puisto/background/public.png"
             }
         ]},
         {"brandStory" : [
@@ -72,8 +72,8 @@
         ]},
         {"brand" : [
             {
-                "logo": "/Assets/img/tennis-court/brand-logo.svg",
-                "background": "/Assets/img/tennis-court/brand-background.png",
+                "logo": "/Assets/img/tennis-court-puisto/brand-logo.svg",
+                "background": "/Assets/img/tennis-court-puisto/brand-background.png",
                 "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et ju"
             }
         ]},
@@ -131,67 +131,67 @@
                 "heading" : "Latvus Stadium"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Latvus Stadium",
                 "heading" : "Tennis Court Overview",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Latvus Stadium",
                 "heading" : "Tennis Club",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/tennis-club.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Latvus Stadium",
-                "heading" : "Outside Match Club",
+                "heading" : "Outside Match Court",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/outside-match-court.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Latvus Stadium",
                 "heading" : "Forest Courts",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/forest-courts.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Latvus Stadium",
                 "heading" : "Practice Courts",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/practice-courts.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Latvus Stadium",
                 "heading" : "Road Study",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Latvus Stadium",
                 "heading" : "Parking",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Adaptation",
                 "heading" : "Road Study",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/.png"
             },
             {
-                "type" : "public",
+                "type" : "overview",
                 "caption" : "Latvus Stadium",
                 "heading" : "Roof Concept",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/tennis-court-puisto/highlight/.png"
             }
         ]}
     ]

@@ -24,10 +24,6 @@ function Start() {
         <div className="content">
           <h3 className={`heading-small ${currentValue ? '' : 'show-text'}`}>
             럭셔리 호텔, 리조트의 새로운 패러다임의 정의, 해석 그리고 개발.
-            <br />
-            럭셔리 호텔, 리조트의 새로운 패러다임과 정의, 해석, 그리고 개발.
-            <br />
-            럭셔리 호텔, 리조트 패러다임의 새로운 정의, 해석, 그리고 개발.
           </h3>
           <h3 className={`heading-small ${currentValue ? 'show-text' : ''}`}>
             원산도에서 시작합니다.

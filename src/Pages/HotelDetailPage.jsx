@@ -3,6 +3,7 @@
 import React, {
   useState, useRef, useEffect,
 } from 'react';
+
 import { useLocation } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
@@ -29,7 +30,7 @@ import PopupDetail from '../Components/PopupDetail';
 import assetsData from '../DB/assets.json';
 import ImageBackground from '../Templates/ImageBackground';
 
-function TheBunkers() {
+function HotelDetailPage() {
   const location = useLocation();
   const { hotelData } = location.state;
   const { backgroundColor } = location.state;
@@ -294,4 +295,4 @@ function TheBunkers() {
   );
 }
 
-export default TheBunkers;
+export default HotelDetailPage;
