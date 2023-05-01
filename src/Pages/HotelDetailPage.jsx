@@ -228,6 +228,7 @@ function HotelDetailPage() {
             content={data.content}
             highlight={data.highlight}
             data={data.gallery}
+            theme={data.theme}
             ref={(el) => { overviewRef.current[i] = el; }}
           />
         ))

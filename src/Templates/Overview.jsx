@@ -12,6 +12,7 @@ function Overview({
   content,
   highlight,
   data,
+  theme,
 }, ref) {
   return (
     <div
@@ -21,12 +22,12 @@ function Overview({
       <div className="container">
         <div className="body-section">
           <div className="description">
-            <p className="body-medium-bold">
+            <p className={`body-medium-bold ${theme === 'black' ? 'copy-black' : ''}`}>
               {caption}
             </p>
           </div>
           <div className="header-content">
-            <h2 className="heading-large">
+            <h2 className={`heading-large ${theme === 'black' ? 'copy-black' : ''}`}>
               {heading}
             </h2>
           </div>
@@ -39,7 +40,7 @@ function Overview({
             data
               ? (
                 <PopupButton
-                  icon={assetsData.icons[0].galleryIconWhite}
+                  icon={theme === 'black' ? assetsData.icons[0].expandIcon : assetsData.icons[0].whiteExpandIcon}
                   data={data}
                   type="list"
                 />
@@ -58,6 +59,7 @@ function Overview({
   );
 }
 Overview.propTypes = {
+  theme: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,

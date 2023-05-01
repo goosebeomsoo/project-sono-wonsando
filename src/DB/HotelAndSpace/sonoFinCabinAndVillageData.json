@@ -208,6 +208,7 @@
         ]},
         {"overview" : [
             {
+                "theme" : "black",
                 "caption" : "overview",
                 "heading" : "Sono Fin Cabin & Village",
                 "gallery" : [
@@ -236,24 +237,12 @@
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
                 "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/sono-fin-cabin-overview.png",
                 "gallery" : [
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-01.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-02.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-03.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-04.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-05.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-06.png"
-                    }
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-01.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-02.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-03.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-04.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-05.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-06.png"}
                 ]
             },
             {
@@ -263,67 +252,27 @@
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
                 "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/main-center.png",
                 "gallery" : [
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-01.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-02.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-03.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-04.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-05.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-06.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-07.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-08.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-09.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-10.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-11.png"
-                    },
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-01.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-02.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-03.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-04.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-05.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-06.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-07.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-08.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-09.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-10.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-11.png"},
                     {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/main-centre.jpeg"},
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-01.jpg"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-02.jpg"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-03.jpg"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-04.jpg"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-05.jpg"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-06.jpg"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-07.jpg"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-08.jpg"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-09.jpg"
-                    }
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-01.jpg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-02.jpg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-03.jpg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-04.jpg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-05.jpg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-06.jpg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-07.jpg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-08.jpg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-09.jpg"}
                 ]
             },
             {
@@ -364,30 +313,14 @@
                 "heading" : "Sono Fin Village",
                 "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/sono-fin-village-overview.png",
                 "gallery" : [
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-01.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-02.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-03.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-04.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-05.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-06.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-07.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-08.png"
-                    }
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-01.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-02.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-03.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-04.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-05.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-06.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-07.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-08.png"}
                 ]
             },
             {
@@ -395,27 +328,13 @@
                 "caption" : "Accommodation",
                 "heading" : "mökki Villas",
                 "gallery" : [
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-01.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-02.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-03.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-04.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-05.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-06.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-07.png"
-                    },
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-01.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-02.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-03.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-04.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-05.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-06.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-07.png"},
                     {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/mokki.jpeg"}
                 ]
             },
@@ -425,24 +344,12 @@
                 "heading" : "forest tower",
                 "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/forest-tower-village.png",
                 "gallery" : [
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-01.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-02.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-03.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-04.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-05.png"
-                    },
-                    {
-                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-06.png"
-                    },
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-01.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-02.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-03.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-04.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-05.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-06.png"},
                     {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/forest-tower.jpeg"}
                 ]
             },

@@ -36,7 +36,7 @@
                     
                     .list-item-title {
                         width: max-content;
-                        color: $cl-gray02;
+                        color: $cl-gray05;
                         text-transform: capitalize;
                         transition: 0.2s ease;
                         cursor: pointer;
@@ -73,7 +73,7 @@
             }
 
             &:hover {
-                background: rgba(255, 255, 255, 0.2);
+                background: rgba(255, 255, 255, 0.6);
                 sbackdrop-filter: blur(12px);
                 right: 0;
                 opacity: 1;

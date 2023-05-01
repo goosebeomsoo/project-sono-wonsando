@@ -83,7 +83,8 @@
             ]},
             {"overview" : [
                 {
-                    "caption" : "Render",
+                    "theme" : "black",
+                    "caption" : "overview",
                     "heading" : "The Bunkers",
                     "gallery" : [
                         {"image" : "/Assets/img/the-bunkers/description/01_overview/overview-01.png"},
@@ -112,7 +113,6 @@
                     "type" : "overview",
                     "caption" : "Commercial & Public",
                     "heading" : "Arrival Experience",
-                    "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
                     "highlight" : "/Assets/img/the-bunkers/highlight/arrival-experience.png",
                     "gallery" : [
                                 {"image" : "/Assets/img/the-bunkers/description/02_arrival-experience/arrival-experience-01.png"},

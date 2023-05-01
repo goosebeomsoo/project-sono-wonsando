@@ -22,7 +22,11 @@
         "landscapeIcon" : "/Assets/svg/landscape-icon.svg",
         "roadIcon" : "/Assets/svg/road-icon.svg",
         "fsIcon" : "/Assets/svg/fs-icon.svg",
-        "masterplanIcon" : "/Assets/svg/masterplan-icon.svg"
+        "masterplanIcon" : "/Assets/svg/masterplan-icon.svg",
+        "positionIcon" : "/Assets/svg/position-icon.svg",
+        "woodIcon" : "/Assets/svg/wood-icon.svg",
+        "expandIcon" : "/Assets/svg/expand-icon.svg",
+        "whiteExpandIcon" : "/Assets/svg/white-expand-icon.svg"
       }
     ],
     "video" : [

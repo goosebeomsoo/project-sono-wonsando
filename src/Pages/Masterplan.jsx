@@ -34,7 +34,7 @@ function Masterplan() {
     },
     {
       data: positioningData,
-      icon: assetsData.icons[0].fsIcon,
+      icon: assetsData.icons[0].positionIcon,
       type: 'list',
       title: 'positioning',
     },
@@ -82,9 +82,9 @@ function Masterplan() {
     },
     {
       data: specData,
-      icon: assetsData.icons[0].galleryIcon,
+      icon: assetsData.icons[0].woodIcon,
       type: 'list',
-      title: 'Specifications',
+      title: 'why wood',
     },
   ];
 
