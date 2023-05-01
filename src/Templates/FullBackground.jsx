@@ -54,7 +54,7 @@ function FullBackground({
               classNames="slide-right"
             >
               <h2 className="heading-medium">
-                {currentPage.heading}
+                {currentPage.heading ? currentPage.heading : null}
               </h2>
             </CSSTransition>
           </TransitionGroup>
@@ -70,10 +70,10 @@ function FullBackground({
               {currentPage.contentArea.map((data) => (
                 <div className="content" key={data.subHeading}>
                   <h3 className="sub-heading">
-                    {data.subHeading}
+                    {data.subHeading ? data.subHeading : null}
                   </h3>
                   <p className="body-small">
-                    {data.content}
+                    {data.content ? data.content : null}
                   </p>
                 </div>
               ))}

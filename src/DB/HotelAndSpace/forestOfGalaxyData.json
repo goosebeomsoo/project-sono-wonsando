@@ -3,160 +3,215 @@
         {"title" : [
             {
                 "title": "FOREST OF GALAXY",
-                "background": "/Assets/img/forest-of-galaxy/sketch.png",
-                "bgOverview": "/Assets/img/forest-of-galaxy/background/overview.png",
-                "bgPublic": "/Assets/img/forest-of-galaxy/background/overview.png"
-            }
-        ]},
-        {"brandStory" : [
-            {
-                "page" : "01",
-                "caption" : "Lorem Ipsum",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-01.png",
-                "contentArea" : [
-                    {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    },
-                    {
-                        "subHeading" : "Lorem Ipsum dolor",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Lorem Ipsum",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-02.png",
-                "contentArea" : [
-                    {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    },
-                    {
-                        "subHeading" : "Lorem Ipsum dolor",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Lorem Ipsum",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-03.png",
-                "contentArea" : [
-                    {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    },
-                    {
-                        "subHeading" : "Lorem Ipsum dolor",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Lorem Ipsum",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-04.png",
-                "contentArea" : [
-                    {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    },
-                    {
-                        "subHeading" : "Lorem Ipsum dolor",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Lorem Ipsum",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-05.png",
-                "contentArea" : [
-                    {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    },
-                    {
-                        "subHeading" : "Lorem Ipsum dolor",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    }
-                ]
+                "background": "/Assets/img/forest-of-galaxy/sketch.jpg",
+                "bgOverview": "/Assets/img/forest-of-galaxy/background/overview.jpg",
+                "bgPublic": "/Assets/img/forest-of-galaxy/background/overview.jpg",
+                "bgProfile": "/Assets/img/forest-of-galaxy/renders/forest-01.jpeg"
             }
         ]},
         {"brand" : [
             {
                 "logo": "/Assets/img/forest-of-galaxy/brand-logo.svg",
-                "background": "/Assets/img/forest-of-galaxy/brand-background.png",
+                "background": "/Assets/img/forest-of-galaxy/brand-background.jpg",
                 "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et ju"
+            }
+        ]},
+        {"brandStory" : [
+            {
+                "page" : "01",
+                "heading" : "Embracing Nature",
+                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-01.jpg",
+                "contentArea" : [
+                    {
+                        "subHeading" : "Your window to nature"
+                    }
+                ]
+            },
+            {
+                "page" : "02",
+                "heading" : "Drive from the City to Woods",
+                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-02.jpg",
+                "contentArea" : [
+                    {
+                        "subHeading" : "Ways to unplus and recharge"
+                    }
+                ]
+            },
+            {
+                "page" : "03",
+                "heading" : "Find the Constellations",
+                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-03.jpg",
+                "contentArea" : [
+                    {
+                        "subHeading" : "Opportunity to stargaze far from city lights"
+                    }
+                ]
+            },
+            {
+                "page" : "04",
+                "heading" : "Surrounding tree canopy",
+                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-04.jpg",
+                "contentArea" : [
+                    {
+                        "subHeading" : "Sit around a campfire and eat, listen, and laugh together"
+                    }
+                ]
+            },
+            {
+                "page" : "05",
+                "heading" : "Find the Constellations",
+                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-05.jpg",
+                "contentArea" : [
+                    {
+                        "subHeading" : "A place where Rustic and utilitarian living"
+                    }
+                ]
+            },
+            {
+                "page" : "06",
+                "heading" : "Exciting adventure in a treehouse",
+                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-05.jpg",
+                "contentArea" : [
+                    {
+                        "subHeading" : "A place where nature and imagination run wild"
+                    }
+                ]
+            },
+            {
+                "page" : "07",
+                "heading" : "Tastes from the nature",
+                "background" : "/Assets/img/forest-of-galaxy/brand-story/brand-story-05.jpg",
+                "contentArea" : [
+                    {
+                        "subHeading" : "Discover excited food collaborations in your mouth"
+                    }
+                ]
             }
         ]},
         {"overview" : [
             {
                 "caption" : "Render",
-                "heading" : "Forest of Galaxy"
-            },
-            {
-                "type" : "overview",
-                "caption" : "Commercial & Public",
-                "heading" : "Main Centre",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "highlight" : "/Assets/img/forest-of-galaxy/highlight/main-center.png"
+                "heading" : "Forest of Galaxy",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-06.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-07.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-08.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-09.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-10.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/01_overview/overview-11.png"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
-                "heading" : "Adventiure Trail + Communal Hut",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "highlight" : "/Assets/img/forest-of-galaxy/highlight/adventure-trail-plus-and-communal-hut.png"
+                "heading" : "Adventiure Trail + \nCommunal Hut",
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/adventure-trail-plus-and-communal-hut.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/02_adventure-trail-and-communal-hut/adventure-trail-and-communal-hut-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/02_adventure-trail-and-communal-hut/adventure-trail-and-communal-hut-02.png"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
                 "heading" : "Community Hub",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "highlight" : "/Assets/img/forest-of-galaxy/highlight/community-hut.png"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/community-hut.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/03_community-hub/community-hub-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/03_community-hub/community-hub-02.png"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
                 "heading" : "Luxury View",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "highlight" : "/Assets/img/forest-of-galaxy/highlight/luxury-view.png"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/luxury-view.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/04_luxury-view/luxury-view-01.png"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
                 "heading" : "premium solidarity",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "highlight" : "/Assets/img/forest-of-galaxy/highlight/premium-solidarity.png"
-            },
-            {
-                "type" : "overview",
-                "caption" : "Commercial & Public",
-                "heading" : "Sightseeting Tower",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "highlight" : "/Assets/img/forest-of-galaxy/highlight/.png"
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/premium-solidarity.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/05_premium-solidarity/premium-solidarity-01.png"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
-                "heading" : "Treehouse",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "highlight" : "/Assets/img/forest-of-galaxy/highlight/tree-house.png"
-            },
-            {
-                "type" : "overview",
-                "caption" : "user path",
-                "heading" : "Journey",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "highlight" : "/Assets/img/forest-of-galaxy/highlight/.png"
+                "heading" : "Treehouse - MAJA",
+                "highlight" : "/Assets/img/forest-of-galaxy/highlight/tree-house.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/06_treehouse/treehouse-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/06_treehouse/treehouse-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/06_treehouse/treehouse-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/06_treehouse/treehouse-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/06_treehouse/treehouse-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/06_treehouse/treehouse-06.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/06_treehouse/treehouse-07.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/description/06_treehouse/treehouse-08.png"
+                    },
+                    {
+                        "image" : "/Assets/img/forest-of-galaxy/renders/forest-01.jpeg"
+                    }
+                ]
             }
         ]}
     ]

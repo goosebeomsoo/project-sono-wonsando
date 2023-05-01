@@ -36,11 +36,12 @@ function Overview({
             </p>
           </div>
           {
-            content
+            data
               ? (
                 <PopupButton
                   icon={assetsData.icons[0].galleryIconWhite}
                   data={data}
+                  type="list"
                 />
               )
               : null

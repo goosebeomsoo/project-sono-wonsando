@@ -1,15 +1,28 @@
 {
     "gallery" : [
         {
-            "title" : "LANDSCAPE",
+            "title" : "Atmosphere",
             "images" : [
                 {
-                    "name" : "landscape",
-                    "image" : "/Assets/img/_landscape-plan/landscape-01.png"
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-01.jpg"
                 },
                 {
-                    "name" : "landscape",
-                    "image" : "/Assets/img/_landscape-plan/landscape-02.png"
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-02.jpg"
+                },
+                {
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-03.jpg"
+                },
+                {
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-04.jpg"
+                },
+                {
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-05.jpg"
+                },
+                {
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-06.jpg"
+                },
+                {
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-07.jpg"
                 }
             ]
         },
@@ -17,25 +30,19 @@
             "title" : "EXPERIENCE LOOP",
             "images" : [
                 {
-                    "name" : "Experience Loop",
-                    "image" : "/Assets/img/_landscape-plan/experience-loop-01.png"
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-08.jpg"
                 },
                 {
-                    "name" : "Experience Loop",
-                    "image" : "/Assets/img/_landscape-plan/experience-loop-02.png"
-                }
-            ]
-        },
-        {
-            "title" : "WELCOMING DRIVEWAY",
-            "images" : [
-                {
-                    "name" : "Welcoming Driveway",
-                    "image" : "/Assets/img/_landscape-plan/welcoming-driveway-01.png"
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-09.jpg"
                 },
                 {
-                    "name" : "Welcoming Driveway",
-                    "image" : "/Assets/img/_landscape-plan/welcoming-driveway-02.png"
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-10.jpg"
+                },
+                {
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-11.jpg"
+                },
+                {
+                    "image" : "/Assets/img/04_landscape-plan/landscape-plan-12.jpg"
                 }
             ]
         }

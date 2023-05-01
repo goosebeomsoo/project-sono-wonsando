@@ -1,40 +1,31 @@
 {
     "gallery" : [
         {
-            "title" : "Heating and Cooling",
-            "image" : "/Assets/img/_mep-plan/mep-02.png"
+            "image" : "/Assets/img/03_mep-plan/mep-02.jpg"
         },
         {
-            "title" : "Water and Sewer 01",
-            "image" : "/Assets/img/_mep-plan/mep-03.png"
+            "image" : "/Assets/img/03_mep-plan/mep-03.jpg"
         },
         {
-            "title" : "Water and Sewer 02",
-            "image" : "/Assets/img/_mep-plan/mep-04.png"
+            "image" : "/Assets/img/03_mep-plan/mep-04.jpg"
         },
         {
-            "title" : "Water and Sewer 03",
-            "image" : "/Assets/img/_mep-plan/mep-05.png"
+            "image" : "/Assets/img/03_mep-plan/mep-05.jpg"
         },
         {
-            "title" : "Water and Sewer 04",
-            "image" : "/Assets/img/_mep-plan/mep-06.png"
+            "image" : "/Assets/img/03_mep-plan/mep-06.jpg"
         },
         {
-            "title" : "Sprinkler",
-            "image" : "/Assets/img/_mep-plan/mep-07.png"
+            "image" : "/Assets/img/03_mep-plan/mep-07.jpg"
         },
         {
-            "title" : "Electricity",
-            "image" : "/Assets/img/_mep-plan/mep-08.png"
+            "image" : "/Assets/img/03_mep-plan/mep-08.jpg"
         },
         {
-            "title" : "Energy",
-            "image" : "/Assets/img/_mep-plan/mep-09.png"
+            "image" : "/Assets/img/03_mep-plan/mep-09.jpg"
         },
         {
-            "title" : "Water and Sewer",
-            "image" : "/Assets/img/_mep-plan/mep-10.png"
+            "image" : "/Assets/img/03_mep-plan/mep-10.jpg"
         }
     ]
 }

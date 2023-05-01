@@ -8,15 +8,16 @@ import PropTypes from 'prop-types';
 function ImageBackground({
   data,
   currentScroll,
+  hotelDataLength,
 }) {
   const [fadeIn, setFadeIn] = useState(false);
   useEffect(() => {
-    if (currentScroll === 3) {
+    if (currentScroll >= hotelDataLength - 2) {
       setFadeIn(true);
     } else {
       setFadeIn(false);
     }
-  }, [currentScroll]);
+  }, [currentScroll, hotelDataLength]);
   return (
     <div className="image-background scroll-hook">
       <div className="container">
@@ -30,7 +31,10 @@ function ImageBackground({
         </div>
       </div>
       <div className="brand-background-image">
-        <img src={process.env.PUBLIC_URL + data.brand[0].background} alt="" />
+        {
+          data.brand[0].background === undefined ? null
+            : <img src={process.env.PUBLIC_URL + data.brand[0].background} alt="" />
+        }
       </div>
     </div>
   );
@@ -39,6 +43,7 @@ function ImageBackground({
 ImageBackground.propTypes = {
   data: PropTypes.arrayOf.isRequired,
   currentScroll: PropTypes.number.isRequired,
+  hotelDataLength: PropTypes.number.isRequired,
 };
 
 export default ImageBackground;

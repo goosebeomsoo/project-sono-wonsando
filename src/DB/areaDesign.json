@@ -1,0 +1,40 @@
+{
+    "gallery" : [
+        {
+            "image": "/Assets/img/07_area-design/masterplan-01.png"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-02.png"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-03.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-04.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-05.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-06.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-07.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-08.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-09.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-10.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-11.jpg"
+        },
+        {
+            "image": "/Assets/img/07_area-design/masterplan-12.jpg"
+        }
+    ]
+}

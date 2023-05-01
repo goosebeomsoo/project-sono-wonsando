@@ -26,7 +26,7 @@
         },
         {
             "title" : "SONO FELICE & CALM",
-            "icon" : "/Assets/svg/sono-logo-icon.svg",
+            "icon" : "/Assets/img/sono-felice-and-calm/sono-logo.svg",
             "siteArea" : "0000.00m2",
             "buildingArea" : "0000.00m2",
             "grossArea" : "110,065m2",
@@ -95,6 +95,18 @@
             "headingFontColor" : "F5F5F5",
             "bodyFontColor" : "ECECEC",
             "id" : "tennis-court-opt2"
+        },
+        {
+            "title" : "chapel",
+            "icon" : "/Assets/svg/chapel-icon.svg",
+            "siteArea" : "0000.00m2",
+            "buildingArea" : "0000.00m2",
+            "grossArea" : "16,580m2",
+            "roomKeys" : "0000",
+            "backgroundColor" : "2B2B2B",
+            "headingFontColor" : "F5F5F5",
+            "bodyFontColor" : "ECECEC",
+            "id" : "chapel"
         }
     ]
 }

@@ -127,10 +127,10 @@ function HotelDetailPage() {
   useEffect(() => {
     const backgroundData = hotelData.information[0].title[0];
 
-    if (currentScroll < hotelDataLength - 1) {
+    if (currentScroll < hotelDataLength) {
       setChangeBackground(backgroundData.background);
     } else if (currentScroll > hotelDataLength - 2) {
-      setChangeBackground(backgroundData.bgOverview);
+      setChangeBackground(backgroundData.bgProfile);
     }
   }, [setChangeBackground, currentScroll, hotelData.information, hotelDataLength, currentOverviewValue]);
 
@@ -183,11 +183,11 @@ function HotelDetailPage() {
               eventScrollValue={eventScrollValue}
             />
           )
-            : JSON.stringify(Object.keys(data)) === '["brandStory"]' ? (
-              <FullBackground brandStoryData={data} />
+            : JSON.stringify(Object.keys(data)) === '["brand"]' ? (
+              <ImageBackground data={data} currentScroll={currentScroll} hotelDataLength={hotelDataLength} />
             )
-              : JSON.stringify(Object.keys(data)) === '["brand"]' ? (
-                <ImageBackground data={data} currentScroll={currentScroll} />
+              : JSON.stringify(Object.keys(data)) === '["brandStory"]' ? (
+                <FullBackground brandStoryData={data} />
               )
                 : JSON.stringify(Object.keys(data)) === '["concepts"]' ? (
                   <Collage

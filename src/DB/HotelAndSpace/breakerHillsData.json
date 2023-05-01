@@ -3,236 +3,555 @@
         {"title" : [
             {
                 "title": "BREAKER HILLS",
-                "background": "/Assets/img/breaker-hills/sketch.png",
-                "bgOverview": "/Assets/img/breaker-hills/background/overview.png",
-                "bgPublic": "/Assets/img/breaker-hills/background/public.png",
-                "bgSectionView": "/Assets/img/breaker-hills/background/section-view.png",
-                "bgFloorPlan": "/Assets/img/breaker-hills/background/floor-plan.png"
-            }
-        ]},
-        {"brandStory" : [
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-01.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-02.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-03.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-04.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-05.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-06.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-07.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
+                "background": "/Assets/img/breaker-hills-puisto/sketch.jpg",
+                "bgOverview": "/Assets/img/breaker-hills-puisto/background/overview.jpg",
+                "bgProfile": "/Assets/img/breaker-hills-puisto/renders/arrival-01.jpeg"
             }
         ]},
         {"brand" : [
             {
-                "logo": "/Assets/img/breaker-hills/brand-logo.svg",
-                "background": "/Assets/img/breaker-hills/brand-background.png",
+                "logo": "/Assets/img/breaker-hills-puisto/brand-logo.svg",
+                "background": "/Assets/img/breaker-hills-puisto/brand-background.jpg",
                 "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et ju"
+            }
+        ]},
+        {"brandStory" : [
+            {
+                "heading" : "The gentle touch of fresh sea breeze caressing your face",
+                "background" : "/Assets/img/breaker-hills-puisto/brand-story/brand-story-01.jpeg",
+                "contentArea" : [
+                    {
+                        "content" : "At Breaker Hill, guests can expect a tranquil and serene escape, surrounded by the beauty of nature and the sea. This is a place where guests can truly escape and reconnect with themselves and the world around them."
+                    }
+                ]
+            },
+            {
+                "heading" : "The gentle touch of fresh sea breeze caressing your face",
+                "background" : "/Assets/img/breaker-hills-puisto/brand-story/brand-story-02.jpeg",
+                "contentArea" : [
+                    {
+                        "content" : "At Breaker Hill, guests can expect a tranquil and serene escape, surrounded by the beauty of nature and the sea. This is a place where guests can truly escape and reconnect with themselves and the world around them."
+                    }
+                ]
+            },
+            {
+                "heading" : "The mesmerizing view of the ocean waves shimmering by the sunset light",
+                "background" : "/Assets/img/breaker-hills-puisto/brand-story/brand-story-03.jpeg",
+                "contentArea" : [
+                    {
+                        "content" : "The use of water elements in the resort's design creates a tranquil and serene environment. Guests can fully immerse themselves in nature, from the breathtaking seaside vistas to the soothing sound of water flowing through the pools and fountains."
+                    }
+                ]
+            },
+            {
+                "heading" : "Exploring the Versatile Ways Wood Elevates Architecture",
+                "background" : "/Assets/img/breaker-hills-puisto/brand-story/brand-story-04.jpeg",
+                "contentArea" : [
+                    {
+                        "content" : "The resort's commitment to craftsmanship is evident in every detail, from the carefully chosen wooden furnishings to the attention given to the smallest design elements."
+                    }
+                ]
+            },
+            {
+                "heading" : "A Sensory Escape with Natural Scents and flower burst of colours",
+                "background" : "/Assets/img/breaker-hills-puisto/brand-story/brand-story-05.jpeg",
+                "contentArea" : [
+                    {
+                        "content" : "The surrounding plants and trees add to the natural ambience, and guests can enjoy the fresh scent of nature. This is where the roughness of nature meets the refinement of luxury, creating a truly unforgettable experience."
+                    }
+                ]
+            },
+            {
+                "heading" : "Crafting an architectural space that seamlessly integrates with its natural surroundings.",
+                "background" : "/Assets/img/breaker-hills-puisto/brand-story/brand-story-06.jpeg",
+                "contentArea" : [
+                    {
+                        "content" : "Combining natural elements and architectural features creates a unique experience that will leave a lasting impression.//The resort's architecture is inspired by the natural elements of the surrounding landscape, blending and creating a unique connection with the island."
+                    }
+                ]
+            },
+            {
+                "heading" : "The Unique moments of life",
+                "background" : "/Assets/img/breaker-hills-puisto/brand-story/brand-story-07.jpeg",
+                "contentArea" : [
+                    {
+                        "content" : "The balcony stretching out to meet the endless sea, is the key of the room ́s esperience. Here, you can start the day with the best breakfast brought into your room and a morning cup of coffee while indulging in the picturesque vistas of the tranquil ocean. Take in the mesmerizing sounds of the waves gently lapping against the shore, as you bask in the  serenity of nature's beauty. This is more than a mere setting for your  day; it's an immersive experience, an opportunity to connect with the  rhythm of the sea and find yourself in the tranquil embrace of its  breathtaking allure"
+                    }
+                ]
             }
         ]},
         {"overview" : [
             {
                 "caption" : "Render",
-                "heading" : "Breaker Hills"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 6F",
-                "heading" : "Entrance / Lobby / Reception / Café",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 7F",
-                "heading" : "Kids Zone, Shopping",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 8F",
-                "heading" : "Kids Family Zone, Yoga Pavilion",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 9F",
-                "heading" : "Reading & Library",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 10F",
-                "heading" : "Roof Wintergarden, Restaurant, Kitchen, Terrace",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "heading" : "Breaker Hills",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-01.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-02.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-03.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-04.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-05.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-06.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-07.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-08.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-09.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-10.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/01_overview/overview-11.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/renders/overview-01.jpeg"},
+                    {"video" : "/Assets/img/breaker-hills-puisto/renders/breaker-movie.mp4"}
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Spa & Wellness B1F",
-                "heading" : "Airy Sauna / Garden Roof",
+                "caption" : "public",
+                "heading" : "Arrival & landscape roof",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/arrival-experience.png",
+                "gallery" : [
+                    {
+                        "title" : "overview",
+                        "images" : [
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-01.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-02.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-03.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-04.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-05.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-06.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-07.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-08.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-09.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-10.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-11.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-12.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-13.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-14.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-15.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-16.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-17.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-18.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-19.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-21.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-22.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-24.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-25.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-26.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-29.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-30.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/renders/arrival-01.jpeg"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/renders/white-01.jpeg"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/renders/white-02.jpeg"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/renders/white-03.jpeg"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/renders/white-04.jpeg"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/renders/white-05.jpeg"}
+                        ]
+                    },
+                    {
+                        "title" : "expereince",
+                        "images" : [
+                            {
+                                "caption" : "parking & entrance",
+                                "title" : "bamboo road",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-experience-01.jpg"
+                            },
+                            {
+                                "caption" : "nature ochestra",
+                                "title" : "bird whistling hill",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-experience-02.jpg"
+                            },
+                            {
+                                "caption" : "nature ochestra",
+                                "title" : "breeze hill",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-experience-03.jpg"
+                            },
+                            {
+                                "caption" : "arrival experience",
+                                "title" : "lehto lobby",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/02_arrival-experience/arrival-experience-04.jpg"
+                            },
+                            {
+                                "caption" : "lehto lobby",
+                                "title" : "family-kids zone",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/05_cultural-public/cultural-public-01.jpg"
+                            },
+                            {
+                                "caption" : "lehto lobby",
+                                "title" : "reading / library",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/05_cultural-public/cultural-public-02.jpg"
+                            },
+                            {
+                                "caption" : "commercial & public",
+                                "title" : "retreat",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/05_cultural-public/cultural-public-03.jpg"
+                            },
+                            {
+                                "caption" : "commercial & public",
+                                "title" : "café",
+                                "color" : "white",   
+                                "image" : "/Assets/img/breaker-hills-puisto/description/06_commercial-and-public/commercial-and-public-01.jpg"
+                            },
+                            {
+                                "caption" : "commercial & public",
+                                "title" : "outer terrace",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/06_commercial-and-public/commercial-and-public-02.jpg"
+                            },
+                            {
+                                "caption" : "commercial & public",
+                                "title" : "shopping",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/06_commercial-and-public/commercial-and-public-03.jpg"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Spa & Wellness 1F",
-                "heading" : "Garden Spa",
+                "caption" : "public",
+                "heading" : "garden spa & roof garden",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/garden-spa.png",
+                "gallery" : [
+                    {
+                        "title" : "garden spa & roof garden",
+                        "images" : [
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-01.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-02.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-03.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-04.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/renders/spa-01.jpeg"}
+                        ]
+                    },
+                    {
+                        "title" : "experience",
+                        "images" : [
+                            {
+                                "caption" : "garden spa",
+                                "title" : "luxury wave in spa",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-01.jpg"
+                            },
+                            {
+                                "caption" : "garden spa",
+                                "title" : "regress to nature",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-02.jpg"
+                            },
+                            {
+                                "caption" : "garden spa",
+                                "title" : "spa in nature",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-03.jpg"
+                            },
+                            {
+                                "caption" : "garden spa",
+                                "title" : "nature in spa",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-04.jpg"
+                            },
+                            {
+                                "caption" : "garden spa",
+                                "title" : "sense of nature",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-05.jpg"
+                            },
+                            {
+                                "caption" : "garden spa",
+                                "title" : "scent of nature",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-06.jpg"
+                            },
+                            {
+                                "caption" : "garden spa",
+                                "title" : "fragrance of nature",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-07.jpg"
+                            },
+                            {
+                                "caption" : "garden spa",
+                                "title" : "detox chamber",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/03_spa-and-wellness/spa-and-wellness-08.jpg"
+                            },
+                            {
+                                "caption" : "garden roof",
+                                "title" : "airy sauna garden",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/04_roof-gardens/roof-gardens-01.jpeg"
+                            },
+                            {
+                                "caption" : "garden roof",
+                                "title" : "phytoncide breathe",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/04_roof-gardens/roof-gardens-02.jpeg"
+                            },
+                            {
+                                "caption" : "garden roof",
+                                "title" : "fragrant of nature",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/04_roof-gardens/roof-gardens-03.jpeg"
+                            },
+                            {
+                                "caption" : "garden roof",
+                                "title" : "warm feeling of nature",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/04_roof-gardens/roof-gardens-04.jpeg"
+                            },
+                            {
+                                "caption" : "garden roof",
+                                "title" : "bare-foot walkway",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/04_roof-gardens/roof-gardens-05.jpeg"
+                            },
+                            {
+                                "caption" : "garden roof",
+                                "title" : "infinity pool",
+                                "color" : "white",
+                                "image" : "/Assets/img/breaker-hills-puisto/description/04_roof-gardens/roof-gardens-06.jpeg"
+                            }
+                        ]
+                    }
+                ]
             },
             {
-                "type" : "section-view",
-                "caption" : "Infinity Pool",
-                "heading" : "Saari",
+                "type" : "overview",
+                "caption" : "public",
+                "heading" : "saari",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/saari.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-01.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-02.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-03.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-04.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-05.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-06.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-07.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-08.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-09.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-10.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-11.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-12.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-13.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-14.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-15.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-16.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-17.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-18.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-19.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-20.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/renders/saari-01.jpeg"},
+                    {
+                        "caption" : "saari infinity pool",
+                        "title" : "360 pool experience",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-01.jpg"
+                    },
+                    {
+                        "caption" : "saari infinity pool",
+                        "title" : "around the clock",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-02.jpg"
+                    },
+                    {
+                        "caption" : "saari infinity pool",
+                        "title" : "infinity sunset moment",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/08_saari/saari-03.jpg"
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "accommodation",
+                "heading" : "rooms overview",
+                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/room-overview.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/09_room-overview/room-overview-01.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/09_room-overview/room-overview-02.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/09_room-overview/room-overview-03.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/renders/room-01.jpeg"},
+                    {
+                        "caption" : "entrance",
+                        "title" : "green entrance",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/09_room-overview/room-overview-01.jpg"
+                    },
+                    {
+                        "caption" : "living room",
+                        "title" : "living room",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/09_room-overview/room-overview-02.jpg"
+                    },
+                    {
+                        "caption" : "bathroom",
+                        "title" : "bathroom",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/09_room-overview/room-overview-03.jpg"
+                    },
+                    {
+                        "caption" : "bedroom",
+                        "title" : "sleep in breeze",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/09_room-overview/room-overview-04.jpg"
+                    },
+                    {
+                        "caption" : "terrace",
+                        "title" : "breeze from the ocean",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/09_room-overview/room-overview-05.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
-                "heading" : "Rooms Overview",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "heading" : "wintergarden suite",
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/wintergarden-suite.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/10_wintergarden-suite/wintergarden-suite-01.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/10_wintergarden-suite/wintergarden-suite-01.png"},
+                    {
+                        "caption" : "room atmosphere",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/10_wintergarden-suite/wintergarden-suite-01.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
-                "heading" : "Loft Suites",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "heading" : "wintergarden atrium suite",
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/wintergarden-atrium-suite.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/11_wintergarden-atrium-suite/wintergarden-atrium-suite-01.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/11_wintergarden-atrium-suite/wintergarden-atrium-suite-02.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/11_wintergarden-atrium-suite/wintergarden-atrium-suite-03.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/11_wintergarden-atrium-suite/wintergarden-atrium-suite-04.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/11_wintergarden-atrium-suite/wintergarden-atrium-suite-05.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/11_wintergarden-atrium-suite/wintergarden-atrium-suite-06.png"},
+                    {
+                        "caption" : "room atmosphere",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/11_wintergarden-atrium-suite/wintergarden-atrium-suite-01.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
-                "heading" : "Wintergarden Atrium Suite",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "heading" : "loft suite",
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/loft-suite.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/12_loft-suite/loft-suite-01.png"},
+                    {
+                        "caption" : "room atmosphere",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/12_loft-suite/loft-suite-01.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
-                "heading" : "Wintergarden Suite",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "heading" : "oceanfront beach houses",
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/oceanfront-beach-houses.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/13_oceanfront-beach-houses/oceanfront-beach-houses-01.png"},
+                    {
+                        "caption" : "room atmosphere",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/13_oceanfront-beach-houses/oceanfront-beach-houses-01.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
-                "heading" : "Oceanfront Beach Houses",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "heading" : "Oceanfront pool houses",
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/oceanfront-pool-houses.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/14_oceanfront-pool-houses/oceanfront-pool-houses-01.png"},
+                    {
+                        "caption" : "room atmosphere",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/14_oceanfront-pool-houses/oceanfront-pool-houses-01.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
                 "caption" : "Accommodation",
-                "heading" : "Oceanfront Pool Houses",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "heading" : "Oceanfront Pool Houses with spa",
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/oceanfront-pool-houses-with-spa.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/15_oceanfront-pool-houses-with-spa/oceanfront-pool-houses-with-spa-01.png"},
+                    {
+                        "caption" : "room atmosphere",
+                        "color" : "white",
+                        "image" : "/Assets/img/breaker-hills-puisto/description/15_oceanfront-pool-houses-with-spa/oceanfront-pool-houses-with-spa-01.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Accommodation",
-                "heading" : "Oceanfront Pool Houses with Spa",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Public",
-                "heading" : "Parking & Entrance",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "section-view",
-                "caption" : "User Path",
-                "heading" : "Journey",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "floor-plan",
-                "caption" : "2 Dimension",
+                "caption" : "drawings",
                 "heading" : "Floor Plan",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/floor-plan.png",
+                "gallery" : [
+                    {
+                        "title" : "floor plan",
+                        "images" : [
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/16_floor-plan/floor-plan-01.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/16_floor-plan/floor-plan-02.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/16_floor-plan/floor-plan-03.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/16_floor-plan/floor-plan-04.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/16_floor-plan/floor-plan-05.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/16_floor-plan/floor-plan-06.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/16_floor-plan/floor-plan-07.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/16_floor-plan/floor-plan-08.png"}
+                        ]
+                    },
+                    {
+                        "title" : "BOH",
+                        "images" : [
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/18_parking-and-boh/boh-01.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/18_parking-and-boh/boh-02.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/18_parking-and-boh/boh-03.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/18_parking-and-boh/boh-04.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/18_parking-and-boh/boh-05.png"},
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/18_parking-and-boh/boh-06.png"}
+                        ]
+                    },
+                    {
+                        "title" : "parking",
+                        "images" : [
+                            {"image" : "/Assets/img/breaker-hills-puisto/description/18_parking-and-boh/parking-01.png"}
+                        ]
+                    }
+                ]
             },
             {
-                "type" : "section-view",
-                "caption" : "2 Dimension",
+                "type" : "overview",
+                "caption" : "drawings",
                 "heading" : "Section View",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/section-view.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/17_section-view/section-view-01.png"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/description/17_section-view/section-view-02.png"}
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "structure",
+                "heading" : "structural design",
+                "highlight" : "/Assets/img/breaker-hills-puisto/highlight/structure.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/breaker-hills-puisto/structure/structure-01.jpg"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/structure/structure-02.jpg"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/structure/structure-03.jpg"},
+                    {"image" : "/Assets/img/breaker-hills-puisto/structure/structure-04.jpg"}
+                ]
             }
         ]}
     ]

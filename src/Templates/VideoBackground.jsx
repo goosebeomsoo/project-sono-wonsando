@@ -25,8 +25,8 @@ function VideoBackground() {
           <img className={`${showWhiteLogo ? 'hide-logo' : 'show-logo'}`} src={process.env.PUBLIC_URL + assetsData.img[0].outOfSonoLogoColor} alt="logo-color" />
         </div>
         <div className="contents">
-          <p className={`micro ${videoClear}`}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dui mollis, gravida mauris iaculis, mollis ipsum. Fusce tortor felis,
+          <p className={`body-large ${videoClear}`}>
+            A day in colorful spectrum
           </p>
         </div>
       </div>

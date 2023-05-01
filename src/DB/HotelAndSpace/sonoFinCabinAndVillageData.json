@@ -3,11 +3,19 @@
         {"title" : [
             {
                 "title": "SONO FIN CABIN & VILLAGE",
-                "background": "/Assets/img/sono-fin-cabin-and-village/sketch.png",
-                "bgOverview": "/Assets/img/sono-fin-cabin-and-village/background/overview.png",
-                "bgCase01": "/Assets/img/sono-fin-cabin-and-village/background/case01.png",
-                "bgCase02": "/Assets/img/sono-fin-cabin-and-village/background/case02.png",
-                "bgFloorPlan": "/Assets/img/sono-fin-cabin-and-village/background/floor-plan.png"
+                "background": "/Assets/img/sono-fin-cabin-and-village/sketch.jpg",
+                "bgOverview": "/Assets/img/sono-fin-cabin-and-village/background/overview.jpg",
+                "bgCase01": "/Assets/img/sono-fin-cabin-and-village/background/case01.jpg",
+                "bgCase02": "/Assets/img/sono-fin-cabin-and-village/background/case02.jpg",
+                "bgFloorPlan": "/Assets/img/sono-fin-cabin-and-village/background/floor-plan.jpg",
+                "bgProfile": "/Assets/img/sono-fin-cabin-and-village/renders/overview-01.jpeg"
+            }
+        ]},
+        {"brand" : [
+            {
+                "logo": "/Assets/img/sono-fin-cabin-and-village/brand-logo.svg",
+                "background": "/Assets/img/sono-fin-cabin-and-village/brand-background.jpg",
+                "content": "A resort hotel that heals with light in the dark"
             }
         ]},
         {"brandStory" : [
@@ -15,7 +23,7 @@
                 "page" : "01",
                 "caption" : "Culture & Context",
                 "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-01.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-01.jpg",
                 "contentArea" : [
                     {
                         "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
@@ -26,7 +34,7 @@
                 "page" : "02",
                 "caption" : "Location",
                 "heading" : "Elevated in mountains.\nRooted in forests.",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-02.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-02.jpg",
                 "contentArea" : [
                     {
                         "content" : "In Sono Fin. Vivaldi Park, everything aspires to a gentle dialogue with nature creating a holistic experience for all senses. This connection to the nature is fundamental in Finnish culture. The architecture, interiors, and natural environment, coupled with the services and experiences offered, enhance this connection, whilst offering an opportunity to soothe and slow down in solitude."
@@ -37,7 +45,7 @@
                 "page" : "03",
                 "caption" : "Historical Context",
                 "heading" : "Unwind with traditions made new.",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-03.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-03.jpg",
                 "contentArea" : [
                     {
                         "content" : "Being surrounded by nature is a shortcut to human flourishing and well being. For generations, Finns have had an innate connection to this idea, and have held on to the concept of the countryside cabin where they escape to during the year. The expression “secluded location” is something that gives rise to strong familial feelings for the majority of Nordic people."
@@ -51,7 +59,7 @@
                 "page" : "04",
                 "caption" : "Concept",
                 "heading" : "Immersed in nature and culture.",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-04.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-04.jpg",
                 "contentArea" : [
                     {
                         "content" : "In the resort, we recreate the holistic experience of the Finnish lifestyle. The seasons have a crucial role in the culture and the relationship to nature. The temperature and the amount of light vary dramatically from warm and light summers to the cold and dark winters with polar nights. The change of seasons and nature reflect in the environments, the activities, and the food. The centuries-old tradition of wood architecture and construction is modernised in the architecture and interiors, built with Finnish design sensibilities of craft, fit, and function."
@@ -62,7 +70,7 @@
                 "page" : "05",
                 "caption" : "Authentic Experience",
                 "heading" : "Living off the grid and off the land.",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-05.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-05.jpg",
                 "contentArea" : [
                     {
                         "content" : "A visit to Sono Fin is a chance to explore the land with its expansive landscape and climate, and to delight your senses with local produce."
@@ -76,7 +84,7 @@
                 "page" : "06",
                 "caption" : "Authentic Experience",
                 "heading" : "Distinctive Sauna Culture.",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-06.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-06.jpg",
                 "contentArea" : [
                     {
                         "content" : "Sauna plays significant role in the mindset of the Happiest Nation of the World, Finns."
@@ -93,7 +101,7 @@
                 "page" : "07",
                 "caption" : "Sustainability",
                 "heading" : "Sustainably natural materials.",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-07.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-07.jpg",
                 "contentArea" : [
                     {
                         "content" : "Charred timber and logs are a unique living and natural material making all cabin buildings special and multi-sensorial, in the shape, colour, texture and the scent."
@@ -109,7 +117,7 @@
             {
                 "page" : "08",
                 "heading" : "Natural luxury & Wild abundance of nature.",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-08.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-08.jpg",
                 "contentArea" : [
                     {
                         "content" : "True Finnish luxury; wild and pure nature and sustainable modern wooden architecture with premium hospitality know-how, to create the most beautiful resort experience in the world."
@@ -125,7 +133,7 @@
             {
                 "page" : "09",
                 "heading" : "Bright in the Dark",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-09.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-09.jpg",
                 "contentArea" : [
                     {
                         "content" : "Located in the top of the mountain in Vivaldi Park, you can see the stars and the foggy Milky Way in the Sono Fin resort. After the sun goes down, it's time for the dramatically bright star panorama. In Sono Fin, the hidden gem of the mountains, you feel you are as close to the sky you can get.  The hotel on the highest top of the mountain, the closest place to the sky - something truly appealing for people who want to stay in comfort and relax in a special hotel over the weekend."
@@ -135,7 +143,7 @@
             {
                 "page" : "10",
                 "heading" : "Bright in the Dark",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-10.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-10.jpg",
                 "contentArea" : [
                     {
                         "content" : "Architecture & Interiors pay homage to the design legacy of Finnish architecture and design. The design is streamlined and contemporary yet the dark mood arises from the National Epic of Finland, Kalevala. Rich textures and quality materials and craftsmanship creates embracing cozynes in style."
@@ -145,7 +153,7 @@
             {
                 "page" : "11",
                 "heading" : "Bright in the Dark",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-11.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-11.jpg",
                 "contentArea" : [
                     {
                         "content" : "Dim lighting experience is based on contrasts. Together with rich palette of textures it creates a multisensory experience of the space even though the color palette is limited."
@@ -159,7 +167,7 @@
                 "page" : "12",
                 "caption" : "Brand Story",
                 "heading" : "Charcoal / Fire / Smoke / Dark Flavour",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-12.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-12.jpg",
                 "contentArea" : [
                     {
                         "content" : "The themes emerging from the brand-story/brand story are reflect in all experience levels.  The signature flavours of Sono Fin Vivaldi are based on fire and smoke."
@@ -173,7 +181,7 @@
                 "page" : "13",
                 "caption" : "Brand Story",
                 "heading" : "Charcoal / Fire / Smoke / Dark Flavour",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-13.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-13.jpg",
                 "contentArea" : [
                     {
                         "content" : "Dark tones and flavours from Finnish woods and culture."
@@ -190,7 +198,7 @@
                 "page" : "14",
                 "caption" : "Brand Story",
                 "heading" : "Charcoal / Fire / Smoke / Dark Flavour",
-                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-14.png",
+                "background" : "/Assets/img/sono-fin-cabin-and-village/brand-story/brand-story-14.jpg",
                 "contentArea" : [
                     {
                         "content" : "The alternation of cold and hot temperatures plays significant role in Finnish sauna culture and also in nature creating magical mist and fog. This phenomenon becomes visible also  in the food and beverage served in the resort."
@@ -198,79 +206,251 @@
                 ]
             }
         ]},
-        {"brand" : [
-            {
-                "logo": "/Assets/img/sono-fin-cabin-and-village/brand-logo.svg",
-                "background": "/Assets/img/sono-fin-cabin-and-village/brand-background.png",
-                "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et ju"
-            }
-        ]},
         {"overview" : [
             {
-                "caption" : "Sono Fin Cabin & Village"
+                "caption" : "overview",
+                "heading" : "Sono Fin Cabin & Village",
+                "gallery" : [
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-01.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-02.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-03.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-04.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-05.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-06.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-07.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-08.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-09.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-10.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-11.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-12.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-13.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/description/01_overview/overview-14.png"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/overview-01.jpeg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/overview-02.jpeg"}
+                ]
+            },
+            {
+                "type" : "floor-plan",
+                "caption" : "overview",
+                "heading" : "sono fin cabin",
+                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/sono-fin-cabin-overview.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/02_sono-fin-cabin-overview/overview-06.png"
+                    }
+                ]
             },
             {
                 "type" : "case01",
                 "caption" : "Commercial & Public",
-                "heading" : "Main Center & Figga",
+                "heading" : "Main Center & Figga - Sauna",
                 "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/main-center.png"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/main-center.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-06.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-07.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-08.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-09.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-10.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-11.png"
+                    },
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/main-centre.jpeg"},
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-01.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-02.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-03.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-04.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-05.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-06.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-07.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-08.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/03_main-center-and-figga/main-center-and-figga-09.jpg"
+                    }
+                ]
             },
             {
                 "type" : "case01",
                 "caption" : "Accommodation",
                 "heading" : "AB Type",
-                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/ab-type.png"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/ab-type.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/ab-type.jpeg"}
+                ]
             },
             {
                 "type" : "case01",
                 "caption" : "Accommodation",
                 "heading" : "CD Type",
-                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/cd-type-cabin-area.png"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/cd-type.png"
             },
             {
                 "type" : "case01",
                 "caption" : "Accommodation",
                 "heading" : "EF Type",
-                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/ef-type.png"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/ef-type.png",
+                "gallery" : [
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/ef-type.jpeg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/interior.jpeg"},
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/bathroom.jpeg"}
+                ]
             },
             {
                 "type" : "case01",
                 "caption" : "Accommodation",
                 "heading" : "forest tower",
-                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/forest-tower-cabin-area.png"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/forest-tower-cabin.png"
+            },
+            {
+                "type" : "floor-plan",
+                "caption" : "overview",
+                "heading" : "Sono Fin Village",
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/sono-fin-village-overview.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-06.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-07.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/04_sono-fin-village-overview/village-overview-08.png"
+                    }
+                ]
             },
             {
                 "type" : "case02",
                 "caption" : "Accommodation",
                 "heading" : "mökki Villas",
-                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/mokki-villa.png"
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-06.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/05_mokki-villas/mokki-villas-07.png"
+                    },
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/mokki.jpeg"}
+                ]
             },
             {
                 "type" : "case02",
                 "caption" : "Accommodation",
                 "heading" : "forest tower",
-                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/forest-tower-village.png"
+                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/forest-tower-village.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-fin-cabin-and-village/description/06_forest-tower/forest-tower-06.png"
+                    },
+                    {"image" : "/Assets/img/sono-fin-cabin-and-village/renders/forest-tower.jpeg"}
+                ]
             },
             {
                 "type" : "case02",
                 "caption" : "Accommodation",
                 "heading" : "CD Type Cabin",
-                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
                 "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/cd-type-village.png"
-            },
-            {
-                "type" : "floor-plan",
-                "caption" : "user pathqw",
-                "heading" : "Journey",
-                "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury.",
-                "highlight" : "/Assets/img/sono-fin-cabin-and-village/highlight/.png"
             }
         ]}
     ]

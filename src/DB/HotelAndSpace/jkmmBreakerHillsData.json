@@ -3,236 +3,259 @@
         {"title" : [
             {
                 "title": "BREAKER HILLS",
-                "background": "/Assets/img/breaker-hills/sketch.png",
-                "bgOverview": "/Assets/img/breaker-hills/background/overview.png",
-                "bgPublic": "/Assets/img/breaker-hills/background/public.png",
-                "bgSectionView": "/Assets/img/breaker-hills/background/section-view.png",
-                "bgFloorPlan": "/Assets/img/breaker-hills/background/floor-plan.png"
-            }
-        ]},
-        {"brandStory" : [
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-01.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-02.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-03.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-04.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-05.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-06.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
-            },
-            {
-                "page" : "01",
-                "caption" : "Culture & Context",
-                "heading" : "Open the door to a different world.",
-                "background" : "/Assets/img/breaker-hills/brand-story/brand-story-07.png",
-                "contentArea" : [
-                    {
-                        "content" : "Finland's connection to nature, the environment, the seasons, and weather, is what drives their culture. For generations, the love for nature is passed down, to be in the forests, slopes, waters in rain, snow and sunshine. Being in nature inspires Finnish architecture, design, and cuisine - the whole lifestyle. This is true luxury."
-                    }
-                ]
+                "background": "/Assets/img/breaker-hills-jkmm/sketch.jpg",
+                "bgOverview": "/Assets/img/breaker-hills-jkmm/background/overview.jpg",
+                "bgProfile": "/Assets/img/breaker-hills-jkmm/renders/render-01.jpeg"
             }
         ]},
         {"brand" : [
             {
-                "logo": "/Assets/img/breaker-hills/brand-logo.svg",
-                "background": "/Assets/img/breaker-hills/brand-background.png",
+                "logo": "/Assets/img/breaker-hills-puisto/brand-logo.svg",
+                "background": "/Assets/img/breaker-hills-puisto/brand-background.jpg",
                 "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et ju"
+            }
+        ]},
+        {"brandStory" : [
+            {
+                "heading" : "The freedom of walking bare-foot",
+                "background" : "/Assets/img/breaker-hills-jkmm/brand-story/brand-story-01.jpg",
+                "contentArea" : [
+                    {
+                        "content" : "Right next to the ocean, Breaker Hill offer the experience of walking in bare-foot in contact with nature and in direct connection with the natural surrounding environment.for a laid-back luxury experience"
+                    }
+                ]
+            },
+            {
+                "heading" : "'Once in a lifetime', many times in a lifetime",
+                "background" : "/Assets/img/breaker-hills-jkmm/brand-story/brand-story-02.jpg",
+                "contentArea" : [
+                    {
+                        "content" : "The Breaker Hill experience evolves thought out life span of our guests. The hotel and the membership offer the guest the opportunity to experience the breaker hill in different stage of their life. Babymoon, a gateaway with friends or a family holiday."
+                    }
+                ]
+            },
+            {
+                "heading" : "Same feeling of sleeping at sea",
+                "background" : "/Assets/img/breaker-hills-jkmm/brand-story/brand-story-03.jpg",
+                "contentArea" : [
+                    {
+                        "content" : "The hotel is situated on a cliffside, surrounded by the open ocean. The sounds of the ocean, the wind, and seaside scents create a refreshing and relaxing atmosphere for the guests, while also emphasizing the natural beauty of the setting."
+                    }
+                ]
             }
         ]},
         {"overview" : [
             {
-                "caption" : "Render",
-                "heading" : "Breaker Hills"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 6F",
-                "heading" : "Entrance / Lobby / Reception / Café",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 7F",
-                "heading" : "Kids Zone, Shopping",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 8F",
-                "heading" : "Kids Family Zone, Yoga Pavilion",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 9F",
-                "heading" : "Reading & Library",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public 10F",
-                "heading" : "Roof Wintergarden, Restaurant, Kitchen, Terrace",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "overview",
-                "caption" : "Spa & Wellness B1F",
-                "heading" : "Airy Sauna / Garden Roof",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "overview",
-                "caption" : "Spa & Wellness 1F",
-                "heading" : "Garden Spa",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "section-view",
-                "caption" : "Infinity Pool",
-                "heading" : "Saari",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "theme" : "black",
+                "caption" : "overview",
+                "heading" : "breaker hills",
+                "gallery" : [
+                    {
+                        "title" : "overview",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/description/01_overview/overview-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/description/01_overview/overview-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/description/01_overview/overview-02.png"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "renders",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/renders/render-01.jpeg"
+                            },
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/renders/render-02.jpeg"
+                            },
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/renders/render-03.jpeg"
+                            },
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/renders/render-04.jpeg"
+                            },
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/renders/render-05.jpeg"
+                            },
+                            {
+                                "image" : "/Assets/img/breaker-hills-jkmm/renders/render-06.jpeg"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Accommodation",
-                "heading" : "Rooms Overview",
+                "caption" : "public",
+                "heading" : "arrival experience",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/arrival-experience.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/02_arrival-experience/arrival-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/02_arrival-experience/arrival-01.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/02_arrival-experience/arrival-02.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Accommodation",
-                "heading" : "Loft Suites",
+                "caption" : "public",
+                "heading" : "KURU - Garden",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/kuru.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/03_kuru/kuru-01.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/03_kuru/kuru-02.jpg"
+                    }
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Accommodation",
-                "heading" : "Wintergarden Atrium Suite",
+                "caption" : "public",
+                "heading" : "wellness",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/wellness.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/04_wellness/wellness-01.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/04_wellness/wellness-02.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/04_wellness/wellness-03.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/04_wellness/wellness-01.png"
+                    }
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Accommodation",
-                "heading" : "Wintergarden Suite",
+                "caption" : "public",
+                "heading" : "restaurant",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/restaurant.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/05_restaurant/restaurant-01.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/05_restaurant/restaurant-02.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/05_restaurant/restaurant-03.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/05_restaurant/restaurant-01.png"
+                    }
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Accommodation",
-                "heading" : "Oceanfront Beach Houses",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "caption" : "accommodation",
+                "heading" : "room overview",
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/accommodation.png"
             },
             {
                 "type" : "overview",
-                "caption" : "Accommodation",
-                "heading" : "Oceanfront Pool Houses",
+                "caption" : "accommodation",
+                "heading" : "two storey room",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/two-storey-room.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/06_two-storey-room/two-storey-room-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/06_two-storey-room/two-storey-room-02.png"
+                    }
+                ]
             },
             {
                 "type" : "overview",
-                "caption" : "Accommodation",
-                "heading" : "Oceanfront Pool Houses with Spa",
+                "caption" : "accommodation",
+                "heading" : "one storey room",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/studio.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/07_one-storey-room/one-storey-room-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/07_one-storey-room/one-storey-room-02.png"
+                    }
+                ]
             },
             {
-                "type" : "public",
-                "caption" : "Public",
-                "heading" : "Parking & Entrance",
+                "type" : "overview",
+                "caption" : "floor plan",
+                "heading" : "floor plan",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/floor-plan.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-06.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-07.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-08.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-09.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-10.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/08_floor-plan/floor-plan-11.png"
+                    }
+                ]
             },
             {
-                "type" : "section-view",
-                "caption" : "User Path",
-                "heading" : "Journey",
+                "type" : "overview",
+                "caption" : "drawings",
+                "heading" : "section view",
                 "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "floor-plan",
-                "caption" : "2 Dimension",
-                "heading" : "Floor Plan",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "section-view",
-                "caption" : "2 Dimension",
-                "heading" : "Section View",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "highlight" : "/Assets/img/breaker-hills-jkmm/highlight/studio.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/09_section-view/section-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/breaker-hills-jkmm/description/09_section-view/section-02.png"
+                    }
+                ]
             }
         ]}
     ]

@@ -1,16 +1,19 @@
 {
     "gallery" : [
         {
-            "title" : "Raod Study",
-            "image" : "/Assets/img/_road-plan/road-plan-01.png"
+            "image" : "/Assets/img/05_road-plan/road-plan-01.jpg"
         },
         {
-            "title" : "Raod Network",
-            "image" : "/Assets/img/_road-plan/road-plan-02.png"
+            "image" : "/Assets/img/05_road-plan/road-plan-02.jpg"
         },
         {
-            "title" : "Main Road Section",
-            "image" : "/Assets/img/_road-plan/road-plan-03.png"
+            "image" : "/Assets/img/05_road-plan/road-plan-03.jpg"
+        },
+        {
+            "image" : "/Assets/img/05_road-plan/road-plan-04.jpg"
+        },
+        {
+            "image" : "/Assets/img/05_road-plan/road-plan-05.jpg"
         }
     ]
 }

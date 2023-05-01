@@ -1,0 +1,90 @@
+{
+    "gallery" : [
+        {
+            "title" : "concept",
+            "images" : [
+                {
+                    "image" : "/Assets/img/06_masterplan/concept-01.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/concept-02.png"
+                }
+            ]
+        },
+        {
+            "title" : "site analysis",
+            "images" : [
+                {
+                    "image" : "/Assets/img/06_masterplan/site-plan-01.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/site-plan-02.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/site-plan-03.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/site-plan-04.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/site-plan-05.png"
+                }
+            ]
+        },
+        {
+            "title" : "area design",
+            "images" : [
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-01.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-02.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-03.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-04.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-05.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-06.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-07.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-08.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-09.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-10.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-11.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-12.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-13.png"
+                },
+                {
+                    "image" : "/Assets/img/06_masterplan/area-design-14.png"
+                }
+            ]
+        },
+        {
+            "title" : "renders",
+            "images" : [
+                {
+                    "image" : "/Assets/img/06_masterplan/renders/area.jpeg"
+                }
+            ]
+        }
+    ]
+}

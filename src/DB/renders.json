@@ -3,148 +3,145 @@
         {
             "title" : "overview",
             "images" : [
-                {
-                    "name" : "Area",
-                    "image" : "/Assets/img/_renders/area-render.png"
-                }
+                { "image" : "/Assets/img/06_masterplan/renders/area.jpeg" },
+                { "image" : "/Assets/img/06_masterplan/renders/white-01.jpeg" },
+                { "image" : "/Assets/img/06_masterplan/renders/white-02.jpeg" },
+                { "image" : "/Assets/img/06_masterplan/renders/white-03.jpeg" },
+                { "image" : "/Assets/img/06_masterplan/renders/white-04.jpeg" },
+                { "image" : "/Assets/img/06_masterplan/renders/white-05.jpeg" },
+                { "image" : "/Assets/img/06_masterplan/renders/white-06.jpeg" },
+                { "image" : "/Assets/img/06_masterplan/renders/white-07.jpeg" }
             ]
         },
         {
             "title" : "the bunkers",
             "images" : [
-                {
-                    "name" : "overview",
-                    "image" : "/Assets/img/_renders/the-bunkers/01_overview.png"
-                },
-                {
-                    "name" : "arrival dome",
-                    "image" : "/Assets/img/_renders/the-bunkers/02_arrival-dome.png"
-                },
-                {
-                    "name" : "landscape restaurant",
-                    "image" : "/Assets/img/_renders/the-bunkers/03_restaurant-01.jpg"
-                },
-                {
-                    "name" : "landscape restaurant",
-                    "image" : "/Assets/img/_renders/the-bunkers/04_restaurant-02.jpg"
-                },
-                {
-                    "name" : "landscape restaurant",
-                    "image" : "/Assets/img/_renders/the-bunkers/05_restaurant-03.jpg"
-                },
-                {
-                    "name" : "bastion suite",
-                    "image" : "/Assets/img/_renders/the-bunkers/06_bastion-suite-01.png"
-                },
-                {
-                    "name" : "bastion suite",
-                    "image" : "/Assets/img/_renders/the-bunkers/07_bastion-suite-02.png"
-                },
-                {
-                    "name" : "bastion suite",
-                    "image" : "/Assets/img/_renders/the-bunkers/08_bastion-suite-03.png"
-                }
+                { "image" : "/Assets/img/the-bunkers/renders/overview-01.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/overview-02.jpeg" },
+                { "video" : "/Assets/img/the-bunkers/renders/bunkers-movie.mp4" },
+                { "image" : "/Assets/img/the-bunkers/renders/overview-03.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/arrival-01.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/video.gif" },
+                { "image" : "/Assets/img/the-bunkers/renders/restaurant-01.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-01.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-02.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-03.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-04.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-05.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-06.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-07.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-08.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/spa-09.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/hilltop-01.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-01.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-02.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-03.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-04.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-05.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-06.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-07.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-08.jpeg" },
+                { "image" : "/Assets/img/the-bunkers/renders/suite-09.jpeg" }
             ]
         },
         {
-            "title" : "breaker hills",
+            "title" : "breaker hills concept. 1",
             "images" : [
-                {
-                    "name" : "lobby",
-                    "image" : "/Assets/img/_renders/breaker-hills/01_lobby.jpg"
-                },
-                {
-                    "name" : "garden spa",
-                    "image" : "/Assets/img/_renders/breaker-hills/02_garden-spa.png"
-                },
-                {
-                    "name" : "saari",
-                    "image" : "/Assets/img/_renders/breaker-hills/03_saari.png"
-                }
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/overview-01.jpeg" },
+                { "video" : "/Assets/img/breaker-hills-puisto/renders/breaker-movie.mp4" },
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/arrival-01.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/spa-01.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/room-01.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/saari-01.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/white-01.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/white-02.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/white-03.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-puisto/renders/white-04.jpeg" }
+            ]
+        },
+        {
+            "title" : "breaker hills concept. 2",
+            "images" : [
+                { "image" : "/Assets/img/breaker-hills-jkmm/renders/render-01.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-jkmm/renders/render-02.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-jkmm/renders/render-03.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-jkmm/renders/render-04.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-jkmm/renders/render-05.jpeg" },
+                { "image" : "/Assets/img/breaker-hills-jkmm/renders/render-06.jpeg" }
             ]
         },
         {
             "title" : "sono felice & calm",
             "images" : [
-                {
-                    "name" : "overview",
-                    "image" : "/Assets/img/_renders/sono-felice-and-calm/01_overview.png"
-                },
-                {
-                    "name" : "Arrival",
-                    "image" : "/Assets/img/_renders/sono-felice-and-calm/02_arrival.png"
-                },
-                {
-                    "name" : "nordic bath",
-                    "image" : "/Assets/img/_renders/sono-felice-and-calm/03_nordic-bath-01.png"
-                },
-                {
-                    "name" : "nordic bath",
-                    "image" : "/Assets/img/_renders/sono-felice-and-calm/04_nordic-bath-02.png"
-                }
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/overview-01.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/overview-02.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/arrival-01.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/spa-01.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/spa-02.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/spa-03.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/room-01.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/room-02.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/room-03.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/white-01.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/white-02.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/white-03.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/white-04.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/white-05.jpeg" },
+                { "image" : "/Assets/img/sono-felice-and-calm/renders/white-06.jpeg" }
             ]
         },
         {
             "title" : "sono fin cabin & village",
             "images" : [
-                {
-                    "name" : "overview",
-                    "image" : "/Assets/img/_renders/sono-fin-cabin-and-village/01_overview.png"
-                },
-                {
-                    "name" : "main centre",
-                    "image" : "/Assets/img/_renders/sono-fin-cabin-and-village/02_main-centre.png"
-                },
-                {
-                    "name" : "ab type",
-                    "image" : "/Assets/img/_renders/sono-fin-cabin-and-village/03_ab-type.png"
-                },
-                {
-                    "name" : "EF type",
-                    "image" : "/Assets/img/_renders/sono-fin-cabin-and-village/04_ef-type.png"
-                },
-                {
-                    "name" : "mökki",
-                    "image" : "/Assets/img/_renders/sono-fin-cabin-and-village/05_mokki.png"
-                },
-                {
-                    "name" : "forest tower",
-                    "image" : "/Assets/img/_renders/sono-fin-cabin-and-village/06_forest-tower.png"
-                },
-                {
-                    "name" : "indoor experience",
-                    "image" : "/Assets/img/_renders/sono-fin-cabin-and-village/07_interior-01.png"
-                },
-                {
-                    "name" : "bathroom",
-                    "image" : "/Assets/img/_renders/sono-fin-cabin-and-village/08_interior-02.png"
-                }
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/overview-01.jpeg" },
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/overview-02.jpeg" },
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/main-centre.jpeg" },
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/mokki.jpeg" },
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/forest-tower.jpeg" },
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/ab-type.jpeg" },
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/ef-type.jpeg" },
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/interior.jpeg" },
+                { "image" : "/Assets/img/sono-fin-cabin-and-village/renders/bathroom.jpeg" }
             ]
         },
         {
             "title" : "forest of galaxy",
             "images" : [
-                {
-                    "name" : "treehouse",
-                    "image" : "/Assets/img/_renders/forest-of-galaxy/01_treehouse.jpg"
-                },
-                {
-                    "name" : "cabin",
-                    "image" : "/Assets/img/_renders/forest-of-galaxy/02_cabin.png"
-                }
+                {"image" : "/Assets/img/forest-of-galaxy/renders/forest-01.jpeg"}
             ]
         },
         {
-            "title" : "tennis court",
+            "title" : "tennis court concept. 1",
             "images" : [
-                {
-                    "name" : "overivew",
-                    "image" : "/Assets/img/_renders/tennis-court/01_overview.jpg"
-                },
-                {
-                    "name" : "indoor experience",
-                    "image" : "/Assets/img/_renders/tennis-court/02_indoor-experience.jpg"
-                }
+                {"image" : "/Assets/img/tennis-court-puisto/renders/tennis-01.jpeg"},
+                {"image" : "/Assets/img/tennis-court-puisto/renders/tennis-02.jpeg"},
+                {"image" : "/Assets/img/tennis-court-puisto/renders/tennis-03.jpeg"}
+            ]
+        },
+        {
+            "title" : "tennis court concept. 2",
+            "images" : [
+                {"image" : "/Assets/img/tennis-court-jkmm/renders/render-01.jpeg"},
+                {"image" : "/Assets/img/tennis-court-jkmm/renders/render-02.jpeg"},
+                {"image" : "/Assets/img/tennis-court-jkmm/renders/render-03.jpeg"}
+            ]
+        },
+        {
+            "title" : "chapel",
+            "images" : [
+                {"image" : "/Assets/img/chapel/renders/render-03.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-01.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-02.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-04.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-05.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-06.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-07.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-08.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-09.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-10.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-11.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-12.jpeg"},
+                {"image" : "/Assets/img/chapel/renders/render-13.jpeg"}
             ]
         }
     ]

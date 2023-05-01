@@ -110,11 +110,11 @@
 
     &:nth-child(6) { // Tennis Court 
         flex-direction: row-reverse;
-        top: 6vw;
+        top: 4vw;
         left: 24vw;
 
         .pin-line {
-            width: 40vw;
+            width: 30vw;
         }
 
         .pin-title {
@@ -137,11 +137,24 @@
 
     &:nth-child(8) { // Tennis Court | JKMM
         flex-direction: row-reverse;
-        top: 10vw;
+        top: 8vw;
         left: 24vw;
 
         .pin-line {
-            width: 40vw;
+            width: 30vw;
+        }
+
+        .pin-title {
+            padding: 0 8px 0 0;
+        }
+    }
+    &:nth-child(9) { // Tennis Court | JKMM
+        flex-direction: row-reverse;
+        top: 12vw;
+        left: 24vw;
+
+        .pin-line {
+            width: 9vw;
         }
 
         .pin-title {

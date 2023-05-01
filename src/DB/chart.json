@@ -1,0 +1,74 @@
+{
+    "data" : [
+        {
+            "category" : "THE BUNKERS",
+            "siteArea" : "21,855m2",
+            "buildingArea" : "10,447.27m2",
+            "grossArea" : "41,389.67m2",
+            "roomKeys" : "103"
+        },
+        {
+            "category" : "HILLTOP RESTAURANT",
+            "siteArea" : "4,990m2",
+            "buildingArea" : "-",
+            "grossArea" : "1,215m2",
+            "roomKeys" : "-"
+        },
+        {
+            "category" : "SONO FELICE & CALM",
+            "siteArea" : "48,081",
+            "buildingArea" : "17,036.8m2",
+            "grossArea" : "127,731.3m2",
+            "roomKeys" : "802"
+        },
+        {
+            "category" : "NORDIC BATH",
+            "siteArea" : "6,300m2",
+            "buildingArea" : "14,500m2",
+            "grossArea" : "14,500m2",
+            "roomKeys" : "-"
+        },
+        {
+            "category" : "BREAKER HILLS",
+            "siteArea" : "21,855m2",
+            "buildingArea" : "53,271m2",
+            "grossArea" : "53,271m2",
+            "roomKeys" : "219"
+        },
+        {
+            "category" : "SAARI INFINITY POOL",
+            "siteArea" : "2,310m2",
+            "buildingArea" : "975m2",
+            "grossArea" : "975m2",
+            "roomKeys" : "-"
+        },
+        {
+            "category" : "SONO FIN CABIN",
+            "siteArea" : "44,600m2",
+            "buildingArea" : "8,082m2",
+            "grossArea" : "8,082m2",
+            "roomKeys" : "113"
+        },
+        {
+            "category" : "SONO FIN VILLAGE",
+            "siteArea" : "31,700m2",
+            "buildingArea" : "6,516m2",
+            "grossArea" : "6,516m2",
+            "roomKeys" : "77"
+        },
+        {
+            "category" : "SPORTS CENTER",
+            "siteArea" : "29,300m2",
+            "buildingArea" : "-",
+            "grossArea" : "16,580m2",
+            "roomKeys" : "50"
+        },
+        {
+            "category" : "FOREST OF GALAXY",
+            "siteArea" : "44,300m2",
+            "buildingArea" : "2,000m2",
+            "grossArea" : "2,000m2",
+            "roomKeys" : "-"
+        }
+    ]
+}

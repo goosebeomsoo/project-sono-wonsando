@@ -3,235 +3,1213 @@
         {"title" : [
             {
                 "title": "SONO FELICE & CALM",
-                "background": "/Assets/img/sono-felice-and-calm/sketch.png",
-                "bgOverview": "/Assets/img/sono-felice-and-calm/background/overview.png",
-                "bgPublic": "/Assets/img/sono-felice-and-calm/background/public.png",
-                "bgSectionView": "/Assets/img/sono-felice-and-calm/background/section-view.png",
-                "bgFloorPlan": "/Assets/img/sono-felice-and-calm/background/floor-plan.png",
-                "bgCase01": "/Assets/img/sono-felice-and-calm/background/case01.png",
-                "bgCase02": "/Assets/img/sono-felice-and-calm/background/case02.png"
+                "background": "/Assets/img/sono-felice-and-calm/sketch.jpg",
+                "bgOverview": "/Assets/img/sono-felice-and-calm/background/overview.jpeg",
+                "bgCase01": "/Assets/img/sono-felice-and-calm/background/case01.jpeg",
+                "bgCase02": "/Assets/img/sono-felice-and-calm/background/case02.png",
+                "bgProfile": "/Assets/img/sono-felice-and-calm/renders/overview-01.jpeg"
             }
         ]},
         {"brandStory" : [
             {
-                "page" : "01",
-                "caption" : "Sono Felice | 1F",
-                "heading" : "Lobby",
-                "background" : "/Assets/img/out-of-sono-brand-story/placeholder-01.png",
+                "heading" : "Nordic Expression of Sono DNA",
+                "background" : "/Assets/img/sono-felice-and-calm/brand-story/brand-story-01.jpeg",
                 "contentArea" : [
                     {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    },
-                    {
-                        "subHeading" : "Lorem Ipsum dolor",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        "content" : "* Sono DNA reborn with the Finnish forrest.\n* World Biggest Wooden Hotel in Wonsando\n* With the construction of Korea ́s first high-rise wooden hotel, it is an urban hotel where residents of the Boryeong area gather and experience the best of nature and the city in Wonsando."
                     }
                 ]
             },
             {
-                "page" : "02",
-                "caption" : "Lorem Ipsum",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "background" : "/Assets/img/out-of-sono-brand-story/placeholder-02.png",
+                "heading" : "Nordic Expression of Sono DNA : Water experience",
+                "background" : "/Assets/img/sono-felice-and-calm/brand-story/brand-story-02.jpeg",
                 "contentArea" : [
                     {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    },
-                    {
-                        "subHeading" : "Lorem Ipsum dolor",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        "content" : "Enjoy seasonal activities (water park, golf, ski)"
                     }
                 ]
             },
             {
-                "page" : "03",
-                "caption" : "Lorem Ipsum",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "background" : "/Assets/img/out-of-sono-brand-story/placeholder-03.png",
+                "heading" : "Finest Nordic Hospitality & Spa",
+                "background" : "/Assets/img/sono-felice-and-calm/brand-story/brand-story-03.jpeg",
                 "contentArea" : [
                     {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    }
-                ]
-            },
-            {
-                "page" : "04",
-                "caption" : "Lorem Ipsum",
-                "heading" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "background" : "/Assets/img/out-of-sono-brand-story/placeholder-04.png",
-                "contentArea" : [
-                    {
-                        "subHeading" : "Lorem Ipsum",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
-                    },
-                    {
-                        "subHeading" : "Lorem Ipsum dolor",
-                        "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui,"
+                        "content" : "* Nordic Wellness with Local Context\n* Luxurious Spa for the entire family\n* Entertainment, food and beverage facilities are composed of Nordic hospitality and wellness programs unique to the Boryeong region."
                     }
                 ]
             }
         ]},
         {"overview" : [
             {
-                "caption" : "Render",
-                "heading" : "Sono Felice & Calm"
+                "caption" : "overview",
+                "heading" : "sono felice & calm",
+                "gallery" : [
+                    {
+                        "title" : "goal",
+                        "images" : [
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/goal/goal-01.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/goal/goal-02.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/goal/goal-03.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/goal/goal-04.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/goal/goal-05.png"}
+                        ]
+                    },
+                    {
+                        "title" : "overview",
+                        "images" : [
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-01.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-02.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-03.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-04.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-05.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-06.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-07.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-08.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-09.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/overview-01.jpeg"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/overview-02.jpeg"}
+                        ]
+                    }
+                ]
             },
             {
                 "type" : "case01",
-                "caption" : "Dropzone & Entrance",
-                "heading" : "B1-B2F Dropzone & Entrance",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "caption" : "Arrival",
+                "heading" : "Arrival lobby",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/arrival.png",
+                "gallery" : [
+                    {
+                        "title" : "material",
+                        "images" : [
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-01.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-02.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-03.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-04.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-05.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-06.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-07.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-08.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-09.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-10.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-12.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-13.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-14.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/arrival-01.jpeg"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/white-03.jpeg"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/white-01.jpeg"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/white-02.jpeg"}
+                        ]
+                    },
+                    {
+                        "title": "expereince",
+                        "images" : [
+                            {
+                                "caption" : "drop zone entrance park",
+                                "title" : "impressive creek entrance",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-01.jpeg"
+                            },
+                            {
+                                "caption" : "drop zone entrance park",
+                                "title" : "green canopy",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-02.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice entrance",
+                                "title" : "arrival experience",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-03.jpg"
+                            },
+                            {
+                                "caption" : "drop zone",
+                                "title" : "welcoming area",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-04.jpg"
+                            },
+                            {
+                                "caption" : "main kuru lobby",
+                                "title" : "gathered place at kuru lobby",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/02_arrival/arrival-05.jpg"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/03_felice-reception/reception-02.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "public",
+                "heading" : "public area",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/public-area.png",
+                "gallery" : [
+                    {
+                        "title" : "Leikki Kids world",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/11_calm-cultural-overview/cultural-overview-01.png"
+                            },
+                            {
+                                "caption" : "kids zone",
+                                "title" : "3-storey kids zone",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/11_calm-cultural-overview/cultural-overview-01.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "deli & market place",
+                        "images" : [
+                            {
+                                "caption" : "deli & market place",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/06_felice-shop/shop-01.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "cock pit",
+                        "images" : [
+                            {
+                                "caption" : "cock pit",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/11_calm-cultural-overview/cultural-overview-02.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "hei school & library",
+                        "images" : [
+                            {
+                                "caption" : "finland library",
+                                "title" : "library",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/04_felice-cultural-public/cultural-public-01.jpg"
+                            },
+                            {
+                                "caption" : "hei school",
+                                "title" : "hei school",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/04_felice-cultural-public/cultural-public-02.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "shop",
+                        "images" : [
+                            {
+                                "caption" : "entertainment program",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/13_calm-shop/shop-02.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "public",
+                "heading" : "food & beverage",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/food.png",
+                "gallery" : [
+                    {
+                        "title" : "peak restaurant",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-06.png"
+                            },
+                            {
+                                "caption" : "restaurant",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-04.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Herkku food market",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/12_calm-food-and-beverage/food-and-beverage-01.png"
+                            },
+                            {
+                                "caption" : "herkku food market",
+                                "title" : "experiential food court",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/12_calm-food-and-beverage/food-and-beverage-02.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "sunset bar & restaurant",
+                        "images" : [
+                            {
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-01.jpg"
+                            },
+                            {
+                                "caption" : "café lounge",
+                                "title" : "read and drink",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-03.jpeg"
+                            },
+                            {
+                                "caption" : "sunset space",
+                                "title" : "stay with sunset",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-02.jpg"
+                            },
+                            {
+                                "caption" : "culture space",
+                                "title" : "sunset culture space",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/05_felice-food-and-beverage/food-and-beverage-05.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "garden",
+                "heading" : "courtyard garden",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/courtyard.png",
+                "gallery" : [
+                    {
+                        "title" : "material",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-06.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-07.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-08.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-09.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-10.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-12.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-13.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-14.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-15.png"
+                            },
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/white-04.jpeg"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/white-05.jpeg"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/white-06.jpeg"}
+                        ]
+                    },
+                    {
+                        "title" : "experience",
+                        "images" : [
+                            {
+                                "caption" : "courtyard seaside",
+                                "title" : "romantic hill",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-01.jpg"
+                            },
+                            {
+                                "caption" : "hill garden",
+                                "title" : "playful gardens",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-02.jpg"
+                            },
+                            {
+                                "caption" : "hill garden",
+                                "title" : "take a breathe in hill garden",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/07_garden/garden-03.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "spa & wellness",
+                "heading" : "nordic bath",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/nordic-bath.png",
+                "gallery" : [
+                    {
+                        "title" : "Nordic Bath",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-06.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-07.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-08.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-09.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-10.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-11.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-12.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-13.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-14.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-15.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-16.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/overview-17.png"
+                            },
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/spa-01.jpeg"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/spa-02.jpeg"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/spa-03.jpeg"},
+                            {
+                                "caption" : "wellness area",
+                                "title" : "family wellness",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/nordic-bath-01.jpg"
+                            },
+                            {
+                                "caption" : "wellness garden",
+                                "title" : "wellness garden village",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/nordic-bath-01.jpg"
+                            },
+                            {
+                                "caption" : "grand lobby",
+                                "title" : "hidden grand lobby",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/overview/nordic-bath-01.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Puro Spa",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-06.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-07.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-08.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-10.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-11.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-12.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-13.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-14.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-15.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-16.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-17.png"
+                            },
+                            {
+                                "caption" : "puro spa",
+                                "title" : "premium spa experiences in puro spa",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-01.jpg"
+                            },
+                            {
+                                "caption" : "puro spa",
+                                "title" : "mud, experience locality",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/puro-spa/puro-spa-02.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Saaristo",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-06.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-07.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-08.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-09.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-10.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-11.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-12.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-13.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-14.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-15.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-16.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-17.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-18.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-19.png"
+                            },
+                            {
+                                "caption" : "saaristo spa & pool",
+                                "title" : "family spa experiences",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/saaristo/saaristo-01.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Sauna World",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sauna-world/sauna-world-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sauna-world/sauna-world-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sauna-world/sauna-world-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sauna-world/sauna-world-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sauna-world/sauna-world-05.png"
+                            },
+                            {
+                                "caption" : "sauna world",
+                                "title" : "sauna world",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sauna-world/sauna-world-01.jpg"
+                            },
+                            {
+                                "caption" : "sauna world",
+                                "title" : "full relaxtion",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sauna-world/sauna-world-02.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Sunset Bar",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-06.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-07.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-08.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-09.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-10.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-11.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/08_nordic-bath/sunset-bar/sunset-bar-12.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "public",
+                "heading" : "Conference hall & ball room",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/accommodation.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/10_calm-business/business-01.png"
+                    },
+                    {
+                        "caption" : "ball room",
+                        "title" : "stepped conference hall",
+                        "color" : "white",
+                        "image" : "/Assets/img/sono-felice-and-calm/description/10_calm-business/business-01.jpg"
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "accommodation",
+                "heading" : "Rooms overview",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/14_room-overview/room-overview-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/14_room-overview/room-overview-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/14_room-overview/room-overview-03.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/14_room-overview/room-overview-04.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/14_room-overview/room-overview-05.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/14_room-overview/room-overview-06.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/14_room-overview/room-overview-07.png"
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "accommodation",
+                "heading" : "sono felice room",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/felice.png",
+                "gallery" : [
+                    {
+                        "title" : "material",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-06.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-07.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-08.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-09.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-10.png"
+                            },
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/room-01.jpeg"}
+                        ]
+                    },
+                    {
+                        "title" : "experience & mood",
+                        "images" : [
+                            {
+                                "caption" : "sono felice",
+                                "title" : "The private atrium",
+                                "desc" : "The atrium is the heart of the suite and creates the welcoming and unique ambience to the space.\n\nLocated in the central place of the suite with a bath and a fireplace the atrium is your internal hub to be enjoyed throughout your stay.\n\nThe flowing floor plan opens views from one space to another unhindered and the atrium sets the mood for  the spatial experience from the first point of arrival.\n\nGlowing lighting around the fire pit makes it the central focus point even when the fire has not been lit.c\n\nThe dark and moody interior creates an inviting space in terms of contemporary luxury.",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-02.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice",
+                                "title" : "bedroom",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-03.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice",
+                                "title" : "bedroom",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-04.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice",
+                                "title" : "bathroom",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-05.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice",
+                                "title" : "bathroom",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-06.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice",
+                                "title" : "living room",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-07.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice",
+                                "title" : "moody space",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-08.jpg"
+                            },
+                            {
+                                "caption" : "sono felice",
+                                "title" : "private wellness",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/15_sono-felice/sono-felice-09.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "accommodation",
+                "heading" : "sono felice penthouse",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/felice-penthouse.png",
+                "gallery" : [
+                    {
+                        "title" : "material",
+                        "images" : [
+                            {      
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-06.png"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "experience & mood",
+                        "images" : [
+                            {
+                                "caption" : "sono felice penthouse",
+                                "title" : "place for serenity",
+                                "desc" : "Located in the highest floors of the hotel, the Penthouse Suites offer privacy and a sense of luxury in a classic yet contemporary style.\n\nAn elegant and architecturally well designed space introduces guests to forget everyday life and step into a state of serenity.\n\nThe dark and moody interior is inviting with streamlined  bespoke furniture solutions that creates tranquility in the dark and an atmospheric interior.\n\nDark wood offers a rich palette and feels reassuringly solid reinforcing the feeling of quality. Natural light is invited in during the day whilst the warm glow of mood lighting sets the ambience by night.",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-02.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice penthouse",
+                                "title" : "seamless connection",
+                                "subTitle" : "The terrace serves as a sophisticated yet laid back extended living room during the warm season.",
+                                "desc" : "Spatial solutions of the terrace serve many purposes. The terrace offers a private space to unwind with family and friends from early morning to night. Enjoy coffee while admiring the sunrise and cocktails in the cooling evening around the fire pit. Have a dip or exercise in your private pool and enjoy an  open sky dinner in your exclusive private retreat with family and friends.",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-03.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice penthouse",
+                                "title" : "modern terrace with premium quality",
+                                "subTitle" : "High-End modern terrace",
+                                "desc" : "Uniform flooring look and feel highlights the seamless connection between indoor & outdoor spaces and lets the view stand in the spotlight.\n\nMaterial palette with dark gray limestone, dark wood and matt black metal details continue from interior to exterior.\n\nThe natural material palette provide Strong sense of tactility.",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-04.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice penthouse",
+                                "title" : "a place to unwind in privacy",
+                                "desc" : "The dark mood of the interior continues to the balcony. The ambience of the private balcony asks to relax in style.\n\n15 m2 balcony shares offers a space to unwind from early morning to late night. Enjoy coffee while admiring the sunrise, sunbathing in the noon and cocktails in the cooling evening.\n\nLightweight furniture are easy to move to follow the sun, the shadow, the sunrise or sunset according to each guests desires.",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-05.jpeg"
+                            },
+                            {
+                                "caption" : "sono felice penthouse",
+                                "title" : "a place to unwind in privacy",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-06.jpeg"
+                            },
+                            {
+                                
+                                "caption" : "sono felice pent house",
+                                "title" : "through wide frame",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-07.jpg"
+                            },
+                            {
+                                "caption" : "sono felice pent house",
+                                "title" : "private retreat",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/16_sono-felice-penthouse/sono-felice-penthouse-08.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "accommodation",
+                "heading" : "coastal suite",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/coastal-suite.png",
+                "gallery" : [
+                    {
+                        "title" : "material",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-06.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-07.png"
+                            },
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/room-03.jpeg"}
+                        ]
+                    },
+                    {
+                        "title" : "experience & mood",
+                        "images" : [
+                            {
+                                "caption" : "coastal suite",
+                                "title" : "A Place for Silent Luxury",
+                                "desc" : "Located by the sea with four floors and stunning ocean views, the Costal Suites offer the most distinctive sense of luxury. Here you can feel the beauty of living connected to the Ocean.\n\nThe biophilic interior is created with natural materials. Surrounded by dark toned wood and natural stone, guests can easily settle into a serene spirit.\n\nThe minimalistic & streamlined style serves the same purpose. When visual stimulus is reduced to a minimum, guests can experience the meditative impact of the space. The streamlined bespoke solutions and integrated furniture highlight the sense of luxury.\n\nThe view stands in a focus point whether it is experienced from indoor spaces or from the two private terraces.\n\nIn the daytime the suite offers privacy whilst sun bathing. At night, the space becomes even more private in the dim golden glow of the lighting.",
+                                "color" : "white",   
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-02.jpeg"
+                            },
+                            {
+                                "caption" : "coastal suite",
+                                "title" : "terrace",
+                                "desc" : "Terrace is your private retreat, a place to unwind in privacy.\n\nMinimalistic surroundings let eye focus on the landscape, the ever-changing Ocean.\n\nThe dark wood theme continues from interior to exterior in furniture.\n\nLoose, light weight lounge chairs & occasional tables  support many purposes: To follow the sun, to enjoy refreshments in the shaddow and admire sunrise and sunset from the perfect spot.",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-03.jpeg"
+                            },
+                            {
+                                "caption" : "coastal suite",
+                                "title" : "terrace",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-04.jpeg"
+                            },
+                            {
+                                "caption" : "coastal suite",
+                                "title" : "terrace",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-05.jpeg"
+                            },
+                            {
+                                "caption" : "coastal suite",
+                                "title" : "Ocean view from bed",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-06.jpeg"
+                            },
+                            {
+                                "caption" : "coastal suite",
+                                "title" : "lounge",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-07.jpeg"
+                            },
+                            {
+                                "caption" : "coastal suite",
+                                "title" : "edge house lifestyle",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-08.jpg"
+                            },
+                            {
+                                "caption" : "coastal suite",
+                                "title" : "get connected to the sea",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/17_coastal-suite/coastal-suite-09.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "accommodation",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/calm.png",
+                "heading" : "sono calm room",
+                "gallery" : [
+                    {
+                        "title" : "material",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-06.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-07.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-09.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-10.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-11.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-12.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-13.png"
+                            },
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/room-02.jpeg"}
+                        ]
+                    },
+                    {
+                        "title" : "experience & mood",
+                        "images" : [
+                            {
+                                "caption" : "sono calm",
+                                "title" : "framed view",
+                                "desc" : " Imagine the comfort of being able to relax in a sophisticated ambience  with the sunlight filtering through whilst gazing out at a remarkable view.\n\nA key feature in the Sono Calm rooms is the window that frames the view with the integrated daybed.\n\nThe view from the floor-to-ceiling windows opens also from the floating second floor.\n\nInterior solutions in Sono Calm encourage the laidback and natural lifestyle in style. The connection to the nature can be experienced in the natural material palette, rich in texture  yet sophisticated biophilic interior.",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-01.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "bedroom",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-02.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "bathroom",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-03.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "bath witb a view",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-04.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "wood",
+                                "desc" : "Wood is a living material. It grows, develops character. Each ring is a unique imprint of time and tells a story. Wood brings us closer to nature. Wood naturally optimises the air quality and regulated moisture. It absorbs noise. Wood has an effect on you, it calms you down.\n\nOak is reassuring, timeless and showcases craftsmanship details.\n\nNatural oak to dominate living room interior with wide planks for a calming feel, that flow towards the window.\n\nTo create zones within a level flooring, use compact narrow wooden slats for the bathing zone reminiscent of sauna and spa spaces.",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-05.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "Balcony - A place to unwind & enjoy the view",
+                                "desc" : "Light & warm ambience of the private balcony asks to relax in the open air.\n\nThe balcony offers a space to unwind from early morning to late night. Enjoy coffee while admiring the surise, sunbathing in the noon and coctails in the cooling evening.\n\nLightweight furniture are easy to move to follow the sun, the shadow, the sunrise or sunset according to each guests desires.",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-06.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "arrival experience",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-07.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "bathroom",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-08.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "living room",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-09.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "wooden warm space",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-10.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm",
+                                "title" : "Intimate Family Place",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-11.jpeg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "overview",
+                "caption" : "accommodation",
+                "heading" : "sono calm penthouse",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/calm-penthouse.png",
+                "gallery" : [
+                    {
+                        "title" : "material",
+                        "images" : [
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-01.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-02.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-03.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-04.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-05.png"
+                            },
+                            {
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-06.png"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "experience & mood",
+                        "images" : [
+                            {
+                                "caption" : "sono calm penthouse",
+                                "title" : "Tranquil heaven",
+                                "desc" : "The Penthouse suites offer privacy and sense of luxury combined with strong sense of being connected to the nature.\n\nWith an airy look and feel, stunning views and a great amount of natural daylight guests can relax and even feel like they are blending into the surroundings.\n\nElegant and architecturally well designed space serves as a calming private heaven. Here in the biophilic interior created with rich natural material palette, guests can escape everyday life.",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-01.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm penthouse",
+                                "title" : "Terrace",
+                                "subTitle" : "CHERISHING THE CONNECTION TO THE NATURE",
+                                "desc" : "The interior solutions in Sono Calm encourage a relaxed and natural lifestyle. Highlighting these values indoor space experience continues seamless to the terrace in Sono Calm Penthouse Suites.\n\nThe terrace serves as a laid back extended living room during the warm season.\n\nSpatial solutions of the terrace serve many purposes. Terrace offers a special place to unwind with family and friends from early morning to late night. Enjoy coffee while admiring the sunrise, swimming in the private pool in the sun, cocktails in the cooling evening around the fire pit and open sky dinner with family and friends.\n\nThe seamless connection between indoor & outdoor spaces sets the view to spotlight all year round cherishing the connection to the Nature.\n\n",
+                                "color" : "white",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-02.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm penthouse",
+                                "title" : "Private Infinity Pool A place to unwind & enjoy the view",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-03.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm penthouse",
+                                "title" : "connected to nature",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-04.jpeg"
+                            },
+                            {
+                                "caption" : "sono calm penthouse",
+                                "title" : "art of unwinding",
+                                "image" : "/Assets/img/sono-felice-and-calm/description/19_sono-calm-penthouse/sono-calm-penthouse-05.jpeg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type" : "case02",
+                "caption" : "drawings",
+                "heading" : "floor plan",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/floor-plan.png",
+                "gallery" : [
+                    {
+                        "title" : "floor plan",
+                        "images" : [
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-01.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-02.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-03.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-04.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-05.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-06.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-07.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-08.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-09.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-10.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/20_floor-plan/floor-plan-11.png"}
+                        ]
+                    },
+                    {
+                        "title" : "boh",
+                        "images" : [
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/22_boh/boh-01.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/22_boh/boh-02.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/22_boh/boh-03.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/22_boh/boh-04.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/22_boh/boh-05.png"},
+                            {"image" : "/Assets/img/sono-felice-and-calm/description/22_boh/boh-06.png"}
+                        ]
+                    }
+                ]
             },
             {
                 "type" : "case01",
-                "caption" : "Dropzone & Entrance",
-                "heading" : "1F Dropzone & Entrance",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "caption" : "drawings",
+                "heading" : "section view",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/section.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/21_section-view/section-01.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/21_section-view/section-02.png"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/description/21_section-view/section-03.png"
+                    }
+                ]
             },
             {
-                "type" : "public",
-                "caption" : "Spa & Wellness",
-                "heading" : "B2F Nordic Bath",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Spa & Wellness",
-                "heading" : "B1F Nordic Bath",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public",
-                "heading" : "Sono Felice B1F",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public",
-                "heading" : "Sono Felice 1F",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public",
-                "heading" : "Sono Felice 2F",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Commercial & Public",
-                "heading" : "Sono Felice 3-8F",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Accommodation",
-                "heading" : "Sono Felice Room",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "Accommodation",
-                "heading" : "Sono Felice Penthouse",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "public",
-                "caption" : "User path",
-                "heading" : "Sono Felice Journey",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case02",
-                "caption" : "Commercial & Public",
-                "heading" : "Sono Calm B1F",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case02",
-                "caption" : "Commercial & Public",
-                "heading" : "Sono Calm 1F",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case02",
-                "caption" : "Commercial & Public",
-                "heading" : "Sono Calm 1-2F",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case02",
-                "caption" : "Commercial & Public",
-                "heading" : "Sono Calm 11-12F",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case02",
-                "caption" : "Accommodation",
-                "heading" : "Sono Calm Room",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case02",
-                "caption" : "Accommodation",
-                "heading" : "Sono Calm Penthouse",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case02",
-                "caption" : "user path",
-                "heading" : "Sono Calm Journey",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case02",
-                "caption" : "Accommodation",
-                "heading" : "Coastal Suite",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "case01",
-                "caption" : "Public",
-                "heading" : "Parking",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "floor-plan",
-                "caption" : "2 dimension",
-                "heading" : "Floor Plan",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
-            },
-            {
-                "type" : "section-view",
-                "caption" : "2 dimension",
-                "heading" : "Section View",
-                "content" : "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et justo laoreet vehicula efficitur quis sem. Vestibulum id lorem a turpis ultricies varius id ut tortor. Maecenas feugiat varius justo, et placerat nunc tristique vitae. Aenean vestibulum neque dui",
-                "image" : "/Assets/img/the-bunkers/the-bunkers.svg"
+                "type" : "overview",
+                "caption" : "structural design",
+                "heading" : "structure",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/structure.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/structure/structure-01.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/structure/structure-02.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/sono-felice-and-calm/structure/structure-03.jpg"
+                    }
+                ]
             }
         ]}
     ]

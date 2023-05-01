@@ -3,7 +3,7 @@ import React from 'react';
 import TitleRow from './TitleRow';
 import DataRow from './DataRow';
 
-import hotelAndSpaceData from '../../DB/hotelAndSpace.json';
+import chartData from '../../DB/chart.json';
 
 function Table() {
   return (
@@ -12,9 +12,9 @@ function Table() {
       <hr className="break-line" />
       <div className="data-row-container">
         {
-        hotelAndSpaceData.data.map((data) => (
+        chartData.data.map((data) => (
           <DataRow
-            title={data.title}
+            title={data.category}
             siteArea={data.siteArea}
             buildingArea={data.buildingArea}
             grossArea={data.grossArea}

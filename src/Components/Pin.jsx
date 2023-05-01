@@ -14,6 +14,7 @@ import forestOfGalaxyData from '../DB/HotelAndSpace/forestOfGalaxyData.json';
 import tennisCourtData from '../DB/HotelAndSpace/tennisCourtData.json';
 import jkmmBreakerHillsData from '../DB/HotelAndSpace/jkmmBreakerHillsData.json';
 import jkmmTennisCourtData from '../DB/HotelAndSpace/jkmmTennisCourtData.json';
+import jkmmChapelData from '../DB/HotelAndSpace/jkmmChapel.json';
 
 function Pin({
   title,
@@ -44,7 +45,8 @@ function Pin({
                           : id === 'forest-of-galaxy' ? forestOfGalaxyData
                             : id === 'tennis-court-opt1' ? tennisCourtData
                               : id === 'tennis-court-opt2' ? jkmmTennisCourtData
-                                : null,
+                                : id === 'chapel' ? jkmmChapelData
+                                  : null,
               backgroundColor,
               headingFontColor,
               bodyFontColor,

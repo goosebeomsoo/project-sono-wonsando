@@ -1,0 +1,126 @@
+{
+    "information" : [
+        {"title" : [
+            {
+                "title": "CHAPEL",
+                "background": "/Assets/img/chapel/sketch.jpg",
+                "bgOverview": "/Assets/img/chapel/background/case02.jpg",
+                "bgPublic": "/Assets/img/chapel/background/public.jpg",
+                "bgAccommodation": "/Assets/img/chapel/background/accommodation.jpg",
+                "bgCase01": "/Assets/img/chapel/background/case01.jpg",
+                "bgCase02": "/Assets/img/chapel/background/case02.jpg",
+                "bgProfile": "/Assets/img/chapel/renders/render-03.jpeg"
+            }
+        ]},
+        {"brand" : [
+            {
+                "logo": "/Assets/svg/chapel-logo.svg",
+                "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur blandit dui a tincidunt. Vestibulum nec dui et ju"
+            }
+        ]},
+        {"overview" : [
+            {
+                "caption" : "overview",
+                "heading" : "Chapel",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-01.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-02.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-03.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-04.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-05.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-06.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-07.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-08.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-09.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-10.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-11.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-12.jpeg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/renders/render-13.jpeg"
+                    }
+                ]
+            },
+            {
+                "type" : "public",
+                "caption" : "chapel",
+                "heading" : "process",
+                "highlight" : "/Assets/img/chapel/highlight/process-01.png"
+            },
+            {
+                "type" : "accommodation",
+                "caption" : "drawings",
+                "heading" : "floor plan",
+                "highlight" : "/Assets/img/chapel/highlight/process-02.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/chapel/description/floor-plan/floor-plan-01.jpg"
+                    }
+                ]
+            },
+            {
+                "type" : "case01",
+                "caption" : "chapel",
+                "heading" : "Roof",
+                "highlight" : "/Assets/img/chapel/highlight/process-03.png"
+            },
+            {
+                "type" : "case02",
+                "caption" : "chapel",
+                "heading" : "Roof",
+                "highlight" : "/Assets/img/chapel/highlight/process-04.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/chapel/description/roof/roof-01.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/description/roof/roof-02.jpg"
+                    }
+                ]
+            },
+            {
+                "type" : "case02",
+                "caption" : "chapel",
+                "heading" : "section view",
+                "highlight" : "/Assets/img/chapel/highlight/process-05.png",
+                "gallery" : [
+                    {
+                        "image" : "/Assets/img/chapel/description/view/view-01.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/description/view/view-02.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/description/view/view-03.jpg"
+                    },
+                    {
+                        "image" : "/Assets/img/chapel/description/view/view-04.jpg"
+                    }
+                ]
+            }
+        ]}
+    ]
+}
