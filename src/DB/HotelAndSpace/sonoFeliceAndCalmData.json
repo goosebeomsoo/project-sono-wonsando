@@ -66,8 +66,7 @@
                             {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-07.png"},
                             {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-08.png"},
                             {"image" : "/Assets/img/sono-felice-and-calm/description/01_overview/overview/overview-09.png"},
-                            {"image" : "/Assets/img/sono-felice-and-calm/renders/overview-01.jpeg"},
-                            {"image" : "/Assets/img/sono-felice-and-calm/renders/overview-02.jpeg"}
+                            {"image" : "/Assets/img/sono-felice-and-calm/renders/overview-01.jpeg"}
                         ]
                     }
                 ]
@@ -651,7 +650,7 @@
                 "type" : "overview",
                 "caption" : "public",
                 "heading" : "Conference hall & ball room",
-                "highlight": "/Assets/img/sono-felice-and-calm/highlight/accommodation.png",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/conference.png",
                 "gallery" : [
                     {
                         "image" : "/Assets/img/sono-felice-and-calm/description/10_calm-business/business-01.png"
@@ -668,6 +667,7 @@
                 "type" : "overview",
                 "caption" : "accommodation",
                 "heading" : "Rooms overview",
+                "highlight": "/Assets/img/sono-felice-and-calm/highlight/accommodation.png",
                 "gallery" : [
                     {
                         "image" : "/Assets/img/sono-felice-and-calm/description/14_room-overview/room-overview-01.png"
@@ -1030,7 +1030,7 @@
                             },
                             {
                                 "caption" : "sono calm",
-                                "title" : "bath witb a view",
+                                "title" : "bath with a view",
                                 "image" : "/Assets/img/sono-felice-and-calm/description/18_sono-calm/sono-calm-04.jpeg"
                             },
                             {

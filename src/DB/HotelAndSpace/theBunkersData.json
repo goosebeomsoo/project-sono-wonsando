@@ -27,20 +27,20 @@
                     ]
                 },
                 {
-                    "heading" : "Relaxation at Golden Hour",
+                    "heading" : "Stone, the timeless masterpiece of nature",
                     "background" : "/Assets/img/the-bunkers/brand-story/brand-story-02.jpeg",
                     "contentArea" : [
                         {
-                            "content" : "Golden hour is a magical time when the world seems to be bathed in a warm, golden glow. It's the perfect time to take a break and relax while enjoying the beautiful landscape."
+                            "content" : "The delicate colours of travertine, a symphony of earth and light, where the warmth of the sun meets the coolness of stone. "
                         }
                     ]
                 },
                 {
-                    "heading" : "The perfect coexistence of two different worlds",
+                    "heading" : "Relaxation at Golden Hour",
                     "background" : "/Assets/img/the-bunkers/brand-story/brand-story-03.jpeg",
                     "contentArea" : [
                         {
-                            "content" : "Symbiosis of sunrise and sunset, when everything appears to be in perfect harmony."
+                            "content" : "Golden hour is a magical time when the world seems to be bathed in a warm, golden glow. It's the perfect time to take a break and relax while enjoying the beautiful landscape."
                         }
                     ]
                 },
@@ -54,8 +54,17 @@
                     ]
                 },
                 {
-                    "heading" : "When Architect meets Nature",
+                    "heading" : "The perfect coexistence of two different worlds",
                     "background" : "/Assets/img/the-bunkers/brand-story/brand-story-05.jpeg",
+                    "contentArea" : [
+                        {
+                            "content" : "Symbiosis of sunrise and sunset, when everything appears to be in perfect harmony."
+                        }
+                    ]
+                },
+                {
+                    "heading" : "When Architect meets Nature",
+                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-06.jpeg",
                     "contentArea" : [
                         {
                             "subHeading" : "The result can be stunningly beautiful, as seen in the luxurious Scandinavian building with long format brick cladding that seamlessly blends into the  surrounding environment."
@@ -64,19 +73,10 @@
                 },
                 {
                     "heading" : "Stone, the timeless masterpiece of nature",
-                    "background" : "/Assets/img/the-bunkers/brand-story/brand-story-06.jpeg",
-                    "contentArea" : [
-                        {
-                            "subHeading" : "The delicate colours of travertine, a symphony of earth and light, where the warmth of the sun meets the coolness of stone."
-                        }
-                    ]
-                },
-                {
-                    "heading" : "When Architect meets Nature",
                     "background" : "/Assets/img/the-bunkers/brand-story/brand-story-07.jpeg",
                     "contentArea" : [
                         {
-                            "subHeading" : "The delicate colours of travertine, a symphony of earth and light, where the warmth of the sun meets the coolness of stone. - Luxurious Scandinavian Long Format Brick Cladding"
+                            "content" : "The delicate colours of travertine, a symphony of earth and light, where the warmth of the sun meets the coolness of stone. "
                         }
                     ]
                 }
@@ -420,7 +420,7 @@
                         {
                             "image" : "/Assets/img/the-bunkers/description/07_hilltop-restaurant/hilltop-restaurant-02.png"
                         },
-                        {"image" : "/Assets/img/the-bunkers/renders/restaurant-01.jpeg"},
+                        {"image" : "/Assets/img/the-bunkers/renders/hilltop-01.jpeg"},
                         {
                             "title" : "hilltop restaurant",
                             "color" : "white",
