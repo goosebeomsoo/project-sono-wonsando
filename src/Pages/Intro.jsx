@@ -6,7 +6,7 @@ import assets from '../DB/assets.json';
 function Intro() {
   const [password, setPassword] = useState();
   const handleSubmit = () => {
-    if (password === '0701') {
+    if (password === '0324') {
       localStorage.setItem('status', 'loggedIn');
     }
   };
