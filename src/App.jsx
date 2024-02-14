@@ -25,6 +25,7 @@ import './_style.scss';
 
 function App() {
   const location = useLocation();
+
   return (
     <div className="main">
       <TransitionGroup>
